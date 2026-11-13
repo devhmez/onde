@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Your ONDE page",
+    "invalidTitle": "Link not valid · ONDE"
+  },
+  "header": {
+    "eyebrow": "Client page",
+    "lead": "Your ONDE products and their taps, updated every minute.",
+    "lang": "Language",
+    "skip": "Skip to content"
+  },
+  "totals": {
+    "title": "Your taps",
+    "today": "Today",
+    "d7": "7 days",
+    "d30": "30 days",
+    "all": "All time",
+    "hint": "A tap = a customer who held their phone to a product or scanned its QR code.",
+    "welcome": "Welcome! Your taps will show here as soon as a customer taps or scans one of your products."
+  },
+  "stats": {
+    "title": "Your taps in detail"
+  },
+  "chart": {
+    "title": "Taps per day",
+    "sub": "Last 30 days",
+    "aria": "Taps per day over the last 30 days",
+    "empty": "No taps in the last 30 days yet. The curve starts with the first tap.",
+    "tapOne": "1 tap",
+    "tapMany": "{n} taps",
+    "today": "Today",
+    "best": "Best day",
+    "table": "Show the numbers day by day",
+    "colDate": "Day",
+    "colTaps": "Taps"
+  },
+  "split": {
+    "title": "NFC or QR code",
+    "sub": "How your customers arrive, over 30 days",
+    "nfc": "NFC",
+    "nfcHint": "phone held to it",
+    "qr": "QR code",
+    "qrHint": "code scanned",
+    "empty": "Nothing to compare yet: no taps in 30 days.",
+    "aria": "NFC and QR code split over 30 days",
+    "hero": "of your taps come from NFC",
+    "heroQr": "of your taps come from the QR code"
+  },
+  "stands": {
+    "title": "Your products",
+    "empty": "No product is linked to your page yet. Contact ONDE to set it up.",
+    "goesTo": "Goes to",
+    "notSet": "Not set up yet",
+    "taps30": "Taps · 30 d",
+    "lastTap": "Last tap",
+    "never": "never",
+    "test": "Test",
+    "testAria": "Test {code} like your customers do (new tab)",
+    "change": "Change link",
+    "changeAria": "Change the link of {code}",
+    "disabled": "Contact ONDE to turn it back on",
+    "active": "Active",
+    "paused": "Disabled",
+    "code": "Code {code}",
+    "disabledText": "Contact ONDE to turn it back on.",
+    "inactive": "This product is disabled: a tap currently shows an ONDE information page."
+  },
+  "location": {
+    "add": "Location",
+    "addAria": "Add a location",
+    "label": "Location",
+    "placeholder": "Counter, terrace, till…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit location",
+    "error": "The location could not be saved. Please try again."
+  },
+  "pending": {
+    "title": "Waiting for approval",
+    "body": "New link requested: {type}",
+    "cancel": "Cancel request",
+    "cancelled": "Request cancelled"
+  },
+  "outcome": {
+    "approved": "Your request was approved: the link is live.",
+    "rejected": "Your last request ({type}) was not approved. Contact ONDE if needed."
+  },
+  "products": {
+    "stand": "Review stand",
+    "stand_white": "Review stand — White",
+    "stand_black": "Review stand — Black",
+    "card": "NFC card",
+    "keychain": "NFC keychain",
+    "sticker": "NFC sticker"
+  },
+  "types": {
+    "google_review": "Google reviews",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "menu": "Menu / website",
+    "website": "Menu / website",
+    "whatsapp": "WhatsApp",
+    "contact": "Contact",
+    "custom": "Other link"
+  },
+  "choices": {
+    "google": {
+      "label": "Google reviews",
+      "placeholder": "https://g.page/r/…/review",
+      "hint": "Google Business Profile → “Ask for reviews” → copy the link."
+    },
+    "instagram": {
+      "label": "Instagram",
+      "placeholder": "@youraccount or https://instagram.com/…",
+      "hint": "The @handle is enough."
+    },
+    "facebook": {
+      "label": "Facebook",
+      "placeholder": "https://facebook.com/yourpage",
+      "hint": "Your page link, or its username."
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "placeholder": "@youraccount or https://www.tiktok.com/@…",
+      "hint": "The @handle is enough."
+    },
+    "site": {
+      "label": "Menu / website",
+      "placeholder": "https://menu.yoursite.tn",
+      "hint": "Your online menu, your website, a booking page…"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "placeholder": "25 875 529 or https://wa.me/216…",
+      "hint": "An 8-digit Tunisian number is enough."
+    },
+    "other": {
+      "label": "Other link",
+      "placeholder": "https://…",
+      "hint": "Any secure web page (https)."
+    }
+  },
+  "change": {
+    "title": "Change link",
+    "step1": "Where should your customers land?",
+    "typeLegend": "Link type",
+    "linkLabel": "Your link",
+    "current": "Currently",
+    "continue": "Continue",
+    "checking": "Checking…",
+    "previewTitle": "Customers will land here:",
+    "openCheck": "Open to check",
+    "confirm": "Confirm",
+    "sendRequest": "Send the request",
+    "saving": "Saving…",
+    "back": "Edit",
+    "directNote": "The change is instant: the next tap lands here. Nothing to do on the product.",
+    "approvalNote": "ONDE approves every change before it goes live. Until then, the current link stays active.",
+    "doneTitle": "Done!",
+    "doneBody": "From the next tap, {code} goes here:",
+    "pendingTitle": "Request sent",
+    "pendingBody": "ONDE will approve it shortly. Until then, the current link stays active.",
+    "close": "Close",
+    "left": "{n} more changes possible today.",
+    "leftOne": "1 more change possible today.",
+    "checkTitle": "Check the new link",
+    "limitTitle": "Today's limit reached",
+    "limitBody": "You've made {n} link changes in 24 h, the maximum. You can change your links again tomorrow.",
+    "limitHelp": "An urgent change? Message ONDE."
+  },
+  "errors": {
+    "empty": "Paste or type the link your customers should land on.",
+    "invalid": "This link doesn't look valid. Check it (copy it from the address bar).",
+    "not_https": "Only secure web links (https://) are accepted.",
+    "blocked_host": "This link can't be used. Choose a public web page.",
+    "wrong_platform": "This link doesn't lead to {type}. Check it or choose “Other link”.",
+    "too_long": "This link is too long.",
+    "same": "This is already the product's current link.",
+    "daily_limit": "You've reached today's limit of changes. Try again tomorrow or contact ONDE.",
+    "rate_limited": "Too many attempts in a short time. Wait a few minutes, then try again.",
+    "disabled": "This product is disabled. Contact ONDE.",
+    "unknown": "This product is no longer linked to your page. Reload the page.",
+    "expired": "This client page link is no longer valid. Ask ONDE for the new link.",
+    "failed": "The change could not be saved. Try again in a moment.",
+    "network": "Can't connect. Check your connection and try again."
+  },
+  "owner": {
+    "note": "Admin view: applied at once, no notification, not counted in the client's limit.",
+    "left": "Admin view: your changes don't count in the client's daily limit.",
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "invalid": {
+    "eyebrow": "ONDE client page",
+    "title": "This link is not valid.",
+    "lead": "It may have been replaced by a new link or turned off. Ask ONDE for your up-to-date link: it only takes a minute.",
+    "cta": "Contact ONDE on WhatsApp",
+    "message": "Hello ONDE, the link to my client page doesn't work. Could you send me the right link?",
+    "home": "Discover ONDE"
+  },
+  "footer": {
+    "help": "A question?",
+    "whatsapp": "Message ONDE on WhatsApp",
+    "waMessage": "Hello ONDE, I have a question about my client page ({business}).",
+    "private": "This link is personal: it gives access to your products. Only share it with your team.",
+    "updated": "Figures as of {time}."
+  }
+}

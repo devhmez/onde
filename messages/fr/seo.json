@@ -1,0 +1,155 @@
+{
+  "org": {
+    "description": "ONDE (onde.tn) est une startup tunisienne qui vend des présentoirs, cartes, porte-clés et stickers NFC pour recevoir des avis Google en un tap. Livraison partout en Tunisie, paiement à la livraison."
+  },
+  "breadcrumb": {
+    "label": "Fil d'Ariane",
+    "home": "Accueil",
+    "shop": "Boutique"
+  },
+  "shop": {
+    "kicker": "Boutique · Présentoirs avis Google, cartes et stickers NFC",
+    "itemListName": "Produits NFC ONDE",
+    "faqEyebrow": "Avant de commander",
+    "faqTitle": "Vos questions d'achat",
+    "faq": [
+      {
+        "q": "Combien coûte une plaque avis Google NFC chez ONDE ?",
+        "a": "Le présentoir avis Google (NFC + QR code, 12 × 12 cm) est à {stand}, la carte NFC à {card}, le porte-clés NFC à {keychain} et le sticker NFC à {sticker}. Les prix sont en dinars tunisiens et se paient à la livraison ; la livraison coûte {fee} et devient gratuite dès {threshold}."
+      },
+      {
+        "q": "Y a-t-il un abonnement ou des frais mensuels ?",
+        "a": "Non. Le lien intelligent ONDE est inclus dans le prix du produit, sans abonnement : vous payez une seule fois. Les changements de destination du lien font partie de ce service inclus."
+      },
+      {
+        "q": "Présentoir, sticker, carte ou porte-clés : lequel choisir ?",
+        "a": "Le présentoir se pose au comptoir ou près de la caisse, là où chaque client passe. Les stickers rendent les tables, les menus et les vitrines interactifs. La carte NFC accompagne vos serveurs ou vos commerciaux, le porte-clés les métiers mobiles. Pour un café ou un restaurant, le Pack Café réunit 2 présentoirs et 4 stickers.",
+        "link": {
+          "href": "/restaurants",
+          "label": "Conseils pour restaurants et cafés"
+        }
+      },
+      {
+        "q": "Dois-je programmer la puce NFC moi-même ?",
+        "a": "Non. Ce ne sont pas des tags vierges : chaque produit arrive configuré avec votre lien ONDE et testé avant l'envoi. Vous le posez, vos clients n'ont plus qu'à approcher leur téléphone."
+      },
+      {
+        "q": "Et si le téléphone de mon client n'a pas le NFC ?",
+        "a": "Les présentoirs portent aussi un QR code imprimé qui mène au même lien : il se scanne avec l'appareil photo de n'importe quel smartphone."
+      },
+      {
+        "q": "Faut-il connaître son lien d'avis Google pour commander ?",
+        "a": "Non, c'est facultatif. Vous pouvez le coller au moment de la commande ; sinon, on le retrouve avec vous lors de l'appel de confirmation.",
+        "link": {
+          "href": "/guides/google-review-link",
+          "label": "Trouver votre lien d'avis Google"
+        }
+      },
+      {
+        "q": "Puis-je équiper plusieurs comptoirs, établissements ou toute une équipe ?",
+        "a": "Oui. Chaque produit porte son propre lien : un par établissement, par comptoir ou par membre de l'équipe. Le Pack Équipe réunit 5 cartes NFC ; pour une commande plus importante, écrivez-nous sur WhatsApp."
+      }
+    ]
+  },
+  "product": {
+    "guidesEyebrow": "Guides pratiques",
+    "guidesTitle": "Bien démarrer avec vos avis Google"
+  },
+  "guideLinks": [
+    {
+      "href": "/guides/google-review-link",
+      "title": "Trouver votre lien d'avis Google",
+      "body": "Où le copier, comment le tester, et comment en faire un QR code gratuit."
+    },
+    {
+      "href": "/guides/get-more-google-reviews",
+      "title": "Obtenir plus d'avis Google",
+      "body": "Les méthodes qui marchent, et ce que Google interdit."
+    },
+    {
+      "href": "/restaurants",
+      "title": "Restaurants & cafés",
+      "body": "Où placer présentoirs, stickers et cartes pour récolter des avis chaque jour."
+    }
+  ],
+  "products": {
+    "stand-white": {
+      "title": "Plaque avis Google NFC – Présentoir blanc 12×12 | ONDE",
+      "description": "Plaque avis Google NFC + QR code en acrylique transparent, impression blanche : un tap ouvre votre page d'avis. {price}, sans abonnement, livrée en 3 jours.",
+      "kicker": "Plaque avis Google NFC · 12 × 12 cm",
+      "lead": "Notre plaque avis Google NFC : un tap, ou un scan de son QR code, et votre page d'avis Google s'ouvre. {price}, sans abonnement : le lien intelligent est inclus.",
+      "category": "Présentoir NFC avis Google",
+      "color": "Blanc"
+    },
+    "stand-black": {
+      "title": "Présentoir avis Google NFC noir – Bars & lounges | ONDE",
+      "description": "Présentoir avis Google NFC + QR code, impression noire brillante, pour bars, lounges, barbershops et restaurants. {price}, sans abonnement, livré en 3 jours.",
+      "kicker": "Plaque avis Google NFC · Noir",
+      "lead": "La version noire de notre plaque avis Google NFC, pensée pour les lieux tamisés : bars, lounges, barbershops, restaurants haut de gamme. Même tap, même QR code, même lien intelligent inclus sans abonnement, pour {price}.",
+      "category": "Présentoir NFC avis Google",
+      "color": "Noir"
+    },
+    "card": {
+      "title": "Carte NFC avis Google & carte de visite NFC | ONDE",
+      "description": "Carte NFC noir mat : avis Google, WhatsApp, Instagram ou fiche contact en un tap. {price}, sans abonnement, rien à programmer, livrée en 3 jours.",
+      "kicker": "Carte NFC · Carte de visite connectée",
+      "lead": "Carte de visite NFC ou carte avis Google : c'est la même carte, seule la destination change. {price}, sans abonnement et rien à programmer : on la configure et on la teste avant l'envoi.",
+      "category": "Carte NFC",
+      "color": ""
+    },
+    "keychain": {
+      "title": "Porte-clés NFC : avis Google, Instagram, WhatsApp | ONDE",
+      "description": "Porte-clés NFC léger et résistant : un tap ouvre votre page d'avis Google, Instagram ou WhatsApp. {price}, sans abonnement, livré en 3 jours en Tunisie.",
+      "kicker": "Porte-clés NFC",
+      "lead": "Le porte-clés NFC des métiers qui bougent : livreurs, chauffeurs, techniciens, coachs. {price}, sans abonnement, déjà configuré avec votre lien ONDE.",
+      "category": "Porte-clés NFC",
+      "color": ""
+    },
+    "sticker": {
+      "title": "Sticker NFC avis Google, menu ou Instagram | ONDE",
+      "description": "Sticker NFC adhésif pour tables, menus et vitrines : un tap ouvre vos avis Google, votre menu ou Instagram. {price}, déjà configuré, livré en 3 jours.",
+      "kicker": "Sticker NFC · Autocollant avis Google",
+      "lead": "Ce n'est pas un tag vierge : le sticker arrive déjà configuré avec votre lien ONDE. Collez-le, vos clients n'ont plus qu'à approcher leur téléphone. {price}, sans abonnement, et la destination se change à distance : avis Google, menu, Instagram, TikTok…",
+      "category": "Sticker NFC",
+      "color": ""
+    },
+    "pack-cafe": {
+      "title": "Pack Café : 2 présentoirs avis Google + 4 stickers | ONDE",
+      "description": "2 présentoirs avis Google NFC + 4 stickers NFC pour le comptoir, la terrasse et les tables. {price} le pack, sans abonnement, livré configuré en 3 jours.",
+      "kicker": "Pack café & restaurant",
+      "lead": "Le kit avis Google pour café et restaurant : un présentoir au comptoir, un en terrasse, des stickers sur les tables. {price} le pack, chaque pièce avec son propre lien intelligent, sans abonnement. Voir aussi nos [conseils pour restaurants et cafés](/restaurants).",
+      "category": "Pack présentoirs et stickers NFC",
+      "color": ""
+    },
+    "pack-team": {
+      "title": "Pack Équipe : 5 cartes NFC avis Google | ONDE",
+      "description": "5 cartes NFC pour vos serveurs, commerciaux ou l'accueil : avis Google, Instagram ou contact en un tap. {price} le pack, sans abonnement, livré en 3 jours.",
+      "kicker": "Pack 5 cartes NFC · Équipe",
+      "lead": "Cinq cartes NFC pour votre équipe, chacune avec son propre lien : toutes vers votre page d'avis Google, ou une destination par personne. {price} le pack, sans abonnement.",
+      "category": "Pack cartes NFC",
+      "color": ""
+    }
+  },
+  "kinds": {
+    "stand": {
+      "kicker": "Présentoir avis Google NFC",
+      "category": "Présentoir NFC avis Google"
+    },
+    "card": {
+      "kicker": "Carte NFC",
+      "category": "Carte NFC"
+    },
+    "keychain": {
+      "kicker": "Porte-clés NFC",
+      "category": "Porte-clés NFC"
+    },
+    "sticker": {
+      "kicker": "Sticker NFC",
+      "category": "Sticker NFC"
+    },
+    "pack": {
+      "kicker": "Pack NFC",
+      "category": "Pack de produits NFC"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+# ONDE — production stack: the Next.js app ("web") behind Caddy (automatic HTTPS).
+#
+#   docker compose up -d --build     # build + start (or restart after changes)
+#   docker compose ps                # status (web should say "healthy")
+#   docker compose logs -f web       # app logs   (Ctrl+C to stop following)
+#   docker compose logs -f caddy     # proxy / certificate logs
+#   docker compose down              # stop everything (data is kept in the named volumes)
+#
+# Settings come from .env (copy .env.example). Full runbook: docs/DEPLOY.md
+name: onde
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        # Baked into pages that are pre-rendered at build time (sitemap, canonical URLs).
+        PUBLIC_BASE_URL: "${PUBLIC_BASE_URL:-https://onde.tn}"
+    image: onde-web:latest
+    env_file: .env
+    init: true # tiny init process: forwards stop signals and reaps zombies
+    restart: unless-stopped
+    stop_grace_period: 20s
+    volumes:
+      - onde-data:/app/data # the SQLite database lives here — survives rebuilds and restarts
+    expose:
+      - "3000" # reachable by Caddy only; never published on the server's public interface
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/health',{cache:'no-store'}).then(r=>process.exit(r.ok?0:1),()=>process.exit(1))"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - web
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" # HTTP/3
+    environment:
+      # Derived from DOMAIN in .env — do not edit here. Empty DOMAIN = phase 1 (HTTP by IP); DOMAIN=onde.tn = phase 2.
+      ONDE_SITE: "${DOMAIN:-:80}"
+      ONDE_WWW_SITE: "${DOMAIN:+www.}${DOMAIN:-http://www.localhost}"
+      ONDE_ADMIN_SITE: "${DOMAIN:+admin.}${DOMAIN:-http://admin.localhost}"
+      ONDE_DOMAIN: "${DOMAIN:-localhost}"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data # TLS certificates + keys — keep this volume
+      - caddy_config:/config
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  onde-data:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,117 @@
+# ONDE — Caddy reverse proxy (automatic HTTPS, compression, security + cache headers).
+#
+# You normally never edit this file. Everything is driven by ONE line in .env:
+#
+#   Phase 1 (no domain yet):   leave DOMAIN empty/commented  → plain HTTP on port 80 for any host / the server IP
+#   Phase 2 (domain pointed):  DOMAIN=onde.tn                → HTTPS for onde.tn, www.onde.tn → onde.tn, admin.onde.tn
+#
+# then run:  docker compose up -d
+#
+# docker-compose.yml turns DOMAIN into the four variables below (Caddy cannot do "if empty" by itself):
+#   ONDE_SITE        ":80"                   | "onde.tn"
+#   ONDE_WWW_SITE    "http://www.localhost"  | "www.onde.tn"      (phase 1 value is an inert placeholder)
+#   ONDE_ADMIN_SITE  "http://admin.localhost"| "admin.onde.tn"    (phase 1 value is an inert placeholder)
+#   ONDE_DOMAIN      "localhost"             | "onde.tn"
+# The defaults after ":" below are the phase-1 values, so this file also works when run outside docker compose.
+#
+# Check the syntax after a change:  docker compose exec caddy caddy validate --config /etc/caddy/Caddyfile
+# Reload without downtime:          docker compose exec caddy caddy reload --config /etc/caddy/Caddyfile
+
+# ---------------------------------------------------------------------------------------------------------------
+# Shared building blocks
+# ---------------------------------------------------------------------------------------------------------------
+
+# Everything every host needs: compression, body limit, security headers, cache headers, proxy to the app.
+(onde_app) {
+	encode zstd gzip
+
+	request_body {
+		max_size 10MB
+	}
+
+	# "?" = default only: a page that sets its own Referrer-Policy keeps it (the client page /c/<token> sends
+	# "no-referrer" so its private token never leaks through Referer). Check: curl -sI https://onde.tn/c/x | grep -i referrer
+	header {
+		X-Content-Type-Options "nosniff"
+		?Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), usb=()"
+		-Server
+		-X-Powered-By
+	}
+
+	# HSTS only means something over HTTPS (phase 2). No includeSubDomains/preload on purpose: easy to undo.
+	@onde_https protocol https
+	header @onde_https Strict-Transport-Security "max-age=31536000"
+
+	# Long-lived caching for static assets. "defer" makes these win over the app's own Cache-Control.
+	@onde_immutable path /_next/static/*
+	header @onde_immutable {
+		Cache-Control "public, max-age=31536000, immutable"
+		defer
+	}
+	# Heavy media (films, loops, 3D models): 30 days. Rename a file when you replace it.
+	@onde_heavy path /media/* /models/*
+	header @onde_heavy {
+		Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
+		defer
+	}
+	# Product stills, textures, brand files: 7 days.
+	@onde_assets path /products/* /textures/* /brand/*
+	header @onde_assets {
+		Cache-Control "public, max-age=604800, stale-while-revalidate=86400"
+		defer
+	}
+
+	reverse_proxy web:3000 {
+		# During a redeploy the app restarts for a few seconds: hold requests instead of failing them.
+		lb_try_duration 15s
+		lb_try_interval 250ms
+	}
+
+	# If the app is really down, show a small bilingual page instead of a blank error.
+	handle_errors 502 503 504 {
+		header Content-Type "text/html; charset=utf-8"
+		header Cache-Control "no-store"
+		header Retry-After "30"
+		respond `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="20"><title>ONDE</title></head><body style="margin:0;background:#050407;color:#ECEBF2;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><main style="min-height:100vh;display:grid;place-items:center;text-align:center;padding:24px;box-sizing:border-box;background:radial-gradient(60% 50% at 50% 40%,rgba(70,28,247,.35),transparent 70%)"><div><h1 style="font-size:clamp(2.5rem,8vw,4.5rem);letter-spacing:-.03em;margin:0 0 .25em">onde</h1><p style="margin:.25em 0;color:#B9B6C8">Nous revenons dans un instant. La page se recharge toute seule.</p><p lang="en" style="margin:.25em 0;color:#B9B6C8">We will be right back. This page reloads by itself.</p><p style="margin:1em 0 0"><a style="color:#8C7BFF" href="https://wa.me/21625875529">WhatsApp +216 25 875 529</a></p></div></main></body></html>` 503
+	}
+}
+
+# Admin area protection on the public host: never framed, never indexed.
+(onde_frames) {
+	@onde_admin_paths path /admin /admin/* /api/admin/*
+	header @onde_admin_paths {
+		Content-Security-Policy "frame-ancestors 'none'"
+		X-Frame-Options "DENY"
+		X-Robots-Tag "noindex, nofollow"
+	}
+	@onde_public_paths not path /admin /admin/* /api/admin/*
+	header @onde_public_paths X-Frame-Options "SAMEORIGIN"
+}
+
+# ---------------------------------------------------------------------------------------------------------------
+# Sites
+# ---------------------------------------------------------------------------------------------------------------
+
+# 1) Main site — phase 1: ":80" (http://SERVER_IP) · phase 2: "onde.tn" (certificate obtained automatically).
+{$ONDE_SITE::80} {
+	import onde_app
+	import onde_frames
+}
+
+# 2) www.onde.tn → https://onde.tn (same path and query).
+{$ONDE_WWW_SITE:http://www.localhost} {
+	redir https://{$ONDE_DOMAIN:localhost}{uri} permanent
+}
+
+# 3) admin.onde.tn → the dashboard. "/" redirects to /admin (a real redirect, not a rewrite: the Home Screen app's scope
+#    is /admin, so the address must be inside it); every other path (/admin/…, /api/…, /_next/…) passes through.
+{$ONDE_ADMIN_SITE:http://admin.localhost} {
+	header {
+		Content-Security-Policy "frame-ancestors 'none'"
+		X-Frame-Options "DENY"
+		X-Robots-Tag "noindex, nofollow"
+	}
+	redir / /admin 302
+	import onde_app
+}

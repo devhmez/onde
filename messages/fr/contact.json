@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Contact : WhatsApp, téléphone, commandes pro | ONDE",
+    "description": "Une question, une commande pro ou un produit ONDE à activer ? Écrivez-nous sur WhatsApp ou appelez le +216 25 875 529. Réponse rapide, 7j/7."
+  },
+  "hero": {
+    "eyebrow": "Contacter ONDE",
+    "titleA": "Parlons-en.",
+    "lead": "Une question, une commande pro, un produit à activer ? On répond vite — et toujours par un humain."
+  },
+  "whatsapp": {
+    "kicker": "Le plus rapide",
+    "title": "WhatsApp",
+    "body": "Écrivez-nous, on vous répond en direct. Idéal pour commander, activer un produit ou changer la destination de votre lien.",
+    "cta": "Ouvrir WhatsApp",
+    "bubbleMe": "Bonjour ONDE 👋 J'ai une question :",
+    "bubbleThem": "Bonjour ! On vous écoute 😊",
+    "typing": "ONDE écrit…",
+    "message": "Bonjour ONDE 👋 J'ai une question :"
+  },
+  "phone": {
+    "kicker": "Par téléphone",
+    "title": "Appelez-nous",
+    "cta": "Appeler",
+    "copy": "Copier le numéro",
+    "copied": "Copié ✓"
+  },
+  "email": {
+    "kicker": "Par e-mail",
+    "title": "Écrivez-nous",
+    "cta": "Envoyer un e-mail",
+    "copy": "Copier l'adresse",
+    "copied": "Copiée ✓"
+  },
+  "socials": {
+    "title": "Suivez ONDE",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "open": "Ouvrir {network} dans un nouvel onglet"
+  },
+  "pro": {
+    "eyebrow": "Entreprises & volumes",
+    "title": "Commande pro / volume",
+    "body": "Plusieurs points de vente, une équipe entière, un hôtel, un événement ? On prépare un devis sur mesure et on configure chaque lien pour vous, établissement par établissement.",
+    "points": [
+      "Devis sur mesure selon les quantités",
+      "Un lien intelligent par produit, configuré par nos soins",
+      "Destinations modifiables à distance, à tout moment",
+      "Livraison en 3 jours max, partout en Tunisie"
+    ],
+    "cta": "Demander un devis sur WhatsApp",
+    "message": "Bonjour ONDE, Commande pro / volume :\n- Établissement :\n- Produits et quantités :\n- Ville :"
+  },
+  "hours": {
+    "title": "Disponibilité",
+    "value": "7j/7 sur WhatsApp",
+    "body": "On répond à chaque message, même le week-end.",
+    "basedIn": "Basés en Tunisie · livraison dans les 24 gouvernorats"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Comment payer ma commande ?",
+        "a": "En espèces, à la livraison : vous payez au livreur quand vous recevez votre commande. Aucun paiement à l'avance."
+      },
+      {
+        "q": "En combien de temps suis-je livré ?",
+        "a": "En 3 jours maximum après confirmation, partout en Tunisie. La livraison coûte {deliveryFee} et devient gratuite dès {threshold} d'achat."
+      },
+      {
+        "q": "Comment activer mon produit ONDE ?",
+        "a": "Envoyez-nous le lien que vous voulez (votre page d'avis Google, Instagram, menu…) sur WhatsApp. On l'active en quelques minutes, sans toucher à la puce."
+      },
+      {
+        "q": "Je peux changer la destination plus tard ?",
+        "a": "Oui, à tout moment. Le lien de la puce est permanent : seule la destination change, à distance."
+      },
+      {
+        "q": "Il y a une réduction pour les clients fidèles ?",
+        "a": "Oui : après une première commande livrée, vous bénéficiez de {pct} % sur votre commande suivante, automatiquement reconnu grâce à votre numéro de téléphone."
+      }
+    ]
+  },
+  "order": {
+    "title": "Prêt à commander ?",
+    "body": "Commandez en ligne en deux minutes, ou directement sur WhatsApp.",
+    "shop": "Voir la boutique"
+  }
+}

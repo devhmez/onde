@@ -1,0 +1,446 @@
+{
+  "common": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "home": "Accueil",
+    "toc": "Sommaire",
+    "updated": "Mis à jour le {date}",
+    "readingTime": "{min} min de lecture",
+    "author": "Par l'équipe ONDE",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Questions fréquentes",
+    "relatedEyebrow": "À lire aussi",
+    "productsLabel": "Produits ONDE",
+    "whatsapp": "Écrire sur WhatsApp",
+    "waMessage": "Bonjour ONDE ! J'ai une question sur les avis Google et vos produits NFC.",
+    "newTab": "(nouvel onglet)"
+  },
+  "reviewLink": {
+    "meta": {
+      "title": "Trouver son lien d'avis Google (+ QR code gratuit) | ONDE",
+      "description": "Où trouver le lien direct vers vos avis Google, comment le copier, le tester, créer le QR code gratuit et le partager à vos clients. Guide pas à pas.",
+      "ogAlt": "Gros plan du QR code et de la zone NFC « Tap here » d'un présentoir d'avis Google ONDE"
+    },
+    "breadcrumb": "Trouver son lien d'avis Google",
+    "eyebrow": "Guide · Avis Google",
+    "title": "Comment trouver votre lien d'avis Google",
+    "lead": "Le lien d'avis Google ouvre directement la fenêtre « Écrire un avis » de votre établissement : vos clients n'ont plus à vous chercher dans Maps. Il est gratuit, il se récupère en deux minutes, et c'est la base de toute demande d'avis, que ce soit par message, par QR code ou en NFC.",
+    "highlights": [
+      "Gratuit",
+      "2 minutes",
+      "Fiche Google requise"
+    ],
+    "sections": [
+      {
+        "id": "definition",
+        "title": "Le lien d'avis Google, c'est quoi ?",
+        "blocks": [
+          "C'est une adresse courte, propre à votre fiche d'établissement, qui commence en général par https://g.page/r/. Quand un client l'ouvre, la fenêtre de notation s'affiche directement : il choisit ses étoiles, écrit quelques mots et publie.",
+          "Sans ce lien, le client doit ouvrir Google Maps, taper votre nom, trouver la bonne fiche, descendre jusqu'aux avis puis appuyer sur « Écrire un avis ». Chaque étape en plus fait perdre des avis.",
+          {
+            "note": "Bon à savoir : Google demande d'être connecté à un compte Google pour publier un avis. Une adresse e-mail autre que Gmail suffit pour en créer un."
+          }
+        ]
+      },
+      {
+        "id": "ordinateur",
+        "title": "Récupérer le lien sur ordinateur (méthode officielle)",
+        "blocks": [
+          {
+            "steps": [
+              "Connectez-vous au compte Google qui gère la fiche de votre établissement.",
+              "Ouvrez votre fiche d'établissement : cherchez le nom exact de votre commerce sur Google, ou passez par [business.google.com](https://business.google.com/).",
+              "Sélectionnez « Voir les avis », puis « Recevoir plus d'avis ».",
+              "Sélectionnez « Copier » : le lien est dans votre presse-papiers. Collez-le dans une note pour le garder sous la main."
+            ]
+          },
+          "Google fait évoluer ses menus : selon votre version, le bouton peut aussi s'appeler « Demander des avis » ou « Partager le formulaire d'avis ». Le principe reste le même. La procédure officielle est décrite dans l'aide Google [Créer un lien ou un QR code pour demander des avis](https://support.google.com/business/answer/16816815?hl=fr)."
+        ]
+      },
+      {
+        "id": "telephone",
+        "title": "Et sur téléphone ?",
+        "blocks": [
+          "Connecté avec le compte qui gère la fiche, ouvrez votre établissement dans l'application Google Maps ou dans la recherche Google : le bouton « Demander des avis » (ou « Partager le formulaire d'avis ») propose en général le même lien, à copier ou à envoyer directement par WhatsApp.",
+          "Une exception : pour l'instant, Google ne permet de générer le QR code d'avis officiel que depuis un navigateur sur ordinateur (voir plus bas)."
+        ]
+      },
+      {
+        "id": "pas-de-fiche",
+        "title": "Pas encore de fiche Google ? Commencez par là",
+        "blocks": [
+          "Le lien d'avis appartient à une fiche d'établissement Google. Si votre commerce n'apparaît pas sur Google Maps, ou si quelqu'un d'autre a créé la fiche, il faut d'abord l'ajouter ou la revendiquer, puis la valider. Google l'explique dans son aide [Ajouter ou revendiquer votre fiche d'établissement](https://support.google.com/business/answer/2911778?hl=fr).",
+          "La validation peut prendre quelques jours selon la méthode proposée. Profitez-en pour compléter la fiche : catégorie, adresse, horaires, téléphone, photos. Google indique qu'une fiche complète et exacte a plus de chances de s'afficher dans les recherches à proximité."
+        ]
+      },
+      {
+        "id": "tester",
+        "title": "Testez votre lien avant de l'imprimer ou de l'envoyer",
+        "blocks": [
+          {
+            "list": [
+              "Ouvrez-le dans une fenêtre de navigation privée : la fenêtre d'avis de votre établissement doit s'afficher (après connexion à un compte Google).",
+              "Vérifiez le nom et l'adresse affichés. Avec plusieurs fiches (deux adresses, une ancienne fiche), c'est l'erreur la plus fréquente.",
+              "Testez-le sur un iPhone et sur un téléphone Android."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "partager",
+        "title": "Où partager votre lien d'avis",
+        "blocks": [
+          "Le meilleur moment pour proposer un avis, c'est quand l'expérience vient de se terminer. Placez le lien là où vos clients se trouvent à ce moment-là :",
+          {
+            "list": [
+              "Au comptoir et sur les tables : en QR code imprimé, ou en NFC pour un accès en un tap.",
+              "Dans votre message WhatsApp de confirmation, de livraison ou de remerciement.",
+              "Sur le ticket de caisse, la facture ou l'e-mail de remerciement.",
+              "Dans la bio Instagram ou TikTok, ou dans une story après un événement.",
+              "En signature d'e-mail, pour les services et les professions libérales."
+            ]
+          },
+          "Google cite lui-même les reçus, les e-mails de remerciement, la fin d'une discussion et le QR code affiché en magasin. Pour aller plus loin, lisez notre guide [Comment obtenir plus d'avis Google](/guides/get-more-google-reviews)."
+        ]
+      },
+      {
+        "id": "qr-ou-nfc",
+        "title": "QR code ou NFC : que choisir ?",
+        "blocks": [
+          "Le QR code officiel est gratuit : sur ordinateur, à l'étape « Recevoir plus d'avis », faites un clic droit sur le QR code puis « Enregistrer l'image sous ». Il fonctionne avec l'appareil photo de n'importe quel smartphone, mais le client doit sortir son téléphone, ouvrir l'appareil photo, viser et attendre la mise au point.",
+          "Le NFC supprime ces étapes : le client approche son téléphone et la page s'ouvre, comme un paiement sans contact (sur iPhone, il touche la notification qui s'affiche en haut de l'écran). Il fonctionne sur les iPhone XR, XS et plus récents et sur la grande majorité des téléphones Android équipés du NFC.",
+          {
+            "list": [
+              "QR code seul : gratuit et universel, idéal sur un ticket, une affiche ou un e-mail.",
+              "NFC + QR code : le plus rapide au comptoir ou à table, et le QR code couvre les téléphones sans NFC. C'est le format des [présentoirs ONDE](/shop/stand-white).",
+              "Lien intelligent : sur les produits ONDE, la puce et le QR code mènent à un lien permanent (onde.tn/t/…). Si votre lien Google change un jour, on met à jour la destination à distance, sans rien réimprimer."
+            ]
+          },
+          {
+            "products": [
+              "stand-white",
+              "stand-black",
+              "sticker"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "erreurs",
+        "title": "Les erreurs à éviter",
+        "blocks": [
+          {
+            "list": [
+              "Partager le lien de votre fiche Google Maps au lieu du lien d'avis : le client doit encore trouver « Écrire un avis ».",
+              "Imprimer un lien sans l'avoir testé : une erreur de fiche, et tous les supports sont à refaire.",
+              "Offrir une remise ou un cadeau en échange d'un avis : Google l'interdit et peut supprimer les avis concernés.",
+              "Demander « 5 étoiles » ou une phrase précise : Google interdit d'influencer la note ou le contenu de l'avis."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le lien d'avis Google est-il gratuit ?",
+        "a": "Oui. Google fournit gratuitement le lien et le QR code d'avis à tout établissement qui gère sa fiche."
+      },
+      {
+        "q": "Mon lien d'avis Google peut-il changer ?",
+        "a": "Il reste en général le même tant que la fiche existe, mais il peut changer si vous recréez une fiche ou si deux fiches sont fusionnées. Avec un produit ONDE, ce n'est pas un problème : on remplace la destination à distance, la puce et le QR code ne changent pas."
+      },
+      {
+        "q": "Peut-on obtenir le lien sans gérer la fiche ?",
+        "a": "Le bouton officiel n'apparaît qu'aux personnes qui gèrent la fiche. Si un proche ou une agence la gère, demandez-lui de copier le lien et de vous l'envoyer, ou de vous ajouter comme gestionnaire."
+      },
+      {
+        "q": "Mes clients doivent-ils avoir un compte Google ?",
+        "a": "Oui, Google demande d'être connecté à un compte Google pour publier un avis. Une adresse e-mail autre que Gmail suffit pour en créer un."
+      },
+      {
+        "q": "Je ne trouve pas mon lien, pouvez-vous m'aider ?",
+        "a": "Oui. Si vous commandez un produit ONDE, laissez simplement le champ du lien vide : on le retrouve avec vous lors de l'appel de confirmation, avant de configurer la puce."
+      }
+    ],
+    "cta": {
+      "title": "Mettez votre lien d'avis à portée de tap",
+      "body": "Présentoirs, stickers et cartes NFC avec QR code : configurés avec votre lien avant l'envoi, livrés en 3 jours partout en Tunisie, paiement à la livraison.",
+      "primary": "Voir la boutique",
+      "href": "/shop"
+    }
+  },
+  "moreReviews": {
+    "meta": {
+      "title": "Comment obtenir plus d'avis Google : 7 méthodes | ONDE",
+      "description": "Les méthodes simples pour recevoir plus d'avis Google : demander au bon moment, lien direct, QR code et NFC, réponses aux avis, et ce que Google interdit.",
+      "ogAlt": "Présentoir d'avis Google ONDE blanc posé sur un comptoir, avec puce NFC et QR code"
+    },
+    "breadcrumb": "Obtenir plus d'avis Google",
+    "eyebrow": "Guide · Réputation locale",
+    "title": "Comment obtenir plus d'avis Google pour votre commerce",
+    "lead": "Beaucoup de clients satisfaits repartent sans laisser d'avis : personne ne le leur a proposé au bon moment, ou c'était trop long. Voici des méthodes simples, et conformes aux règles de Google, pour en recevoir davantage, que vous teniez un café à Tunis, un salon à Sousse ou une clinique à Sfax.",
+    "highlights": [
+      "Méthodes gratuites",
+      "Conformes aux règles Google",
+      "Pour tout commerce local"
+    ],
+    "sections": [
+      {
+        "id": "pourquoi",
+        "title": "Pourquoi les avis Google comptent",
+        "blocks": [
+          "Avant de choisir un café, un restaurant ou un salon, on regarde la note et le nombre d'avis sur Google. Selon l'enquête BrightLocal Local Consumer Review Survey 2026 (1 002 adultes interrogés aux États-Unis), 68 % des consommateurs ne choisissent que des commerces notés 4 étoiles ou plus.",
+          "Les avis comptent aussi pour être trouvé. Dans son aide, Google explique que le classement local repose sur la pertinence, la distance et la proéminence, et que plus un établissement obtient d'avis et de notes positives, plus il grimpe dans ce classement. [Lire l'aide Google sur le classement local](https://support.google.com/business/answer/7091?hl=fr)."
+        ]
+      },
+      {
+        "id": "moment",
+        "title": "1. Demandez au bon moment, à tous vos clients",
+        "blocks": [
+          "Le meilleur moment, c'est la fin naturelle de l'expérience : l'addition, le passage en caisse, la remise d'une commande, la fin d'un soin. Le client a encore l'expérience en tête et quelques secondes devant lui.",
+          "Proposez-le à tout le monde, sans trier : Google interdit de solliciter des avis de façon sélective, c'est-à-dire seulement auprès des clients que l'on pense satisfaits. Demandez un avis honnête, pas « 5 étoiles »."
+        ]
+      },
+      {
+        "id": "chemin",
+        "title": "2. Raccourcissez le chemin jusqu'à l'avis",
+        "blocks": [
+          "Chaque étape fait perdre des avis. Ne dites pas « cherchez-nous sur Google » : donnez le lien direct vers votre formulaire d'avis. Notre guide [Comment trouver votre lien d'avis Google](/guides/google-review-link) explique où le copier.",
+          {
+            "list": [
+              "Lien direct : à envoyer par WhatsApp, SMS ou e-mail.",
+              "QR code : gratuit, sur une affiche, un ticket ou un chevalet.",
+              "NFC : un tap du téléphone suffit, sans viser ni scanner. C'est le plus rapide sur place."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equipe",
+        "title": "3. Donnez une phrase simple à votre équipe",
+        "blocks": [
+          "Une demande orale, sincère et courte fonctionne mieux qu'une affiche seule. Par exemple : « Si vous avez apprécié, un avis Google nous aide beaucoup. Il suffit d'approcher votre téléphone ici. »",
+          "Restez dans les règles : Google interdit d'imposer à son personnel un nombre d'avis à récolter, de demander des avis qui citent un employé ou un contenu précis, et de mettre la pression pour noter sur place. Proposer, oui ; insister, non."
+        ]
+      },
+      {
+        "id": "visible",
+        "title": "4. Placez le lien là où sont vos clients",
+        "blocks": [
+          {
+            "list": [
+              "Au comptoir et près de la caisse : c'est là que tout le monde passe.",
+              "Sur les tables et en terrasse, pour les cafés et les restaurants.",
+              "Dans le message WhatsApp de confirmation ou de livraison.",
+              "Sur le ticket, la facture ou l'e-mail de remerciement.",
+              "Dans la bio Instagram et TikTok."
+            ]
+          },
+          "Un support NFC + QR code comme le [présentoir ONDE](/shop/stand-white) rend la demande visible en permanence, sans que votre équipe ait à y penser à chaque client."
+        ]
+      },
+      {
+        "id": "repondre",
+        "title": "5. Répondez aux avis, surtout aux négatifs",
+        "blocks": [
+          "Une réponse montre aux futurs clients que vous écoutez. Google recommande des réponses courtes, polies et utiles, sans arguments commerciaux. Évitez le même « merci » copié-collé sous chaque avis : une réponse personnalisée, même en une ligne, montre que vous lisez vraiment vos clients.",
+          "Face à un avis négatif : remerciez, reconnaissez ce qui doit l'être, expliquez ce que vous avez changé et proposez de poursuivre en privé. Ne révélez jamais d'informations personnelles et n'attaquez pas l'auteur. Si l'avis enfreint le règlement de Google (faux client, propos injurieux), signalez-le plutôt que de répondre sur le même ton."
+        ]
+      },
+      {
+        "id": "fiche",
+        "title": "6. Soignez votre fiche pour apparaître sur Google Maps",
+        "blocks": [
+          "Des avis sur une fiche incomplète valent moins. Validez votre établissement, puis complétez : catégorie exacte, adresse, horaires (y compris exceptionnels), téléphone, photos récentes. Google indique qu'une fiche complète et exacte a plus de chances de s'afficher dans les recherches à proximité.",
+          "Pas encore de fiche ? Commencez par la créer ou la revendiquer : tout est expliqué dans notre guide sur le [lien d'avis Google](/guides/google-review-link)."
+        ]
+      },
+      {
+        "id": "mesurer",
+        "title": "7. Mesurez et ajustez",
+        "blocks": [
+          "Notez votre nombre d'avis chaque semaine et comparez avec ce qui a changé : nouvel emplacement du présentoir, nouvelle phrase de l'équipe, message WhatsApp. Avec ONDE, votre espace client affiche aussi les taps par jour, par produit, et la part NFC / QR code : vous voyez quels supports sont vraiment utilisés.",
+          {
+            "products": [
+              "stand-white",
+              "card",
+              "sticker"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interdit",
+        "title": "Ce que Google interdit",
+        "blocks": [
+          "Google supprime les avis qui ne reflètent pas une expérience réelle et peut appliquer des restrictions aux fiches qui ne respectent pas son [règlement sur les contenus](https://support.google.com/contributionpolicy/answer/7400114?hl=fr). N'utilisez jamais ces méthodes :",
+          {
+            "list": [
+              "Offrir une contrepartie (remise, boisson, cadeau, participation à un tirage) en échange d'un avis, de sa modification ou de la suppression d'un avis négatif.",
+              "Acheter des avis, ou les faire écrire par des proches, des employés ou plusieurs comptes.",
+              "Rédiger vos propres avis, ou des avis sur la fiche d'un concurrent.",
+              "Ne solliciter que les clients satisfaits, ou décourager les avis négatifs.",
+              "Imposer un nombre d'avis à votre équipe ou dicter le contenu de l'avis."
+            ]
+          },
+          {
+            "note": "Un outil ne remplace pas une bonne expérience : ONDE facilite le dépôt d'avis, mais ne garantit ni un nombre d'avis, ni une note (voir nos [conditions générales de vente](/legal/terms))."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Peut-on acheter des avis Google ?",
+        "a": "Non. Les avis payés sont interdits par Google, qui les supprime et peut appliquer des restrictions à la fiche concernée. Ils trompent aussi vos futurs clients. Mieux vaut multiplier les demandes honnêtes."
+      },
+      {
+        "q": "Peut-on offrir une réduction en échange d'un avis ?",
+        "a": "Non. Pour Google, proposer un avantage (remise, produit offert, tirage au sort) en échange d'un avis est de l'engagement artificiel, strictement interdit, même si l'avis demandé est honnête."
+      },
+      {
+        "q": "Combien de temps avant de recevoir plus d'avis ?",
+        "a": "Les avis arrivent au rythme de vos clients : cela dépend de votre fréquentation et de la régularité de la demande. Plus elle est simple et proposée à tous, plus la part de clients qui laissent un avis a des chances d'augmenter. Aucun outil ne peut garantir un nombre d'avis."
+      },
+      {
+        "q": "Que faire d'un avis négatif injuste ?",
+        "a": "Répondez calmement et factuellement, sans attaque personnelle. Si l'avis enfreint le règlement de Google (faux client, propos injurieux, conflit d'intérêts), signalez-le depuis votre fiche. Google ne supprime pas un avis simplement parce qu'il est négatif."
+      },
+      {
+        "q": "Faut-il une application pour laisser un avis en NFC ?",
+        "a": "Non. Le tap ouvre la page d'avis dans le navigateur du téléphone, comme un lien. Le client doit seulement être connecté à son compte Google pour publier."
+      }
+    ],
+    "cta": {
+      "title": "Rendez l'avis aussi simple qu'un paiement sans contact",
+      "body": "Un tap au comptoir plutôt qu'une recherche dans Maps : présentoirs, cartes et stickers NFC configurés avec votre lien, livrés en 3 jours partout en Tunisie, paiement à la livraison.",
+      "primary": "Découvrir la boutique",
+      "href": "/shop"
+    }
+  },
+  "restaurants": {
+    "meta": {
+      "title": "Plaque avis Google restaurant & café en Tunisie | ONDE",
+      "description": "Présentoirs, stickers et cartes NFC pour recevoir des avis Google au comptoir, en terrasse et à table. Sans abonnement, livrés en 3 jours en Tunisie.",
+      "ogAlt": "Présentoir d'avis Google ONDE noir dans un bar à la lumière tamisée"
+    },
+    "breadcrumb": "Restaurants & cafés",
+    "eyebrow": "Restaurants · Cafés · Salons de thé",
+    "title": "Plus d'avis Google pour votre restaurant ou votre café",
+    "lead": "Dans un café ou un restaurant, l'avis se joue en quelques secondes : à l'addition, au comptoir, en quittant la terrasse. ONDE met votre page d'avis Google à un tap de chaque client, sur le comptoir, sur les tables et dans la main de vos serveurs.",
+    "highlights": [
+      "NFC + QR code",
+      "Sans abonnement",
+      "Livré en 3 jours"
+    ],
+    "offer": "Présentoir dès {stand}, Pack Café à {pack} : sans abonnement, paiement à la livraison.",
+    "heroCta": {
+      "primary": "Voir le Pack Café",
+      "href": "/shop/pack-cafe",
+      "waMessage": "Bonjour ONDE ! Je voudrais équiper mon café / restaurant en présentoirs avis Google."
+    },
+    "sections": [
+      {
+        "id": "moment",
+        "title": "Le bon moment : l'addition",
+        "blocks": [
+          "Au restaurant, le moment le plus naturel pour proposer un avis est la fin du repas : l'addition arrive, le client a quelques secondes devant lui et le repas en tête. Au café, c'est le passage en caisse ou le départ de la terrasse.",
+          "Le geste doit être immédiat. Un QR code demande d'ouvrir l'appareil photo et de viser ; un tap NFC ouvre la page d'avis, comme un paiement sans contact (sur iPhone, en touchant la notification qui s'affiche). Les présentoirs ONDE portent les deux."
+        ]
+      },
+      {
+        "id": "emplacements",
+        "title": "Où placer vos supports",
+        "blocks": [
+          {
+            "list": [
+              "Comptoir et caisse : un [présentoir avis Google](/shop/stand-white) de 12 × 12 cm, vu par chaque client qui paie.",
+              "Terrasse : un deuxième présentoir, là où les clients s'attardent.",
+              "Tables : un [sticker NFC](/shop/sticker) sur la table, le support de menu ou le porte-addition.",
+              "Serveurs : une [carte NFC](/shop/card) présentée au moment de l'addition.",
+              "Bar, lounge, ambiance tamisée : le [présentoir noir](/shop/stand-black), plus discret."
+            ]
+          },
+          {
+            "products": [
+              "pack-cafe",
+              "stand-black",
+              "sticker"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pack-cafe",
+        "title": "Le Pack Café : tout l'établissement couvert",
+        "blocks": [
+          "Le [Pack Café](/shop/pack-cafe) réunit 2 présentoirs avis (blancs ou noirs) et 4 stickers NFC : un présentoir au comptoir, un en terrasse, des stickers sur les tables ou les menus. Chaque pièce porte son propre lien intelligent, configuré et testé avant l'envoi.",
+          "Comme chaque pièce a son propre lien, votre espace client ONDE affiche les taps de chacune : vous voyez quel emplacement fonctionne le mieux."
+        ]
+      },
+      {
+        "id": "menu",
+        "title": "Avis Google aujourd'hui, menu ce soir ?",
+        "blocks": [
+          "Chaque produit ONDE porte un lien permanent dont la destination se change à distance : page d'avis Google, menu en ligne, Instagram, TikTok, page de réservation. Une seule destination à la fois, que vous pouvez changer quand vous voulez, sans réimprimer : il suffit de le demander sur WhatsApp ou depuis votre espace client.",
+          "Par exemple : les stickers de table vers votre menu en ligne et le présentoir du comptoir vers vos avis Google. ONDE n'héberge pas de menu : le lien mène vers celui que vous utilisez déjà (site, PDF ou plateforme de menu)."
+        ]
+      },
+      {
+        "id": "serveurs",
+        "title": "Impliquez vos serveurs, sans pression",
+        "blocks": [
+          "Une phrase suffit au moment de l'addition : « Si tout vous a plu, un avis Google nous aiderait beaucoup. Il suffit d'approcher votre téléphone. » Le [Pack Équipe](/shop/pack-team) donne une carte NFC à chacun de vos 5 serveurs.",
+          "Restez dans les règles de Google : pas d'objectif chiffré d'avis par serveur, pas de demande d'avis qui cite le prénom du serveur, pas de remise ni de dessert offert en échange d'un avis. On propose à tous, sans insister. Plus de conseils dans notre guide [Comment obtenir plus d'avis Google](/guides/get-more-google-reviews)."
+        ]
+      },
+      {
+        "id": "touristes",
+        "title": "Clients étrangers et touristes",
+        "blocks": [
+          "Le tap fonctionne avec tout téléphone compatible NFC, quelle que soit sa langue, et Google affiche la page d'avis dans la langue du téléphone. Les avis laissés par les touristes sont lus par les suivants, qui cherchent un restaurant ou un café près d'eux."
+        ]
+      },
+      {
+        "id": "commander",
+        "title": "Commander en 3 étapes",
+        "blocks": [
+          {
+            "steps": [
+              "Choisissez vos supports en ligne ou sur WhatsApp, avec le nom de votre établissement et, si vous l'avez, votre lien d'avis Google.",
+              "On vous appelle pour confirmer, puis on configure et on teste chaque puce avec votre lien.",
+              "Livraison en 3 jours maximum partout en Tunisie, paiement en espèces à la réception. La livraison coûte {fee} et devient gratuite dès {threshold}."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il une application pour les clients ?",
+        "a": "Non. Le tap ouvre la page d'avis dans le navigateur du téléphone. Les téléphones sans NFC scannent le QR code imprimé sur les présentoirs."
+      },
+      {
+        "q": "Le menu et les avis peuvent-ils être sur le même support ?",
+        "a": "Un support mène à une destination à la fois. Vous pouvez la changer à distance quand vous voulez, ou dédier certains supports au menu et d'autres aux avis."
+      },
+      {
+        "q": "Combien de supports pour mon établissement ?",
+        "a": "Au minimum un présentoir là où l'on paie. Ajoutez un support par zone où les clients restent assis (terrasse, salle, bar) et des stickers sur les tables si vous voulez que chacun ait la page d'avis à portée de main. On vous conseille volontiers sur WhatsApp."
+      },
+      {
+        "q": "Puis-je voir combien de fois mes supports sont utilisés ?",
+        "a": "Oui. Votre espace client ONDE affiche les taps des 30 derniers jours : par jour, par produit (donc par emplacement) et la part NFC / QR code."
+      },
+      {
+        "q": "Comment se passent la livraison et le paiement ?",
+        "a": "On vous appelle pour confirmer la commande, puis on livre en 3 jours maximum partout en Tunisie. Vous payez en espèces à la réception ; la livraison coûte {fee} et devient gratuite dès {threshold}."
+      }
+    ],
+    "cta": {
+      "title": "Équipez votre restaurant cette semaine",
+      "body": "Commandez en ligne ou sur WhatsApp : on vous appelle pour confirmer, on configure vos supports avec votre lien d'avis Google et on livre en 3 jours partout en Tunisie. Paiement à la livraison.",
+      "primary": "Voir le Pack Café",
+      "href": "/shop/pack-cafe"
+    }
+  }
+}

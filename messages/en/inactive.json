@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "ONDE product not activated yet — ONDE",
+    "description": "This ONDE product isn't connected to a destination yet. Activate it in minutes on WhatsApp."
+  },
+  "eyebrow": "ONDE smart link",
+  "codeLabel": "Code",
+  "products": {
+    "stand": {
+      "meta": "ONDE — This stand isn't activated yet",
+      "inactive": "This ONDE stand isn't activated yet.",
+      "paused": "This ONDE stand is paused."
+    },
+    "card": {
+      "meta": "ONDE — This card isn't activated yet",
+      "inactive": "This ONDE card isn't activated yet.",
+      "paused": "This ONDE card is paused."
+    },
+    "keychain": {
+      "meta": "ONDE — This keychain isn't activated yet",
+      "inactive": "This ONDE keychain isn't activated yet.",
+      "paused": "This ONDE keychain is paused."
+    },
+    "sticker": {
+      "meta": "ONDE — This sticker isn't activated yet",
+      "inactive": "This ONDE sticker isn't activated yet.",
+      "paused": "This ONDE sticker is paused."
+    }
+  },
+  "states": {
+    "inactive": {
+      "title": "This ONDE product isn't activated yet.",
+      "lead": "The chip works perfectly — it just needs its destination."
+    },
+    "paused": {
+      "title": "This ONDE product is paused.",
+      "lead": "Its owner has paused it or is changing its destination. Please try again a little later."
+    },
+    "unknown": {
+      "title": "This ONDE link doesn't exist.",
+      "lead": "The code may be incomplete. Check the link or hold your phone to the product again."
+    },
+    "active": {
+      "title": "Good news: this product is active.",
+      "lead": "It was just activated. Tap the button to open its destination.",
+      "open": "Open the destination"
+    }
+  },
+  "owner": {
+    "title": "Is this your product?",
+    "body": "Send us the destination link (your Google review page, Instagram, menu…). We activate it within minutes, without touching the chip.",
+    "cta": "Activate on WhatsApp",
+    "message": "Hello ONDE 👋 I'd like to activate my ONDE product{codePart}. Here is the destination link:",
+    "codePart": " (code {code})"
+  },
+  "visitor": {
+    "title": "A customer of this business?",
+    "body": "Thanks for tapping! The business is setting this link up right now. Come back soon — your review really matters."
+  },
+  "discover": {
+    "title": "Want the same for your business?",
+    "cta": "Discover ONDE",
+    "film": "Watch the film"
+  },
+  "notFound": {
+    "meta": {
+      "title": "404 — This link isn't on the menu · ONDE",
+      "description": "The page you asked for doesn't exist or has moved."
+    },
+    "eyebrow": "Error 404",
+    "title": "This link isn't on the menu.",
+    "lead": "The page you're looking for doesn't exist or has moved. Don't worry: everything else is still being served.",
+    "menuTitle": "On the menu tonight",
+    "menu": [
+      { "label": "Google reviews", "state": "★★★★★" },
+      { "label": "Instagram", "state": "✓" },
+      { "label": "Digital menu", "state": "✓" },
+      { "label": "Contact card", "state": "✓" }
+    ],
+    "missing": "This page",
+    "missingState": "sold out",
+    "tapHint": "Tap the zero",
+    "home": "Back to home",
+    "shop": "The shop",
+    "film": "The film",
+    "contact": "Contact",
+    "whatsapp": "Need help? WhatsApp",
+    "waMessage": "Hello ONDE, I landed on a page that doesn't exist:"
+  }
+}

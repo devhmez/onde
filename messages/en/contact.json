@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Contact: WhatsApp, phone, business orders | ONDE",
+    "description": "A question, a business order or an ONDE product to activate? Message us on WhatsApp or call +216 25 875 529. Fast replies, 7 days a week."
+  },
+  "hero": {
+    "eyebrow": "Contact ONDE",
+    "titleA": "Let's talk.",
+    "lead": "A question, a business order, a product to activate? We reply fast — and always as a real human."
+  },
+  "whatsapp": {
+    "kicker": "The fastest way",
+    "title": "WhatsApp",
+    "body": "Message us and we'll answer live. Perfect to order, activate a product or change where your link points.",
+    "cta": "Open WhatsApp",
+    "bubbleMe": "Hello ONDE 👋 I have a question:",
+    "bubbleThem": "Hi! We're listening 😊",
+    "typing": "ONDE is typing…",
+    "message": "Hello ONDE 👋 I have a question:"
+  },
+  "phone": {
+    "kicker": "By phone",
+    "title": "Call us",
+    "cta": "Call",
+    "copy": "Copy number",
+    "copied": "Copied ✓"
+  },
+  "email": {
+    "kicker": "By email",
+    "title": "Write to us",
+    "cta": "Send an email",
+    "copy": "Copy address",
+    "copied": "Copied ✓"
+  },
+  "socials": {
+    "title": "Follow ONDE",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "open": "Open {network} in a new tab"
+  },
+  "pro": {
+    "eyebrow": "Businesses & volume",
+    "title": "Business / bulk order",
+    "body": "Several locations, a whole team, a hotel, an event? We prepare a custom quote and configure every link for you, location by location.",
+    "points": [
+      "Custom quote based on quantities",
+      "One smart link per product, configured by us",
+      "Destinations editable remotely, anytime",
+      "Delivered in 3 days max, anywhere in Tunisia"
+    ],
+    "cta": "Request a quote on WhatsApp",
+    "message": "Hello ONDE, Business / bulk order:\n- Business:\n- Products and quantities:\n- City:"
+  },
+  "hours": {
+    "title": "Availability",
+    "value": "7 days a week on WhatsApp",
+    "body": "We answer every message, weekends included.",
+    "basedIn": "Based in Tunisia · delivery to all 24 governorates"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How do I pay for my order?",
+        "a": "In cash, on delivery: you pay the courier when your order arrives. Nothing to pay upfront."
+      },
+      {
+        "q": "How fast is delivery?",
+        "a": "Within 3 days of confirmation, anywhere in Tunisia. Delivery costs {deliveryFee} and is free from {threshold}."
+      },
+      {
+        "q": "How do I activate my ONDE product?",
+        "a": "Send us the link you want (your Google review page, Instagram, menu…) on WhatsApp. We activate it within minutes, without touching the chip."
+      },
+      {
+        "q": "Can I change the destination later?",
+        "a": "Yes, anytime. The chip's link is permanent: only the destination changes, remotely."
+      },
+      {
+        "q": "Is there a discount for returning customers?",
+        "a": "Yes: after your first delivered order, you get {pct}% off your next order, recognized automatically from your phone number."
+      }
+    ]
+  },
+  "order": {
+    "title": "Ready to order?",
+    "body": "Order online in two minutes, or straight on WhatsApp.",
+    "shop": "Visit the shop"
+  }
+}

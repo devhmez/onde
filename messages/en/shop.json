@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "shopTitle": "Shop: Google Review Stands & NFC Cards | ONDE",
+    "shopDescription": "Google review stands, NFC cards, keychains and stickers, priced in DT with no subscription. Delivered in 3 days anywhere in Tunisia, free from {threshold}.",
+    "productTitle": "{name} | ONDE",
+    "productDescription": "{name} — {tagline} Delivered in 3 days max anywhere in Tunisia, cash on delivery.",
+    "checkoutTitle": "Checkout | ONDE",
+    "orderTitle": "Order {number} | ONDE"
+  },
+  "kinds": {
+    "stand": "Review stand",
+    "card": "NFC card",
+    "keychain": "NFC keychain",
+    "sticker": "NFC sticker",
+    "pack": "Pack"
+  },
+  "filters": {
+    "label": "Filter products",
+    "all": "All",
+    "stand": "Stands",
+    "card": "Cards",
+    "keychain": "Keychains",
+    "sticker": "Stickers",
+    "pack": "Packs",
+    "count": "{count} products",
+    "countOne": "1 product",
+    "empty": "Nothing in this category yet — have a look at the others."
+  },
+  "hero": {
+    "eyebrow": "The ONDE range",
+    "titleA": "One link.",
+    "titleB": "Every format.",
+    "subtitle": "NFC review stands, cards, keychains and stickers. One tap opens your Google review page — or any link you choose, changeable at any time.",
+    "scroll": "See the products",
+    "chipDelivery": "Delivered in 3 days max, free from {amount}",
+    "chipReturning": "−{pct}% off your next order",
+    "chipCod": "Cash on delivery"
+  },
+  "card": {
+    "add": "Add",
+    "addAria": "Add {name} to cart",
+    "save": "−{pct}%",
+    "was": "Was {price}",
+    "promo": "Launch offer · ends in"
+  },
+  "add": {
+    "label": "Add to cart",
+    "added": "Added",
+    "addedAria": "{name} was added to your cart"
+  },
+  "offers": {
+    "eyebrow": "Ordering from ONDE",
+    "title": "Simple. Risk-free. No surprises.",
+    "deliveryStat": "{amount}",
+    "deliveryTitle": "Free delivery",
+    "deliveryBody": "From {amount}, anywhere in Tunisia. Below that, delivery is {fee}.",
+    "returningStat": "−{pct}%",
+    "returningTitle": "Off your next order",
+    "returningBody": "Once your order is delivered, the next one is discounted automatically. We recognise your phone number — no code to remember.",
+    "codStat": "0 DT",
+    "codTitle": "To pay online",
+    "codBody": "Cash on delivery. We call you first to confirm every detail."
+  },
+  "help": {
+    "eyebrow": "Need advice?",
+    "title": "Not sure which format?",
+    "body": "Message us on WhatsApp: we'll help you pick what fits your business, and we can take your order right there.",
+    "cta": "Message us on WhatsApp",
+    "orCall": "or call {phone}"
+  },
+  "product": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbShop": "Shop",
+    "unitPrice": "Unit price",
+    "totalFor": "Total for {qty}:",
+    "qty": "Quantity",
+    "decrease": "Remove one",
+    "increase": "Add one",
+    "personalizeTitle": "Personalization",
+    "personalizeSubtitle": "Optional — we can also sort everything out together on the phone.",
+    "business": "Your business name",
+    "businessPlaceholder": "e.g. Café Lumière",
+    "businessHelp": "Used to personalize and configure your product.",
+    "link": "Link to configure",
+    "linkPlaceholder": "Google review link, Instagram, menu…",
+    "linkHelp": "Where your customers land after a tap. Changeable at any time, without replacing the product.",
+    "linkInvalid": "This link doesn't look valid. Copy it from your browser (e.g. https://g.page/r/…).",
+    "howTo": "How do I find my Google review link?",
+    "howToSteps": [
+      "Open Google Maps and search for your business, or open your listing in Google Business Profile.",
+      "Tap “Ask for reviews” (or “Share review form”).",
+      "Copy the link it gives you — it often starts with https://g.page/r/ — and paste it here."
+    ],
+    "howToNote": "Can't find it? Leave it empty: we'll find it with you on the confirmation call.",
+    "howToGuide": "Read the full guide: find your Google review link",
+    "orderWhatsapp": "Order on WhatsApp",
+    "perkFree": "Free delivery on this order · 3 days max",
+    "perkDelivery": "Delivered in 3 days max · {fee}, free from {threshold}",
+    "perkCod": "Cash on delivery",
+    "perkCall": "We call you to confirm before shipping",
+    "perkLink": "Permanent smart link, editable remotely",
+    "specsTitle": "Specifications",
+    "specs": {
+      "stand": [
+        "NFC chip + printed QR code for phones without NFC",
+        "3 mm clear acrylic bent into an L: stands on its own on the counter",
+        "12 × 12 cm, with a 12 cm deep base",
+        "Works with iPhone and Android, no app needed",
+        "Configured and tested before delivery"
+      ],
+      "card": [
+        "Wallet-sized, matte black finish",
+        "Built-in NFC chip: share in a single tap",
+        "Perfect for servers, sales reps, freelancers and teams",
+        "Works with iPhone and Android, no app needed",
+        "Never needs reprinting"
+      ],
+      "keychain": [
+        "Light, durable, metal ring",
+        "Built-in NFC chip: your link travels with your keys",
+        "Made for riders, drivers, technicians and coaches",
+        "Works with iPhone and Android, no app needed",
+        "Destination editable remotely"
+      ],
+      "sticker": [
+        "Round, thin and strongly adhesive",
+        "On a table, a menu, a shop window, a register or packaging",
+        "The most affordable way to be everywhere",
+        "Works with iPhone and Android, no app needed",
+        "Destination editable remotely"
+      ],
+      "pack": [
+        "Several pieces, one delivery",
+        "Each piece carries its own permanent smart link",
+        "Each link is configured separately",
+        "Works with iPhone and Android, no app needed",
+        "Configured and tested before delivery"
+      ]
+    },
+    "descriptionTitle": "The product",
+    "viewer3d": "3D",
+    "viewerPhoto": "Photo",
+    "viewerHint": "Drag to rotate",
+    "viewerModes": "View mode",
+    "storyEyebrow": "In action",
+    "storyTitle": "One tap. One review.",
+    "storySubtitle": "Scroll down: this is exactly what your customers experience.",
+    "storySteps": [
+      "Your customer brings their phone close",
+      "The NFC notification pops up",
+      "Your Google review page opens",
+      "Five stars, posted"
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Your questions, answered",
+    "faq": [
+      {
+        "q": "Do my customers need an app?",
+        "a": "No. They simply bring their phone close and the page opens straight in the browser. Works with iPhone (XR, XS and newer) and NFC-enabled Android phones. Stands also carry a QR code for every other phone."
+      },
+      {
+        "q": "Can I change the link later?",
+        "a": "Yes, at any time. Every product carries a permanent smart link (onde.tn/t/…). The chip never changes: we update the destination remotely, in seconds. Google reviews today, your menu or Instagram tomorrow — nothing to reprint."
+      },
+      {
+        "q": "How do I find my Google review link?",
+        "a": "In Google Maps or Google Business Profile, open your listing and tap “Ask for reviews”: Google gives you a short link to copy. Can't find it? We'll get it with you on the confirmation call."
+      },
+      {
+        "q": "How much is delivery, and how long does it take?",
+        "a": "{fee} anywhere in Tunisia, and free from {threshold}. We call you to confirm the order, then deliver within 3 days."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "You pay cash on delivery. Nothing to pay online."
+      },
+      {
+        "q": "How does the −{pct}% discount work?",
+        "a": "After your first delivered order, your next order automatically gets −{pct}% (one time). We recognise you by your phone number — no code to remember."
+      },
+      {
+        "q": "Can I order on WhatsApp?",
+        "a": "Of course. The “Order on WhatsApp” button prepares a message with your selection: all you have to do is send it."
+      }
+    ],
+    "relatedEyebrow": "Complete your counter",
+    "relatedTitle": "You may also like",
+    "stickyAdd": "Add"
+  },
+  "freeDelivery": {
+    "remaining": "Only {amount} away from free delivery",
+    "unlocked": "Free delivery unlocked ✓",
+    "label": "Progress towards free delivery"
+  },
+  "summary": {
+    "subtotal": "Subtotal",
+    "discount": "Loyalty discount (−{pct}%)",
+    "delivery": "Delivery",
+    "free": "Free",
+    "total": "Total",
+    "cod": "To pay on delivery",
+    "items": "{count} items",
+    "itemsOne": "1 item",
+    "each": "{price} each"
+  },
+  "drawer": {
+    "title": "Your cart",
+    "close": "Close cart",
+    "remove": "Remove {name} from cart",
+    "removeLabel": "Remove",
+    "swipeHint": "Swipe an item left to remove it",
+    "business": "Business: {value}",
+    "link": "Link: {value}",
+    "checkout": "Checkout",
+    "returningHint": "Ordered before? −{pct}% applied automatically at the next step.",
+    "reassurance": "Delivered in 3 days max · Cash on delivery",
+    "emptyTitle": "Your cart is empty",
+    "emptyBody": "One tap is all it takes to collect reviews. Start with a stand — your customers will do the rest.",
+    "emptyCta": "Explore the shop"
+  },
+  "cartButton": {
+    "label": "Cart",
+    "labelCount": "Cart, {count} item(s)",
+    "added": "Added to cart",
+    "view": "View cart",
+    "checkout": "Checkout",
+    "dismiss": "Dismiss"
+  },
+  "checkout": {
+    "eyebrow": "Cash on delivery",
+    "title": "One last step.",
+    "subtitle": "Leave your details: we call you to confirm, then configure your order and deliver it in 3 days max.",
+    "contactTitle": "Your details",
+    "deliveryTitle": "Delivery",
+    "optional": "optional",
+    "name": "Full name",
+    "namePlaceholder": "e.g. Sarra Ben Ali",
+    "phone": "Phone",
+    "phonePlaceholder": "XX XXX XXX",
+    "phoneHelp": "We'll call this number to confirm your order.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "business": "Business name",
+    "businessPlaceholder": "e.g. Café Lumière",
+    "governorate": "Governorate",
+    "governoratePlaceholder": "Choose…",
+    "city": "City",
+    "cityPlaceholder": "e.g. La Marsa",
+    "address": "Address",
+    "addressPlaceholder": "Street, number, building, landmark…",
+    "notes": "Order notes",
+    "notesPlaceholder": "Delivery time, stand colour, any details…",
+    "honeypot": "Leave this field empty",
+    "errors": {
+      "name": "Please enter your name (at least 2 characters).",
+      "phone": "Expected an 8-digit Tunisian number (e.g. 25 875 529).",
+      "email": "This email address doesn't look valid.",
+      "governorate": "Please choose your governorate.",
+      "city": "Please enter your city.",
+      "address": "Please enter a complete delivery address.",
+      "tooLong": "This text is too long.",
+      "generic": "Please check this field.",
+      "summary": "A few fields need your attention.",
+      "empty": "Your cart is empty.",
+      "closed": "Online orders are paused for now. Order on WhatsApp — we reply fast.",
+      "rate": "Too many attempts. Please wait a minute and try again.",
+      "network": "Can't connect. Check your network or order on WhatsApp.",
+      "server": "Something went wrong. Try again, or order on WhatsApp.",
+      "items": "An item in your cart has an issue. Please check it and try again.",
+      "unavailable": "No longer available — remove it to continue."
+    },
+    "returningTitle": "Welcome back!",
+    "returningBody": "−{pct}% applied to your order.",
+    "checking": "Checking your discount…",
+    "submit": "Place order",
+    "submitting": "Sending…",
+    "placed": "Order sent",
+    "noPayNow": "You don't pay anything now.",
+    "or": "or",
+    "whatsappHint": "Prefer WhatsApp? Send the same order in one message.",
+    "whatsappRecorded": "Your details are complete: the order is saved, then sent on WhatsApp.",
+    "whatsappSaving": "Saving…",
+    "summaryTitle": "Order summary",
+    "showSummary": "Show order summary",
+    "hideSummary": "Hide order summary",
+    "edit": "Edit cart",
+    "closedBanner": "Online orders are paused for now — you can still order on WhatsApp.",
+    "emptyTitle": "Your cart is empty",
+    "emptyBody": "Add a stand, a card or a sticker to place an order.",
+    "emptyCta": "Explore the shop",
+    "privacy": "Your details are only used to deliver and configure your order.",
+    "legalConsent": "By confirming my order, here or on WhatsApp, I accept ONDE's {terms} and {privacy}, including sharing my details with the courier and their hosting in the United Kingdom.",
+    "legalTerms": "terms of sale",
+    "legalPrivacy": "privacy policy"
+  },
+  "order": {
+    "eyebrow": "Order received",
+    "title": "Thank you, it's in!",
+    "number": "Order number",
+    "copy": "Copy number",
+    "copied": "Copied",
+    "callTitle": "We'll call you to confirm your order.",
+    "callBody": "Keep your phone close: the ONDE team will contact you to confirm the details and your link setup. Once confirmed, your order is delivered within 3 days.",
+    "statusTitle": "Order tracking",
+    "status": {
+      "new": "Received",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "cancelledNote": "This order was cancelled. Any questions? Message us on WhatsApp.",
+    "summaryTitle": "Your order",
+    "deliveryTo": "Delivery to {city}",
+    "payment": "Cash on delivery",
+    "whatsapp": "Follow up on WhatsApp",
+    "continue": "Continue shopping",
+    "nextDiscount": "Bonus: once this order is delivered, your next one is −{pct}%."
+  },
+  "whatsapp": {
+    "greeting": "Hello ONDE 👋",
+    "orderRef": "Order {number}",
+    "intro": "I'd like to order:",
+    "line": "• {qty} × {name} — {total}",
+    "lineBusiness": "   Business: {value}",
+    "lineLink": "   Link to configure: {value}",
+    "subtotal": "Subtotal: {value}",
+    "discount": "Loyalty discount (−{pct}%): −{value}",
+    "delivery": "Delivery: {value}",
+    "free": "free",
+    "total": "*Total: {value}*",
+    "payment": "Cash on delivery.",
+    "customerTitle": "My details:",
+    "name": "Name: {value}",
+    "phone": "Phone: {value}",
+    "email": "Email: {value}",
+    "businessName": "Business: {value}",
+    "address": "Address: {value}",
+    "notes": "Notes: {value}",
+    "inquiry": "Hello ONDE 👋 I have a question about your NFC products.",
+    "followUp": "Hello ONDE 👋 I just placed order {number} ({total}) on the website.",
+    "newTab": "(opens WhatsApp)"
+  }
+}

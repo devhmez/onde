@@ -1,0 +1,134 @@
+{
+  "org": {
+    "description": "ONDE (onde.tn) is a Tunisian startup selling NFC stands, cards, keychains and stickers that collect Google reviews in one tap. Delivered anywhere in Tunisia, cash on delivery."
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home",
+    "shop": "Shop"
+  },
+  "shop": {
+    "kicker": "Shop · Google review stands, NFC cards and stickers",
+    "itemListName": "ONDE NFC products",
+    "faqEyebrow": "Before you order",
+    "faqTitle": "Your buying questions",
+    "faq": [
+      {
+        "q": "How much is an NFC Google review stand at ONDE?",
+        "a": "The Google review stand (NFC + QR code, 12 × 12 cm) is {stand}, the NFC card {card}, the NFC keychain {keychain} and the NFC sticker {sticker}. Prices are in Tunisian dinars and paid on delivery; delivery costs {fee} and is free from {threshold}."
+      },
+      {
+        "q": "Is there a subscription or a monthly fee?",
+        "a": "No. The ONDE smart link is included in the price of the product, with no subscription: you pay once. Changing where the link leads is part of that included service."
+      },
+      {
+        "q": "Stand, sticker, card or keychain: which one should I choose?",
+        "a": "The stand sits on the counter or by the till, where every customer passes. Stickers make tables, menus and shop windows tappable. The NFC card goes with your waiters or sales reps, the keychain with people on the move. For a café or restaurant, the Café Pack combines 2 stands and 4 stickers.",
+        "link": { "href": "/restaurants", "label": "Tips for restaurants and cafés" }
+      },
+      {
+        "q": "Do I have to program the NFC chip myself?",
+        "a": "No. These aren't blank tags: every product arrives configured with your ONDE link and tested before shipping. Put it down, your customers tap."
+      },
+      {
+        "q": "What if my customer's phone has no NFC?",
+        "a": "The stands also carry a printed QR code that leads to the same link: any smartphone camera can scan it."
+      },
+      {
+        "q": "Do I need my Google review link to order?",
+        "a": "No, it's optional. You can paste it when you order; otherwise we find it with you during the confirmation call.",
+        "link": { "href": "/guides/google-review-link", "label": "Find your Google review link" }
+      },
+      {
+        "q": "Can I equip several counters, venues or a whole team?",
+        "a": "Yes. Every product carries its own link: one per venue, per counter or per team member. The Team Pack bundles 5 NFC cards; for a larger order, message us on WhatsApp."
+      }
+    ]
+  },
+  "product": {
+    "guidesEyebrow": "Practical guides",
+    "guidesTitle": "Get started with your Google reviews"
+  },
+  "guideLinks": [
+    {
+      "href": "/guides/google-review-link",
+      "title": "Find your Google review link",
+      "body": "Where to copy it, how to test it, and how to turn it into a free QR code."
+    },
+    {
+      "href": "/guides/get-more-google-reviews",
+      "title": "Get more Google reviews",
+      "body": "The methods that work, and what Google forbids."
+    },
+    {
+      "href": "/restaurants",
+      "title": "Restaurants & cafés",
+      "body": "Where to place stands, stickers and cards to collect reviews every day."
+    }
+  ],
+  "products": {
+    "stand-white": {
+      "title": "Google Review NFC Stand – White, 12×12 cm | ONDE",
+      "description": "NFC + QR Google review stand in clear acrylic with a white print: one tap opens your review page. {price}, no subscription, delivered in 3 days in Tunisia.",
+      "kicker": "Google review NFC stand · 12 × 12 cm",
+      "lead": "Our NFC Google review plaque: one tap, or a scan of its QR code, and your Google review page opens. {price}, no subscription: the smart link is included.",
+      "category": "NFC Google review stand",
+      "color": "White"
+    },
+    "stand-black": {
+      "title": "Black Google Review NFC Stand for Bars & Lounges | ONDE",
+      "description": "NFC + QR Google review stand with a gloss black print, for bars, lounges, barbershops and restaurants. {price}, no subscription, delivered in 3 days.",
+      "kicker": "Google review NFC stand · Black",
+      "lead": "The black version of our Google review NFC stand, made for low-lit venues: bars, lounges, barbershops, upscale restaurants. Same tap, same QR code, same smart link included with no subscription, for {price}.",
+      "category": "NFC Google review stand",
+      "color": "Black"
+    },
+    "card": {
+      "title": "NFC Business Card & Google Review Card | ONDE",
+      "description": "Matte black NFC card: Google reviews, WhatsApp, Instagram or a contact card in one tap. {price}, no subscription, nothing to program, delivered in 3 days.",
+      "kicker": "NFC card · Digital business card",
+      "lead": "NFC business card or Google review card: it's the same card, only the destination changes. {price}, no subscription and nothing to program: we configure and test it before shipping.",
+      "category": "NFC card",
+      "color": ""
+    },
+    "keychain": {
+      "title": "NFC Keychain for Google Reviews, Instagram & WhatsApp | ONDE",
+      "description": "Light, durable NFC keychain: one tap opens your Google review page, Instagram or WhatsApp. {price}, no subscription, delivered in 3 days anywhere in Tunisia.",
+      "kicker": "NFC keychain",
+      "lead": "The NFC keychain for people on the move: delivery riders, drivers, technicians, coaches. {price}, no subscription, already configured with your ONDE link.",
+      "category": "NFC keychain",
+      "color": ""
+    },
+    "sticker": {
+      "title": "NFC Sticker for Google Reviews, Menus & Instagram | ONDE",
+      "description": "Adhesive NFC sticker for tables, menus and windows: one tap opens your Google reviews, menu or Instagram. {price}, preconfigured, delivered in 3 days.",
+      "kicker": "NFC sticker · Google review sticker",
+      "lead": "It isn't a blank tag: the sticker arrives already configured with your ONDE link. Stick it, customers tap. {price}, no subscription, and the destination can be changed remotely: Google reviews, menu, Instagram, TikTok…",
+      "category": "NFC sticker",
+      "color": ""
+    },
+    "pack-cafe": {
+      "title": "Café Pack: 2 Google Review Stands + 4 NFC Stickers | ONDE",
+      "description": "2 NFC Google review stands + 4 NFC stickers for your counter, terrace and tables. {price} for the pack, no subscription, delivered ready to use in 3 days.",
+      "kicker": "Café & restaurant pack",
+      "lead": "The Google review kit for cafés and restaurants: one stand on the counter, one on the terrace, stickers on the tables. {price} for the pack, each piece with its own smart link, no subscription. See also our [tips for restaurants and cafés](/restaurants).",
+      "category": "NFC stands and stickers pack",
+      "color": ""
+    },
+    "pack-team": {
+      "title": "Team Pack: 5 NFC Google Review Cards | ONDE",
+      "description": "5 NFC cards for your waiters, sales reps or front desk: Google reviews, Instagram or contact in one tap. {price} per pack, no subscription, 3-day delivery.",
+      "kicker": "5 NFC cards pack · Team",
+      "lead": "Five NFC cards for your team, each with its own link: all to your Google review page, or one destination per person. {price} for the pack, no subscription.",
+      "category": "NFC cards pack",
+      "color": ""
+    }
+  },
+  "kinds": {
+    "stand": { "kicker": "Google review NFC stand", "category": "NFC Google review stand" },
+    "card": { "kicker": "NFC card", "category": "NFC card" },
+    "keychain": { "kicker": "NFC keychain", "category": "NFC keychain" },
+    "sticker": { "kicker": "NFC sticker", "category": "NFC sticker" },
+    "pack": { "kicker": "NFC pack", "category": "NFC product pack" }
+  }
+}

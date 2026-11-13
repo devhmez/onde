@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "À propos d'ONDE, startup tunisienne · Le film | ONDE",
+    "description": "ONDE (onde.tn), startup tunisienne, aide les commerces à recevoir plus d'avis Google grâce au NFC. Regardez notre film de 41 secondes pour comprendre.",
+    "ogAlt": "ONDE — présentoir d'avis NFC sur un comptoir, lumière violette"
+  },
+  "hero": {
+    "eyebrow": "À propos d'ONDE",
+    "title": "Le film.",
+    "lead": "41 secondes pour comprendre pourquoi un seul tap peut changer la réputation d'un commerce.",
+    "scroll": "Défilez pour l'histoire"
+  },
+  "player": {
+    "title": "ONDE — Le film",
+    "watch": "Regarder le film",
+    "resume": "Reprendre",
+    "replay": "Revoir le film",
+    "play": "Lire",
+    "pause": "Pause",
+    "mute": "Couper le son",
+    "unmute": "Activer le son",
+    "volume": "Volume",
+    "fullscreen": "Plein écran",
+    "exitFullscreen": "Quitter le plein écran",
+    "seek": "Position dans le film",
+    "of": "sur",
+    "chapters": "Chapitres",
+    "chapter": "Chapitre",
+    "loading": "Chargement…",
+    "error": "La vidéo n'a pas pu être chargée.",
+    "retry": "Réessayer",
+    "shortcuts": "Espace : lecture/pause · ← → : 5 s · M : son · F : plein écran",
+    "backToPlayer": "Revenir au film",
+    "closeMini": "Fermer le mini-lecteur",
+    "soundOn": "Avec le son, c'est mieux"
+  },
+  "chapters": [
+    {
+      "t": 0,
+      "label": "Le problème"
+    },
+    {
+      "t": 8,
+      "label": "La révélation"
+    },
+    {
+      "t": 14,
+      "label": "Tap. Avis. Croissance."
+    },
+    {
+      "t": 20,
+      "label": "Le lien intelligent"
+    },
+    {
+      "t": 26,
+      "label": "La gamme"
+    },
+    {
+      "t": 32,
+      "label": "Pourquoi ONDE"
+    }
+  ],
+  "why": {
+    "eyebrow": "Pourquoi ONDE existe",
+    "line1": "Vos clients les plus heureux partent…",
+    "line2": "…sans laisser d'avis.",
+    "body": "Ce n'est pas de la mauvaise volonté. Chercher le commerce, trouver la fiche, faire défiler, se connecter, écrire : il y a trop d'étapes entre « c'était génial » et cinq étoiles publiées. Pendant ce temps, un seul client mécontent, lui, prend le temps d'écrire.",
+    "steps": [
+      "Chercher le nom",
+      "Trouver la fiche",
+      "Faire défiler",
+      "Se connecter",
+      "Écrire quelque chose"
+    ],
+    "stepsLabel": "Ce qu'il faut faire aujourd'hui pour laisser un avis",
+    "oneTap": "1 tap.",
+    "oneTapSub": "= 1 avis Google"
+  },
+  "stats": {
+    "eyebrow": "Les chiffres",
+    "title": "Les avis sont devenus le nouveau bouche-à-oreille.",
+    "sourceLabel": "Source",
+    "items": [
+      {
+        "kicker": "Le nouveau bouche-à-oreille",
+        "from": 0,
+        "to": 97,
+        "suffix": " %",
+        "label": "des gens lisent les avis avant de choisir un commerce local.",
+        "note": "",
+        "source": "BrightLocal · Local Consumer Review Survey 2026 (1 002 adultes, États-Unis)"
+      },
+      {
+        "kicker": "La barre est haute",
+        "from": 0,
+        "to": 68,
+        "suffix": " %",
+        "label": "ne choisissent que des commerces notés 4 étoiles ou plus.",
+        "note": "31 % ne descendent pas sous 4,5 ★",
+        "source": "BrightLocal · Local Consumer Review Survey 2026 (1 002 adultes, États-Unis)"
+      },
+      {
+        "kicker": "Chaque étoile compte",
+        "from": 5,
+        "to": 9,
+        "suffix": " %",
+        "label": "de chiffre d'affaires en plus pour une seule étoile gagnée.",
+        "note": "",
+        "source": "Harvard Business School · M. Luca, « Reviews, Reputation, and Revenue: The Case of Yelp.com » (restaurants indépendants)"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "La solution",
+    "titleA": "Et si ça ne prenait",
+    "titleB": "qu'un tap ?",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Tap.",
+        "body": "Votre client approche son téléphone du produit ONDE. Pas d'appli, pas de recherche, pas de compte à créer."
+      },
+      {
+        "n": "02",
+        "title": "Avis.",
+        "body": "Votre page d'avis Google s'ouvre instantanément. Cinq étoiles, deux lignes, publié."
+      },
+      {
+        "n": "03",
+        "title": "Croissance.",
+        "body": "Plus d'avis, une meilleure note, une meilleure place sur Google Maps. Et plus de clients qui poussent la porte."
+      }
+    ],
+    "phonesTitle": "Tous les téléphones. À chaque fois.",
+    "phonesBody": "Le NFC fonctionne sur les iPhone XR, XS et plus récents et sur les Android équipés du NFC. Pour tous les autres, un QR code mène au même lien intelligent.",
+    "nfc": "Tap NFC",
+    "qr": "ou scan QR",
+    "noApp": "Aucune application à installer.",
+    "banner": "onde.tn",
+    "bannerSub": "Tag NFC · Ouvrir",
+    "post": "Publier",
+    "illoTap": "Un téléphone touche le présentoir ONDE, des ondes NFC apparaissent",
+    "illoReview": "La page d'avis Google s'ouvre et les cinq étoiles se remplissent",
+    "illoGrow": "L'établissement remonte en tête de la liste"
+  },
+  "link": {
+    "eyebrow": "Le lien intelligent",
+    "titleA": "La puce ne change jamais.",
+    "titleB": "La destination, si.",
+    "body": "Chaque produit ONDE porte un lien permanent, écrit une seule fois dans la puce. Avis Google aujourd'hui, menu ce soir, Instagram demain : la destination change à distance, en quelques secondes. Pas de réimpression. Pas de nouvelle puce.",
+    "chip": "Puce NFC",
+    "chipSub": "écrite une seule fois",
+    "permanent": "Lien permanent",
+    "cloud": "ONDE Cloud",
+    "updated": "Mis à jour en direct",
+    "exampleNote": "Code d'exemple",
+    "destinations": [
+      "Avis Google",
+      "Instagram",
+      "TikTok",
+      "Menu digital",
+      "Site web",
+      "Carte de contact"
+    ],
+    "futureTitle": "Les avis aujourd'hui. Tout le reste demain.",
+    "futureBody": "Même puce, même lien — de nouvelles destinations quand vous êtes prêt."
+  },
+  "tunisia": {
+    "eyebrow": "Made in Tunisia",
+    "titleA": "Conçu, fabriqué",
+    "titleB": "et accompagné en Tunisie.",
+    "body": "ONDE (onde.tn) est une startup tunisienne au service des commerces de tout le pays. On programme chaque produit, on le livre, et on reste joignable après — parce qu'un lien qui fonctionne pendant des années, ça s'entretient.",
+    "pillars": [
+      {
+        "title": "Support local",
+        "body": "Une vraie équipe, joignable 7j/7 sur WhatsApp."
+      },
+      {
+        "title": "Paiement à la livraison",
+        "body": "Vous payez en espèces à la réception de votre commande."
+      },
+      {
+        "title": "Livraison en 3 jours max",
+        "body": "Après confirmation, partout en Tunisie. Gratuite dès {threshold}."
+      },
+      {
+        "title": "Programmé et verrouillé",
+        "body": "Chaque puce est programmée puis verrouillée par nos soins avant l'envoi."
+      }
+    ],
+    "marquee": "Livraison dans les 24 gouvernorats"
+  },
+  "counters": {
+    "eyebrow": "Fait pour chaque comptoir",
+    "items": [
+      "Cafés",
+      "Restaurants",
+      "Boulangeries",
+      "Salons",
+      "Spas",
+      "Barbiers",
+      "Hôtels",
+      "Cliniques",
+      "Salles de sport",
+      "Boutiques"
+    ],
+    "tagline": "Si vos clients vous aiment, ONDE s'assure que le monde entier le sache."
+  },
+  "cta": {
+    "eyebrow": "onde.tn",
+    "titleA": "Petit tap.",
+    "titleB": "Grand impact.",
+    "body": "Mettez ONDE sur votre comptoir dès cette semaine. Livraison en 3 jours max, gratuite dès {threshold}, paiement à la livraison.",
+    "shop": "Voir la boutique",
+    "whatsapp": "Commander sur WhatsApp",
+    "waMessage": "Bonjour ONDE 👋 J'ai vu le film et je voudrais commander."
+  }
+}

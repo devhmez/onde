@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "The film",
+    "contact": "Contact",
+    "cart": "Cart",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Main navigation",
+    "language": "Language",
+    "switchLocale": "Lire cette page en français",
+    "skipToContent": "Skip to content",
+    "homeLabel": "ONDE — back to home"
+  },
+  "cta": {
+    "order": "Order now",
+    "orderWhatsapp": "Order on WhatsApp",
+    "watchFilm": "Watch the film",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "intro": {
+    "skip": "Skip intro",
+    "tagline": "Tap · Review · Grow"
+  },
+  "whatsapp": {
+    "message": "Hi ONDE! I'd like to order an NFC product for my business."
+  },
+  "footer": {
+    "pitch": "ONDE (onde.tn) is a Tunisian startup that turns happy customers into Google reviews, with NFC stands, cards, keychains and stickers configured before shipping.",
+    "tagline": "Small tap. Big impact.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "follow": "Follow ONDE",
+    "legal": "Information",
+    "terms": "Terms & conditions",
+    "privacy": "Privacy",
+    "notice": "Legal notice",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "delivery": "Delivered in 3 days max all over Tunisia · Cash on delivery",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "guides": "Guides",
+    "guideReviewLink": "Find your Google review link",
+    "guideMoreReviews": "Get more Google reviews",
+    "restaurants": "Restaurants & cafés"
+  },
+  "meta": {
+    "title": "ONDE — One tap, one Google review",
+    "description": "NFC review stands, cards, keychains and stickers that turn every happy customer into a Google review. One tap, no app. Delivered in 3 days max all over Tunisia, cash on delivery.",
+    "ogAlt": "ONDE — NFC review stands and cards that collect Google reviews"
+  },
+  "cursor": {
+    "drag": "Drag",
+    "play": "Play",
+    "view": "View"
+  },
+  "status": {
+    "loading": "Loading…"
+  }
+}

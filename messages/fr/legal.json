@@ -1,0 +1,453 @@
+{
+  "common": {
+    "eyebrow": "Légal",
+    "updated": "Dernière mise à jour : {date}",
+    "updatedDate": "13 octobre 2026",
+    "toc": "Sommaire",
+    "readingTime": "{min} min de lecture",
+    "print": "Imprimer",
+    "nav": {
+      "label": "Documents légaux",
+      "terms": "Conditions générales de vente",
+      "privacy": "Confidentialité",
+      "notice": "Mentions légales"
+    },
+    "emailClause": " ou par e-mail à {email}",
+    "identity": {
+      "legalName": "Raison sociale / nom commercial : {legalName}",
+      "taxId": "Matricule fiscal / RNE : {taxId}",
+      "address": "Adresse : {address}"
+    },
+    "contactTitle": "Une question sur ce document ?",
+    "contactBody": "On vous répond simplement, sans jargon.",
+    "whatsapp": "Nous écrire sur WhatsApp",
+    "waMessage": "Bonjour ONDE, j'ai une question sur vos documents légaux (CGV, confidentialité, mentions légales) :"
+  },
+  "terms": {
+    "meta": {
+      "title": "Conditions générales de vente | ONDE",
+      "description": "CGV ONDE : produits NFC, prix en dinars, livraison en 3 jours partout en Tunisie, paiement à la livraison, offre client fidèle, retours, lien intelligent."
+    },
+    "title": "Conditions générales de vente",
+    "intro": "Ces conditions s'appliquent à toute commande de produits ONDE, passée sur onde.tn, par WhatsApp ou par téléphone. Nous les avons voulues claires : si un point vous semble flou, écrivez-nous.",
+    "sections": [
+      {
+        "id": "objet",
+        "title": "Objet et champ d'application",
+        "blocks": [
+          "Les présentes conditions générales de vente (« CGV ») régissent les ventes conclues entre ONDE (onde.tn) et toute personne, particulier ou professionnel, qui passe commande (« le Client »), quel que soit le canal utilisé : formulaire de commande du site, WhatsApp ou téléphone.",
+          "Toute commande implique l'acceptation sans réserve des CGV en vigueur à la date de la commande. Elles s'inscrivent dans le cadre de la législation tunisienne, notamment la loi n° 2000-83 du 9 août 2000 relative aux échanges et au commerce électroniques et la loi n° 92-117 du 7 décembre 1992 relative à la protection du consommateur."
+        ]
+      },
+      {
+        "id": "produits",
+        "title": "Produits",
+        "blocks": [
+          "ONDE vend des produits équipés d'une puce NFC et reliés à un lien intelligent (voir l'article « Service de lien intelligent ») :",
+          {
+            "list": [
+              "présentoirs d'avis en acrylique (blanc ou noir) ;",
+              "cartes NFC ;",
+              "porte-clés NFC ;",
+              "stickers NFC ;",
+              "packs regroupant plusieurs de ces produits."
+            ]
+          },
+          "Les photos et visuels sont aussi fidèles que possible ; de légères variations de teinte ou de finition peuvent exister sans affecter l'usage du produit.",
+          "Le tap NFC fonctionne sur les iPhone XR, XS et plus récents et sur les smartphones Android équipés du NFC (fonction activée). Lorsqu'un QR code figure sur le produit, il mène au même lien intelligent et fonctionne avec l'appareil photo de n'importe quel smartphone."
+        ]
+      },
+      {
+        "id": "prix",
+        "title": "Prix",
+        "blocks": [
+          "Les prix sont indiqués en dinars tunisiens (DT). Ce sont des prix finaux : en dehors des éventuels frais de livraison, aucun frais supplémentaire n'est ajouté.",
+          "Le prix applicable est celui affiché au moment de la validation de la commande. ONDE peut modifier ses prix à tout moment, sans effet sur les commandes déjà validées.",
+          "Prix promotionnels : lorsqu'un produit est en promotion (par exemple le prix de lancement des présentoirs), le prix habituel est affiché barré à côté du prix promotionnel, avec un compte à rebours jusqu'à la fin de l'offre. À la fin de l'offre, le prix habituel s'applique automatiquement.",
+          "Le récapitulatif affiché avant validation détaille le sous-total des articles, l'éventuelle remise, les frais de livraison et le total à payer."
+        ]
+      },
+      {
+        "id": "commande",
+        "title": "Commande",
+        "blocks": [
+          "Pour commander, le Client renseigne les produits souhaités et ses coordonnées : nom, numéro de téléphone tunisien, adresse, ville et gouvernorat (e-mail facultatif). Il peut indiquer le nom de son établissement et le lien vers lequel chaque produit doit renvoyer.",
+          "Chaque commande reçoit un numéro (par exemple OND-1001). ONDE contacte le Client par téléphone ou WhatsApp pour la confirmer avant l'expédition : la vente est conclue à cette confirmation, qui tient lieu de l'acceptation prévue par l'article 28 de la loi n° 2000-83. Sur simple demande, ONDE remet au Client un récapitulatif écrit de sa commande.",
+          "ONDE peut refuser ou annuler une commande en cas d'informations incomplètes ou erronées, de Client injoignable, ou de commande présentant un caractère anormal. Le Client en est informé et aucune somme ne lui est due, le paiement n'intervenant qu'à la livraison."
+        ]
+      },
+      {
+        "id": "paiement",
+        "title": "Paiement",
+        "blocks": [
+          "Le paiement s'effectue en espèces, à la livraison, auprès du livreur, pour le montant total indiqué lors de la commande. Aucun paiement anticipé n'est demandé.",
+          "Si d'autres moyens de paiement sont proposés à l'avenir, ces CGV seront mises à jour en conséquence."
+        ]
+      },
+      {
+        "id": "livraison",
+        "title": "Livraison",
+        "blocks": [
+          "ONDE livre dans les 24 gouvernorats de Tunisie, à l'adresse indiquée par le Client.",
+          {
+            "list": [
+              "Délai : 3 jours maximum après confirmation de la commande, partout en Tunisie.",
+              "Frais de livraison : {deliveryFee} par commande.",
+              "Livraison gratuite lorsque le sous-total des articles (avant remise) atteint {threshold}."
+            ]
+          },
+          "Si ce délai n'est pas respecté pour une raison imputable à ONDE, le Client peut refuser le colis sans rien payer ou, s'il l'a accepté, nous le retourner en l'état dans les 10 jours ouvrables suivant la livraison : ONDE lui rembourse alors la somme payée et les frais engagés dans les 10 jours ouvrables suivant la restitution (article 31 de la loi n° 2000-83).",
+          "Si un événement indépendant de notre volonté (intempéries, grève, force majeure) retarde exceptionnellement une livraison, ONDE prévient le Client, qui peut alors annuler sa commande sans frais.",
+          "À la réception, le Client vérifie l'état du colis et signale tout dommage visible au livreur et à ONDE le plus tôt possible, de préférence dans les 48 h, photos à l'appui.",
+          "En cas d'absence répétée ou de refus du colis sans motif valable, ONDE peut annuler la commande."
+        ]
+      },
+      {
+        "id": "fidelite",
+        "title": "Offre client fidèle (−{pct} %)",
+        "blocks": [
+          "Une fois une commande livrée, le Client bénéficie d'une remise unique de {pct} % sur sa commande suivante, dans les conditions suivantes :",
+          {
+            "list": [
+              "le Client est reconnu grâce à son numéro de téléphone : il doit commander avec le même numéro ;",
+              "la remise s'applique au sous-total des articles, hors frais de livraison ;",
+              "elle est appliquée automatiquement et affichée avant la validation de la commande ;",
+              "c'est un avantage unique, utilisable une seule fois par Client ; il s'applique aussi aux prix promotionnels affichés, et n'est ni cessible, ni convertible en espèces ;",
+              "si la commande remisée est annulée, l'avantage est rétabli pour la commande suivante."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "retours",
+        "title": "Retours, rétractation et remboursements",
+        "blocks": [
+          "Produit défectueux ou non conforme : si un produit arrive endommagé, si sa puce ne fonctionne pas ou s'il ne correspond pas à la commande (par exemple une erreur d'impression qui nous est imputable), le Client nous le signale dans les 10 jours ouvrables suivant la livraison (photo ou vidéo sur WhatsApp). ONDE propose de remplacer le produit ; si le Client préfère, il le retourne et ONDE lui rembourse la somme payée et les frais engagés (livraison et retour) dans les 10 jours ouvrables suivant la restitution. Un défaut caché découvert plus tard reste couvert par les garanties légales.",
+          "Droit de rétractation : conformément à l'article 30 de la loi n° 2000-83 du 9 août 2000, le Client consommateur peut se rétracter, sans avoir à se justifier, dans un délai de 10 jours ouvrables à compter de la réception du produit, en nous prévenant sur WhatsApp ou par téléphone au {phone}{emailClause}. Le produit nous est retourné complet et en bon état ; les frais de retour sont à sa charge. ONDE rembourse le montant payé dans les 10 jours ouvrables suivant le retour du produit, par le moyen convenu avec le Client (espèces, virement ou mandat).",
+          "Conformément à l'article 32 de la même loi, la rétractation ne s'applique pas aux produits confectionnés selon les spécifications du Client (par exemple imprimés au nom ou au logo de son établissement), sauf vice apparent ou caché.",
+          "Ne sont pas couverts : les dommages résultant d'une chute, d'une mauvaise utilisation, d'une modification du produit ou de l'usure normale."
+        ]
+      },
+      {
+        "id": "lien",
+        "title": "Service de lien intelligent",
+        "blocks": [
+          "Chaque produit ONDE contient un lien permanent de la forme onde.tn/t/CODE, écrit une seule fois dans la puce puis verrouillé. ONDE redirige ce lien vers la destination choisie par le Client : page d'avis Google, réseau social, menu digital, site web, carte de contact, etc.",
+          {
+            "list": [
+              "Le service est inclus dans le prix du produit, sans abonnement.",
+              "Le Client peut demander à tout moment de changer la destination (WhatsApp ou téléphone) : le changement est appliqué à distance, sans réimpression ni nouvelle puce.",
+              "ONDE maintient le lien actif, sans limite de durée, tant que le service ONDE est exploité ; s'il devait s'arrêter, les Clients en seraient prévenus au moins 3 mois à l'avance."
+            ]
+          },
+          "Le Client est seul responsable du contenu de la destination choisie et du respect des règles des plateformes concernées. Par exemple, les règles de Google interdisent d'offrir une contrepartie en échange d'un avis.",
+          "ONDE peut désactiver ou suspendre une destination abusive : contenu illicite, trompeur, frauduleux (hameçonnage), malveillant, portant atteinte aux droits de tiers ou contraire aux règles des plateformes. En cas d'urgence, la désactivation peut intervenir sans préavis ; le Client en est alors informé.",
+          "ONDE met en œuvre des moyens raisonnables pour assurer la disponibilité du service, sans pouvoir garantir l'absence d'interruption (maintenance, panne d'un service tiers, compatibilité d'un téléphone)."
+        ]
+      },
+      {
+        "id": "responsabilite",
+        "title": "Garanties et responsabilité",
+        "blocks": [
+          "Les produits bénéficient des garanties prévues par la loi tunisienne. ONDE fournit un outil qui facilite le dépôt d'avis : ONDE ne garantit ni un nombre d'avis, ni une note, ni un résultat commercial.",
+          "La responsabilité d'ONDE ne saurait être engagée pour un dommage indirect, ni pour une indisponibilité imputable à un tiers (opérateur mobile, plateforme de destination, transporteur) ou à un cas de force majeure."
+        ]
+      },
+      {
+        "id": "propriete",
+        "title": "Propriété intellectuelle",
+        "blocks": [
+          "Le logo ONDE, le film, les modèles et rendus 3D, les photos, les visuels des produits, les textes et le code propre au site sont protégés par le droit d'auteur (loi n° 94-36 du 24 février 1994 relative à la propriété littéraire et artistique, modifiée et complétée par la loi n° 2009-33 du 23 juin 2009) et appartiennent à ONDE ; le nom ONDE est protégé en tant que signe distinctif. Toute reproduction, représentation ou adaptation, totale ou partielle, sans l'autorisation écrite préalable d'ONDE est interdite.",
+          "L'achat d'un produit ne transfère au Client aucun droit sur ces créations. Le Client reste titulaire des droits sur son logo, le nom de son établissement et les contenus qu'il transmet pour la personnalisation ; il garantit pouvoir les utiliser et autorise ONDE à les reproduire uniquement pour réaliser sa commande.",
+          "Google, Apple, Meta, TikTok et les autres marques citées sur le site appartiennent à leurs titulaires respectifs ; ONDE n'est ni affilié à ces sociétés, ni approuvé par elles. Le détail figure dans nos mentions légales."
+        ]
+      },
+      {
+        "id": "donnees",
+        "title": "Données personnelles",
+        "blocks": [
+          "Les données collectées lors d'une commande sont utilisées uniquement pour la traiter, la livrer, configurer les liens intelligents et appliquer l'offre client fidèle. Le détail, y compris leur hébergement au Royaume-Uni, figure dans notre politique de confidentialité."
+        ]
+      },
+      {
+        "id": "droit",
+        "title": "Droit applicable et litiges",
+        "blocks": [
+          "Les présentes CGV sont soumises au droit tunisien. En cas de différend, le Client et ONDE recherchent d'abord une solution amiable. À défaut, les tribunaux tunisiens compétents seront saisis.",
+          "ONDE peut modifier les CGV à tout moment ; la version applicable est celle en vigueur à la date de la commande."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "blocks": [
+          "Pour toute question : WhatsApp ou téléphone au {phone}{emailClause}. {addressLine}"
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité | ONDE",
+      "description": "Ce qu'ONDE collecte (commandes, statistiques de taps pseudonymisées), pourquoi, combien de temps et comment exercer vos droits. Aucun traceur publicitaire."
+    },
+    "title": "Politique de confidentialité",
+    "intro": "Version courte : nous collectons le strict nécessaire pour livrer vos commandes et faire fonctionner vos liens. Pas de traceur publicitaire, pas de revente de données. Version complète ci-dessous.",
+    "highlights": [
+      "Aucun traceur publicitaire",
+      "Aucune adresse IP stockée en clair",
+      "Aucune revente de données",
+      "Accès et suppression sur demande"
+    ],
+    "sections": [
+      {
+        "id": "responsable",
+        "title": "Qui sommes-nous",
+        "blocks": [
+          "ONDE (onde.tn) est responsable du traitement des données décrites ici. Vous pouvez nous joindre sur WhatsApp ou par téléphone au {phone}{emailClause}.",
+          {
+            "list": [
+              "{legalNameLine}",
+              "{taxIdLine}",
+              "{addressLine}"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commandes",
+        "title": "Données de commande",
+        "blocks": [
+          "Lorsque vous commandez, nous enregistrons :",
+          {
+            "list": [
+              "votre nom, votre numéro de téléphone et, si vous le donnez, votre e-mail ;",
+              "le nom de votre établissement, si vous l'indiquez ;",
+              "votre adresse de livraison, ville et gouvernorat, et vos éventuelles notes ;",
+              "les produits commandés, les montants et les liens de destination souhaités ;",
+              "l'historique de vos commandes, qui permet d'appliquer l'offre client fidèle."
+            ]
+          },
+          "Le nom, le téléphone, l'adresse, la ville et le gouvernorat sont nécessaires pour livrer : sans eux, la commande ne peut pas être traitée. L'e-mail, le nom de l'établissement, les liens et les notes sont facultatifs.",
+          "Ces données servent à confirmer, préparer et livrer votre commande, à configurer vos liens intelligents, à vous contacter au sujet de votre commande et à appliquer la remise client fidèle."
+        ]
+      },
+      {
+        "id": "taps",
+        "title": "Statistiques de taps (pseudonymisées)",
+        "blocks": [
+          "Quand quelqu'un tape ou scanne un produit ONDE, nous enregistrons de quoi compter les visites, sans chercher à identifier la personne :",
+          {
+            "list": [
+              "la date et l'heure ;",
+              "la source : tap NFC ou scan QR ;",
+              "le type d'appareil : iOS, Android, ordinateur ou autre ;",
+              "le site d'origine, s'il est transmis par le navigateur ;",
+              "une empreinte à sens unique de l'adresse IP, calculée avec la date du jour et une clé secrète, qui change donc chaque jour."
+            ]
+          },
+          "L'adresse IP n'est jamais enregistrée en clair. L'empreinte sert uniquement à compter les visiteurs uniques d'une journée ; nous ne l'utilisons pas pour suivre une personne. Nous ne collectons ni nom, ni numéro, ni compte de la personne qui tape.",
+          "Les visites du site sont mesurées de la même manière (page vue, langue, type d'appareil, site d'origine, empreinte quotidienne de l'adresse IP et du navigateur), sans cookie de mesure d'audience."
+        ]
+      },
+      {
+        "id": "jamais",
+        "title": "Ce que nous ne faisons pas",
+        "blocks": [
+          {
+            "list": [
+              "aucun traceur publicitaire ni pixel de réseau social ;",
+              "aucun outil d'analyse tiers ;",
+              "aucune vente, location ou cession de vos données ;",
+              "aucun profilage publicitaire."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies et stockage local",
+        "blocks": [
+          "Le site utilise uniquement :",
+          {
+            "list": [
+              "un cookie « onde-locale » qui mémorise votre langue pendant 1 an ;",
+              "le stockage local de votre navigateur pour votre panier (produits et, si vous les indiquez, nom de l'établissement et liens de destination), qui reste sur votre appareil jusqu'à votre commande ;",
+              "le stockage de session de votre navigateur, effacé à la fermeture de l'onglet, pour garder le formulaire de commande en cours de saisie si vous rechargez la page et retenir les animations déjà jouées (accueil, confirmation de commande) ;",
+              "un cookie de session réservé à l'équipe ONDE pour accéder à l'espace d'administration."
+            ]
+          },
+          "Aucun de ces éléments ne sert à la publicité ou au suivi entre sites."
+        ]
+      },
+      {
+        "id": "partage",
+        "title": "Avec qui vos données sont partagées",
+        "blocks": [
+          {
+            "list": [
+              "le transporteur, qui reçoit le nom, le téléphone, l'adresse et le montant à encaisser pour livrer votre colis ;",
+              "notre hébergeur OVHcloud, prestataire technique : le site et sa base de données fonctionnent sur un serveur privé virtuel (VPS) loué à OVHcloud et situé au Royaume-Uni. Vos données sont donc stockées hors de Tunisie, sur ce serveur protégé par les mesures de sécurité contractuelles d'OVHcloud (centre de données à accès contrôlé) et par les nôtres (voir « Sécurité ») ;",
+              "lorsque les notifications de nouvelles commandes sont activées, le service de notifications push des appareils de l'équipe ONDE (par exemple Apple pour un iPhone), qui achemine une courte alerte de nouvelle commande (nom, commerce, ville, produits, montant) vers ces appareils ; l'alerte est chiffrée de bout en bout, le service push ne peut donc pas la lire, et elle transite par des serveurs situés hors de Tunisie ;",
+              "WhatsApp (Meta), si vous choisissez de nous écrire par ce canal : ses propres conditions s'appliquent alors ;",
+              "les autorités, uniquement lorsque la loi l'exige."
+            ]
+          },
+          "Transferts hors de Tunisie : vos données sont stockées au Royaume-Uni (OVHcloud) et, si les notifications sont activées, de courtes alertes chiffrées de bout en bout transitent par le service push des appareils de l'équipe (par exemple Apple). Si vous nous écrivez sur WhatsApp, vos messages passent par les serveurs de Meta. Nous ne transférons vos données vers aucun autre pays."
+        ]
+      },
+      {
+        "id": "conservation",
+        "title": "Durée de conservation",
+        "blocks": [
+          "Données de commande et de client : conservées pendant la relation commerciale, puis supprimées ou anonymisées 3 ans après votre dernière commande ; les informations comptables des commandes (numéro, date, produits, montants) sont gardées 10 ans. Statistiques de taps : conservées tant que le lien intelligent concerné existe, et supprimées avec lui. Statistiques de visites du site : conservées 25 mois au plus.",
+          "Vous pouvez demander la suppression de vos données à tout moment ; nous conservons seulement ce que la loi nous oblige à garder."
+        ]
+      },
+      {
+        "id": "securite",
+        "title": "Sécurité",
+        "blocks": [
+          "Les échanges avec le site sont chiffrés (HTTPS). L'espace d'administration est réservé à l'équipe ONDE et protégé par mot de passe ; les données sont sauvegardées régulièrement."
+        ]
+      },
+      {
+        "id": "droits",
+        "title": "Vos droits",
+        "blocks": [
+          "Conformément à la loi organique n° 2004-63 du 27 juillet 2004 portant sur la protection des données à caractère personnel, vous disposez d'un droit d'accès et de rectification, du droit de vous opposer au traitement pour des raisons légitimes et du droit de revenir à tout moment sur votre accord ; vous pouvez aussi demander la suppression de vos données.",
+          "Pour exercer ces droits, contactez-nous sur WhatsApp ou par téléphone au {phone}{emailClause}. Vous pouvez également saisir l'Instance nationale de protection des données à caractère personnel (INPDP)."
+        ]
+      },
+      {
+        "id": "modifications",
+        "title": "Modifications",
+        "blocks": [
+          "Nous pouvons faire évoluer cette politique, par exemple à l'arrivée du paiement en ligne. La date de dernière mise à jour figure en haut de cette page."
+        ]
+      }
+    ]
+  },
+  "notice": {
+    "meta": {
+      "title": "Mentions légales et droits d'auteur | ONDE",
+      "description": "Éditeur et hébergeur du site onde.tn, droits d'auteur sur les contenus ONDE (film, 3D, photos, textes, code), marques de tiers et crédits."
+    },
+    "title": "Mentions légales & droits d'auteur",
+    "intro": "Qui édite onde.tn, qui l'héberge, et ce que vous pouvez faire de nos contenus. Version courte : sauf les marques, polices et logiciels de tiers cités plus bas, les contenus de ce site ont été créés pour ONDE et lui appartiennent, mais vous pouvez librement parler de nous et partager nos liens.",
+    "highlights": [
+      "Édité en Tunisie",
+      "Contenus protégés par le droit d'auteur",
+      "Partage de liens bienvenu"
+    ],
+    "directorFallback": "l'exploitant d'ONDE identifié ci-dessus",
+    "sections": [
+      {
+        "id": "editeur",
+        "title": "Éditeur du site",
+        "blocks": [
+          "Le site onde.tn est édité par ONDE, marque de produits NFC établie en Tunisie.",
+          {
+            "list": [
+              "{legalNameLine}",
+              "{taxIdLine}",
+              "{addressLine}",
+              "Contact : WhatsApp ou téléphone au {phone}{emailClause}"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "directeur",
+        "title": "Responsable du contenu",
+        "blocks": [
+          "Le contenu de onde.tn est publié sous la responsabilité de {director}."
+        ]
+      },
+      {
+        "id": "hebergement",
+        "title": "Hébergement",
+        "blocks": [
+          "Le site est hébergé par OVHcloud (OVH SAS, 2 rue Kellermann, 59100 Roubaix, France), sur un serveur privé virtuel (VPS) situé dans un centre de données au Royaume-Uni.",
+          "Site de l'hébergeur : www.ovhcloud.com"
+        ]
+      },
+      {
+        "id": "droits-auteur",
+        "title": "Propriété intellectuelle et droits d'auteur",
+        "blocks": [
+          "© {year} ONDE. Tous droits réservés.",
+          "Sauf mention contraire, les contenus du site ont été créés pour ONDE, lui appartiennent et sont protégés par le droit d'auteur, notamment :",
+          {
+            "list": [
+              "le logo ONDE et l'identité graphique du site ;",
+              "le film de présentation ;",
+              "les modèles 3D et leurs rendus ;",
+              "les photos, illustrations et visuels des produits ;",
+              "les textes, la mise en page et le code source propre au site (hors logiciels libres, voir « Crédits »)."
+            ]
+          },
+          "Ces contenus sont protégés par la loi n° 94-36 du 24 février 1994 relative à la propriété littéraire et artistique, modifiée et complétée par la loi n° 2009-33 du 23 juin 2009. Toute reproduction, représentation, adaptation ou extraction, totale ou partielle, par quelque procédé que ce soit, sans l'autorisation écrite préalable d'ONDE est interdite et peut constituer une contrefaçon.",
+          "Le nom ONDE et son logo sont aussi les signes distinctifs de notre marque : toute utilisation susceptible de créer une confusion avec ONDE ou de laisser croire à un partenariat est interdite.",
+          "Ce qui reste permis : citer un court extrait en indiquant la source (« ONDE — onde.tn ») et faire un lien vers onde.tn, ce qui est le bienvenu. Pour toute autre utilisation (presse, partenariat, revente…), demandez-nous : nous répondons vite."
+        ]
+      },
+      {
+        "id": "marques",
+        "title": "Marques de tiers",
+        "blocks": [
+          "Les marques et logos cités ou affichés sur le site appartiennent à leurs titulaires :",
+          {
+            "list": [
+              "Google, le logo Google, Google Maps et Android sont des marques de Google LLC ;",
+              "iPhone et Safari sont des marques d'Apple Inc., déposées aux États-Unis et dans d'autres pays ; iOS est une marque de Cisco, utilisée sous licence par Apple ;",
+              "WhatsApp, Instagram, Facebook et leurs logos sont des marques de Meta Platforms, Inc. ou de ses sociétés affiliées ;",
+              "TikTok et son logo sont des marques de ByteDance Ltd. ou de ses sociétés affiliées ;",
+              "QR Code est une marque déposée de DENSO WAVE INCORPORATED."
+            ]
+          },
+          "Ces marques et logos apparaissent uniquement pour illustrer la compatibilité de nos produits et les destinations possibles d'un lien. ONDE n'est ni affilié à ces sociétés, ni sponsorisé, ni approuvé par elles.",
+          "Les écrans de téléphone montrés sur le site sont des démonstrations : les avis, notes, prénoms (par exemple « Sarah M. ») et établissements qui y apparaissent sont fictifs ou servent d'exemple, y compris lorsque la page d'avis affichée est celle d'ONDE. Ce ne sont pas de vrais avis clients."
+        ]
+      },
+      {
+        "id": "credits",
+        "title": "Crédits",
+        "blocks": [
+          "Polices, logiciels et créations utilisés sur le site :",
+          {
+            "list": [
+              "Clash Display et Satoshi : Indian Type Foundry, via Fontshare (ITF Free Font License) ;",
+              "Instrument Serif : Instrument (SIL Open Font License 1.1, openfontlicense.org) ;",
+              "logiciels libres : le site repose notamment sur Next.js, React, three.js et GSAP, utilisés selon leurs licences respectives (MIT, licence standard GSAP…), qui restent la propriété de leurs auteurs ;",
+              "scènes 3D, film et vidéos : produits par ONDE (effets sonores : bibliothèque Final Cut Pro d'Apple, utilisés sous licence)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "donnees",
+        "title": "Données personnelles",
+        "blocks": [
+          "Les données collectées sur le site (commandes, statistiques pseudonymisées) et vos droits sont décrits dans notre politique de confidentialité, conformément à la loi organique n° 2004-63 du 27 juillet 2004."
+        ]
+      },
+      {
+        "id": "liens",
+        "title": "Liens",
+        "blocks": [
+          "Les liens vers onde.tn sont les bienvenus, sans autorisation préalable, tant qu'ils ne présentent pas ONDE de façon trompeuse et n'affichent pas nos pages à l'intérieur d'un autre site.",
+          "Le site renvoie vers des services tiers (WhatsApp, réseaux sociaux, Google…). ONDE n'est pas responsable de leur contenu ni de leurs pratiques ; leurs propres conditions s'appliquent.",
+          "Les liens intelligents de la forme onde.tn/t/CODE redirigent vers les destinations choisies par nos clients, qui en sont responsables. Pour signaler une destination abusive, contactez-nous : nous pouvons la désactiver (voir nos conditions générales de vente)."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "blocks": [
+          "Pour une question sur ces mentions, une demande d'autorisation ou pour signaler un contenu qui porterait atteinte à vos droits : WhatsApp ou téléphone au {phone}{emailClause}."
+        ]
+      }
+    ]
+  }
+}

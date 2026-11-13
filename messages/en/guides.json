@@ -1,0 +1,412 @@
+{
+  "common": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "toc": "Contents",
+    "updated": "Updated {date}",
+    "readingTime": "{min} min read",
+    "author": "By the ONDE team",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Frequently asked questions",
+    "relatedEyebrow": "Read next",
+    "productsLabel": "ONDE products",
+    "whatsapp": "Message us on WhatsApp",
+    "waMessage": "Hello ONDE! I have a question about Google reviews and your NFC products.",
+    "newTab": "(new tab)"
+  },
+  "reviewLink": {
+    "meta": {
+      "title": "How to Find Your Google Review Link (+ Free QR Code) | ONDE",
+      "description": "Where to find the direct link to your Google reviews, how to copy and test it, create the free QR code and share it with customers. A step-by-step guide.",
+      "ogAlt": "Close-up of the QR code and the “Tap here” NFC zone on an ONDE Google review stand"
+    },
+    "breadcrumb": "Find your Google review link",
+    "eyebrow": "Guide · Google reviews",
+    "title": "How to find your Google review link",
+    "lead": "Your Google review link opens your business's “Write a review” window directly, so customers no longer have to look you up in Maps. It's free, it takes two minutes to get, and it's the basis of every review request, whether by message, QR code or NFC.",
+    "highlights": ["Free", "2 minutes", "Google profile required"],
+    "sections": [
+      {
+        "id": "definition",
+        "title": "What is a Google review link?",
+        "blocks": [
+          "It's a short address that belongs to your Business Profile, usually starting with https://g.page/r/. When a customer opens it, the rating window appears straight away: they pick their stars, write a few words and post.",
+          "Without it, the customer has to open Google Maps, type your name, find the right listing, scroll down to the reviews and tap “Write a review”. Every extra step loses reviews.",
+          { "note": "Good to know: Google requires customers to be signed in to a Google account to post a review. A non-Gmail email address is enough to create one." }
+        ]
+      },
+      {
+        "id": "computer",
+        "title": "Get the link on a computer (the official way)",
+        "blocks": [
+          {
+            "steps": [
+              "Sign in to the Google account that manages your Business Profile.",
+              "Open your Business Profile: search for your business's exact name on Google, or go through [business.google.com](https://business.google.com/).",
+              "Select “Read reviews”, then “Get more reviews”.",
+              "Select “Copy”: the link is now on your clipboard. Paste it into a note so you always have it at hand."
+            ]
+          },
+          "Google keeps updating its menus: depending on your version, the button may also be called “Ask for reviews” or “Share review form”. The principle stays the same. The official steps are in Google's help page [Create a link or QR code to ask for reviews](https://support.google.com/business/answer/16816815?hl=en)."
+        ]
+      },
+      {
+        "id": "phone",
+        "title": "What about on a phone?",
+        "blocks": [
+          "Signed in with the account that manages the profile, open your business in the Google Maps app or in Google Search: the “Ask for reviews” (or “Share review form”) button usually offers the same link, ready to copy or to send straight through WhatsApp.",
+          "One exception: for now, Google only lets you generate the official review QR code from a browser on a computer (see below)."
+        ]
+      },
+      {
+        "id": "no-profile",
+        "title": "No Google profile yet? Start there",
+        "blocks": [
+          "The review link belongs to a Google Business Profile. If your business doesn't show up on Google Maps, or someone else created the listing, you first need to add or claim it, then verify it. Google explains how in [Add or claim your Business Profile](https://support.google.com/business/answer/2911778?hl=en).",
+          "Verification can take a few days depending on the method offered. Use that time to complete your profile: category, address, opening hours, phone number, photos. Google says that complete, accurate profiles are more likely to show up in nearby searches."
+        ]
+      },
+      {
+        "id": "test",
+        "title": "Test your link before printing or sending it",
+        "blocks": [
+          {
+            "list": [
+              "Open it in a private browsing window: your business's review window should appear (after signing in to a Google account).",
+              "Check the name and address shown. With several listings (two addresses, an old profile), this is the most common mistake.",
+              "Test it on an iPhone and on an Android phone."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "share",
+        "title": "Where to share your review link",
+        "blocks": [
+          "The best time to ask for a review is right after the experience ends. Put the link where your customers are at that moment:",
+          {
+            "list": [
+              "At the counter and on tables: as a printed QR code, or over NFC for one-tap access.",
+              "In your WhatsApp confirmation, delivery or thank-you message.",
+              "On the receipt, the invoice or the thank-you email.",
+              "In your Instagram or TikTok bio, or in a story after an event.",
+              "In your email signature, for services and independent professionals."
+            ]
+          },
+          "Google itself suggests receipts, thank-you emails, the end of a conversation and a QR code displayed in store. To go further, read our guide [How to get more Google reviews](/guides/get-more-google-reviews)."
+        ]
+      },
+      {
+        "id": "qr-or-nfc",
+        "title": "QR code or NFC: which one?",
+        "blocks": [
+          "The official QR code is free: on a computer, at the “Get more reviews” step, right-click the QR code and choose “Save image as”. It works with any smartphone camera, but customers have to take out their phone, open the camera, aim and wait for it to focus.",
+          "NFC removes those steps: the customer holds their phone close and the page opens, like a contactless payment (on an iPhone, they touch the notification that appears at the top of the screen). It works on iPhone XR, XS and newer and on the vast majority of Android phones with NFC.",
+          {
+            "list": [
+              "QR code only: free and universal, ideal on a receipt, a poster or an email.",
+              "NFC + QR code: the fastest at the counter or at the table, with the QR code covering phones without NFC. That's the format of [ONDE stands](/shop/stand-white).",
+              "Smart link: on ONDE products, the chip and the QR code lead to a permanent link (onde.tn/t/…). If your Google link ever changes, we update the destination remotely, with nothing to reprint."
+            ]
+          },
+          { "products": ["stand-white", "stand-black", "sticker"] }
+        ]
+      },
+      {
+        "id": "mistakes",
+        "title": "Mistakes to avoid",
+        "blocks": [
+          {
+            "list": [
+              "Sharing your Google Maps listing instead of the review link: the customer still has to find “Write a review”.",
+              "Printing a link you haven't tested: one wrong listing, and every printed item has to be redone.",
+              "Offering a discount or a gift in exchange for a review: Google forbids it and can remove the reviews involved.",
+              "Asking for “5 stars” or a specific sentence: Google forbids influencing the rating or the content of a review."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is the Google review link free?",
+        "a": "Yes. Google provides the review link and QR code for free to any business that manages its profile."
+      },
+      {
+        "q": "Can my Google review link change?",
+        "a": "It usually stays the same as long as the profile exists, but it can change if you recreate a profile or two listings are merged. With an ONDE product that's not a problem: we replace the destination remotely, and the chip and QR code stay the same."
+      },
+      {
+        "q": "Can I get the link without managing the profile?",
+        "a": "The official button only shows up for people who manage the profile. If a relative or an agency manages it, ask them to copy the link and send it to you, or to add you as a manager."
+      },
+      {
+        "q": "Do my customers need a Google account?",
+        "a": "Yes, Google requires customers to be signed in to a Google account to post a review. A non-Gmail email address is enough to create one."
+      },
+      {
+        "q": "I can't find my link. Can you help?",
+        "a": "Yes. If you order an ONDE product, just leave the link field empty: we find it with you during the confirmation call, before we configure the chip."
+      }
+    ],
+    "cta": {
+      "title": "Put your review link one tap away",
+      "body": "NFC stands, stickers and cards with a QR code: configured with your link before shipping, delivered in 3 days anywhere in Tunisia, cash on delivery.",
+      "primary": "Visit the shop",
+      "href": "/shop"
+    }
+  },
+  "moreReviews": {
+    "meta": {
+      "title": "How to Get More Google Reviews: 7 Simple Methods | ONDE",
+      "description": "Simple ways to get more Google reviews: ask at the right moment, use a direct link, QR code or NFC, reply to reviews, and know what Google forbids.",
+      "ogAlt": "White ONDE Google review stand on a counter, with NFC chip and QR code"
+    },
+    "breadcrumb": "Get more Google reviews",
+    "eyebrow": "Guide · Local reputation",
+    "title": "How to get more Google reviews for your business",
+    "lead": "Many happy customers leave without writing a review: nobody offered at the right moment, or it took too long. Here are simple methods, all within Google's rules, to get more of them, whether you run a café in Tunis, a salon in Sousse or a clinic in Sfax.",
+    "highlights": ["Free methods", "Within Google's rules", "For any local business"],
+    "sections": [
+      {
+        "id": "why",
+        "title": "Why Google reviews matter",
+        "blocks": [
+          "Before choosing a café, a restaurant or a salon, people look at the rating and the number of reviews on Google. According to the BrightLocal Local Consumer Review Survey 2026 (1,002 adults surveyed in the United States), 68% of consumers only choose businesses rated 4 stars or higher.",
+          "Reviews also help you get found. In its help pages, Google explains that local ranking is based on relevance, distance and prominence, and that more reviews and positive ratings can improve a business's local ranking. [Read Google's help on local ranking](https://support.google.com/business/answer/7091?hl=en)."
+        ]
+      },
+      {
+        "id": "timing",
+        "title": "1. Ask at the right moment, and ask everyone",
+        "blocks": [
+          "The best moment is the natural end of the experience: the bill, the checkout, handing over an order, the end of a treatment. The customer still has the experience in mind and a few seconds to spare.",
+          "Offer it to everyone, without filtering: Google forbids selectively soliciting reviews, that is, only from customers you think are happy. Ask for an honest review, not for “5 stars”."
+        ]
+      },
+      {
+        "id": "path",
+        "title": "2. Shorten the path to the review",
+        "blocks": [
+          "Every step loses reviews. Don't say “look us up on Google”: give the direct link to your review form. Our guide [How to find your Google review link](/guides/google-review-link) shows where to copy it.",
+          {
+            "list": [
+              "Direct link: send it by WhatsApp, text message or email.",
+              "QR code: free, on a poster, a receipt or a table tent.",
+              "NFC: one tap of the phone, no aiming or scanning. The fastest option on site."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team",
+        "title": "3. Give your team one simple sentence",
+        "blocks": [
+          "A short, sincere spoken request works better than a sign on its own. For example: “If you enjoyed it, a Google review helps us a lot. Just hold your phone here.”",
+          "Stay within the rules: Google forbids setting review quotas for staff, asking for reviews that mention an employee or specific content, and pressuring customers to rate on the spot. Offering is fine; insisting isn't."
+        ]
+      },
+      {
+        "id": "visible",
+        "title": "4. Put the link where your customers are",
+        "blocks": [
+          {
+            "list": [
+              "At the counter and by the till: everyone passes there.",
+              "On tables and on the terrace, for cafés and restaurants.",
+              "In the WhatsApp confirmation or delivery message.",
+              "On the receipt, the invoice or the thank-you email.",
+              "In your Instagram and TikTok bio."
+            ]
+          },
+          "An NFC + QR code item like the [ONDE stand](/shop/stand-white) keeps the request visible at all times, without your team having to remember it for every customer."
+        ]
+      },
+      {
+        "id": "reply",
+        "title": "5. Reply to reviews, especially negative ones",
+        "blocks": [
+          "A reply shows future customers that you listen. Google recommends short, polite and useful replies, without sales pitches. Avoid pasting the same “thank you” under every review: a personal reply, even a one-liner, shows you really read your customers.",
+          "For a negative review: thank them, acknowledge what needs acknowledging, explain what you've changed and offer to continue in private. Never share personal information and never attack the reviewer. If the review breaks Google's policy (fake customer, abusive language), report it rather than replying in the same tone."
+        ]
+      },
+      {
+        "id": "profile",
+        "title": "6. Polish your profile to show up on Google Maps",
+        "blocks": [
+          "Reviews on an incomplete profile are worth less. Verify your business, then complete it: exact category, address, opening hours (including special hours), phone number, recent photos. Google says that complete, accurate profiles are more likely to show up in nearby searches.",
+          "No profile yet? Start by creating or claiming it: everything is explained in our guide to the [Google review link](/guides/google-review-link)."
+        ]
+      },
+      {
+        "id": "measure",
+        "title": "7. Measure and adjust",
+        "blocks": [
+          "Write down your review count every week and compare it with what changed: a new spot for the stand, a new sentence for the team, a WhatsApp message. With ONDE, your client page also shows taps per day, per product, and the NFC / QR code split, so you can see which items are actually used.",
+          { "products": ["stand-white", "card", "sticker"] }
+        ]
+      },
+      {
+        "id": "forbidden",
+        "title": "What Google forbids",
+        "blocks": [
+          "Google removes reviews that don't reflect a genuine experience and can restrict profiles that break its [content policy](https://support.google.com/contributionpolicy/answer/7400114?hl=en). Never use these methods:",
+          {
+            "list": [
+              "Offering something (a discount, a drink, a gift, a prize draw entry) in exchange for a review, for changing it or for removing a negative one.",
+              "Buying reviews, or having them written by friends, employees or multiple accounts.",
+              "Writing your own reviews, or reviews on a competitor's profile.",
+              "Only asking happy customers, or discouraging negative reviews.",
+              "Setting review quotas for your team or dictating what a review should say."
+            ]
+          },
+          { "note": "A tool doesn't replace a good experience: ONDE makes leaving a review easier, but guarantees neither a number of reviews nor a rating (see our [terms of sale](/legal/terms))." }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I buy Google reviews?",
+        "a": "No. Paid reviews are forbidden by Google, which removes them and can restrict the profile involved. They also mislead your future customers. Asking honestly, more often, works better."
+      },
+      {
+        "q": "Can I offer a discount in exchange for a review?",
+        "a": "No. For Google, offering an incentive (a discount, a free product, a prize draw) in exchange for a review is fake engagement and strictly forbidden, even if the review you ask for is honest."
+      },
+      {
+        "q": "How long before I get more reviews?",
+        "a": "Reviews come at the pace of your customers: it depends on your footfall and on how consistently you ask. The simpler the request and the more people you offer it to, the better the chances that more customers leave one. No tool can guarantee a number of reviews."
+      },
+      {
+        "q": "What should I do about an unfair negative review?",
+        "a": "Reply calmly and factually, without personal attacks. If the review breaks Google's policy (fake customer, abusive language, conflict of interest), report it from your profile. Google doesn't remove a review just because it's negative."
+      },
+      {
+        "q": "Do customers need an app to leave a review over NFC?",
+        "a": "No. The tap opens the review page in the phone's browser, like a link. The customer only needs to be signed in to their Google account to post."
+      }
+    ],
+    "cta": {
+      "title": "Make reviewing as easy as a contactless payment",
+      "body": "One tap at the counter instead of a search in Maps: NFC stands, cards and stickers configured with your link, delivered in 3 days anywhere in Tunisia, cash on delivery.",
+      "primary": "Explore the shop",
+      "href": "/shop"
+    }
+  },
+  "restaurants": {
+    "meta": {
+      "title": "Restaurant & Café Google Review Stands in Tunisia | ONDE",
+      "description": "NFC stands, stickers and cards to get Google reviews at the counter, on the terrace and at the table. No subscription, delivered in 3 days across Tunisia.",
+      "ogAlt": "Black ONDE Google review stand in a softly lit bar"
+    },
+    "breadcrumb": "Restaurants & cafés",
+    "eyebrow": "Restaurants · Cafés · Tea rooms",
+    "title": "More Google reviews for your restaurant or café",
+    "lead": "In a café or a restaurant, a review is won or lost in a few seconds: at the bill, at the counter, when leaving the terrace. ONDE puts your Google review page one tap away from every customer, on the counter, on the tables and in your waiters' hands.",
+    "highlights": ["NFC + QR code", "No subscription", "Delivered in 3 days"],
+    "offer": "Stands from {stand}, Café Pack {pack}: no subscription, cash on delivery.",
+    "heroCta": {
+      "primary": "See the Café Pack",
+      "href": "/shop/pack-cafe",
+      "waMessage": "Hello ONDE! I'd like to equip my café / restaurant with Google review stands."
+    },
+    "sections": [
+      {
+        "id": "moment",
+        "title": "The right moment: the bill",
+        "blocks": [
+          "In a restaurant, the most natural moment to offer a review is the end of the meal: the bill arrives, the customer has a few seconds and the meal in mind. In a café, it's at the till or when leaving the terrace.",
+          "The gesture has to be instant. A QR code means opening the camera and aiming; an NFC tap opens the review page, like a contactless payment (on an iPhone, by touching the notification that appears). ONDE stands carry both."
+        ]
+      },
+      {
+        "id": "placement",
+        "title": "Where to put your items",
+        "blocks": [
+          {
+            "list": [
+              "Counter and till: a 12 × 12 cm [Google review stand](/shop/stand-white), seen by every customer who pays.",
+              "Terrace: a second stand, where customers linger.",
+              "Tables: an [NFC sticker](/shop/sticker) on the table, the menu holder or the bill folder.",
+              "Waiters: an [NFC card](/shop/card) presented with the bill.",
+              "Bar, lounge, low lighting: the more discreet [black stand](/shop/stand-black)."
+            ]
+          },
+          { "products": ["pack-cafe", "stand-black", "sticker"] }
+        ]
+      },
+      {
+        "id": "cafe-pack",
+        "title": "The Café Pack: your whole venue covered",
+        "blocks": [
+          "The [Café Pack](/shop/pack-cafe) bundles 2 review stands (white or black) and 4 NFC stickers: one stand on the counter, one on the terrace, stickers on tables or menus. Each piece carries its own smart link, configured and tested before shipping.",
+          "Because every piece has its own link, your ONDE client page shows the taps for each one: you can see which spot works best."
+        ]
+      },
+      {
+        "id": "menu",
+        "title": "Google reviews today, the menu tonight?",
+        "blocks": [
+          "Every ONDE product carries a permanent link whose destination can be changed remotely: Google review page, online menu, Instagram, TikTok, booking page. One destination at a time, which you can change whenever you like, with nothing to reprint: just ask on WhatsApp or from your client page.",
+          "For example: table stickers to your online menu, and the counter stand to your Google reviews. ONDE doesn't host menus: the link leads to the one you already use (website, PDF or menu platform)."
+        ]
+      },
+      {
+        "id": "waiters",
+        "title": "Involve your waiters, without pressure",
+        "blocks": [
+          "One sentence is enough when the bill arrives: “If you enjoyed everything, a Google review would help us a lot. Just hold your phone close.” The [Team Pack](/shop/pack-team) gives each of your 5 waiters an NFC card.",
+          "Stay within Google's rules: no review quotas per waiter, no asking for reviews that mention the waiter's name, no discount or free dessert in exchange for a review. Offer it to everyone, without insisting. More tips in our guide [How to get more Google reviews](/guides/get-more-google-reviews)."
+        ]
+      },
+      {
+        "id": "tourists",
+        "title": "International guests and tourists",
+        "blocks": [
+          "The tap works with any NFC-enabled phone, whatever its language, and Google shows the review page in the phone's language. Reviews left by tourists are read by the next ones looking for a restaurant or a café nearby."
+        ]
+      },
+      {
+        "id": "order",
+        "title": "Order in 3 steps",
+        "blocks": [
+          {
+            "steps": [
+              "Choose your items online or on WhatsApp, with your business name and, if you have it, your Google review link.",
+              "We call you to confirm, then configure and test every chip with your link.",
+              "Delivery within 3 days anywhere in Tunisia, cash on delivery. Delivery costs {fee} and is free from {threshold}."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do customers need an app?",
+        "a": "No. The tap opens the review page in the phone's browser. Phones without NFC scan the QR code printed on the stands."
+      },
+      {
+        "q": "Can the menu and the reviews be on the same item?",
+        "a": "An item leads to one destination at a time. You can change it remotely whenever you like, or dedicate some items to the menu and others to reviews."
+      },
+      {
+        "q": "How many items does my venue need?",
+        "a": "At least one stand where people pay. Add one item per area where customers sit (terrace, dining room, bar) and stickers on the tables if you want everyone to have the review page within reach. We're happy to advise you on WhatsApp."
+      },
+      {
+        "q": "Can I see how often my items are used?",
+        "a": "Yes. Your ONDE client page shows the last 30 days of taps: per day, per item (so per spot) and the NFC / QR code split."
+      },
+      {
+        "q": "How do delivery and payment work?",
+        "a": "We call you to confirm the order, then deliver within 3 days anywhere in Tunisia. You pay in cash on delivery; delivery costs {fee} and is free from {threshold}."
+      }
+    ],
+    "cta": {
+      "title": "Equip your restaurant this week",
+      "body": "Order online or on WhatsApp: we call you to confirm, configure your items with your Google review link and deliver in 3 days anywhere in Tunisia. Cash on delivery.",
+      "primary": "See the Café Pack",
+      "href": "/shop/pack-cafe"
+    }
+  }
+}

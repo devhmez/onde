@@ -1,0 +1,9 @@
+-- Real review stand format (Oct 2026): one 3 mm clear acrylic sheet bent into an L, 12 × 12 cm printed panel.
+-- Databases seeded before this migration describe the old stand. Each statement only touches the original seed
+-- wording, so text the owner already edited in admin → Catalog is left alone, and running it twice changes nothing.
+-- 1) The white stand is clear acrylic with a white print, not white acrylic (exact seed phrases only).
+UPDATE `products` SET `desc_en` = replace(`desc_en`, 'Made of glossy white acrylic with a clean, premium finish that suits', 'Clear acrylic with a glossy white print: a clean, premium finish that suits') WHERE `kind` = 'stand' AND instr(`desc_en`, 'Made of glossy white acrylic with a clean, premium finish that suits') > 0;--> statement-breakpoint
+UPDATE `products` SET `desc_fr` = replace(`desc_fr`, 'En acrylique blanc brillant, finition nette et premium,', 'En acrylique transparent à impression blanche brillante, finition nette et premium,') WHERE `kind` = 'stand' AND instr(`desc_fr`, 'En acrylique blanc brillant, finition nette et premium,') > 0;--> statement-breakpoint
+-- 2) Append the format as a last paragraph, unless the description already states it.
+UPDATE `products` SET `desc_en` = CASE WHEN trim(`desc_en`) = '' THEN 'Size: 12 × 12 cm, 3 mm clear acrylic, L-shaped base.' ELSE rtrim(`desc_en`, ' ' || char(9) || char(10) || char(13)) || char(10) || char(10) || 'Size: 12 × 12 cm, 3 mm clear acrylic, L-shaped base.' END WHERE `kind` = 'stand' AND instr(`desc_en`, '12 × 12 cm') = 0;--> statement-breakpoint
+UPDATE `products` SET `desc_fr` = CASE WHEN trim(`desc_fr`) = '' THEN 'Format 12 × 12 cm, acrylique transparent 3 mm, socle en L.' ELSE rtrim(`desc_fr`, ' ' || char(9) || char(10) || char(13)) || char(10) || char(10) || 'Format 12 × 12 cm, acrylique transparent 3 mm, socle en L.' END WHERE `kind` = 'stand' AND instr(`desc_fr`, '12 × 12 cm') = 0;

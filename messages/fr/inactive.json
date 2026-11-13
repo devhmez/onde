@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Produit ONDE pas encore activé — ONDE",
+    "description": "Ce produit ONDE n'est pas encore relié à une destination. Activez-le en quelques minutes sur WhatsApp."
+  },
+  "eyebrow": "Lien intelligent ONDE",
+  "codeLabel": "Code",
+  "products": {
+    "stand": {
+      "meta": "ONDE — Ce présentoir n'est pas encore activé",
+      "inactive": "Ce présentoir ONDE n'est pas encore activé.",
+      "paused": "Ce présentoir ONDE est en pause."
+    },
+    "card": {
+      "meta": "ONDE — Cette carte n'est pas encore activée",
+      "inactive": "Cette carte ONDE n'est pas encore activée.",
+      "paused": "Cette carte ONDE est en pause."
+    },
+    "keychain": {
+      "meta": "ONDE — Ce porte-clés n'est pas encore activé",
+      "inactive": "Ce porte-clés ONDE n'est pas encore activé.",
+      "paused": "Ce porte-clés ONDE est en pause."
+    },
+    "sticker": {
+      "meta": "ONDE — Ce sticker n'est pas encore activé",
+      "inactive": "Ce sticker ONDE n'est pas encore activé.",
+      "paused": "Ce sticker ONDE est en pause."
+    }
+  },
+  "states": {
+    "inactive": {
+      "title": "Ce produit ONDE n'est pas encore activé.",
+      "lead": "La puce fonctionne parfaitement : il ne lui manque plus que sa destination."
+    },
+    "paused": {
+      "title": "Ce produit ONDE est en pause.",
+      "lead": "Son propriétaire l'a mis en pause ou est en train de changer sa destination. Réessayez un peu plus tard."
+    },
+    "unknown": {
+      "title": "Ce lien ONDE n'existe pas.",
+      "lead": "Le code est peut-être incomplet. Vérifiez le lien ou rapprochez à nouveau votre téléphone du produit."
+    },
+    "active": {
+      "title": "Bonne nouvelle : ce produit est actif.",
+      "lead": "Il vient d'être activé. Touchez le bouton pour ouvrir sa destination.",
+      "open": "Ouvrir la destination"
+    }
+  },
+  "owner": {
+    "title": "C'est votre produit ?",
+    "body": "Envoyez-nous le lien de destination (votre page d'avis Google, Instagram, menu…). On l'active en quelques minutes, sans toucher à la puce.",
+    "cta": "Activer sur WhatsApp",
+    "message": "Bonjour ONDE 👋 Je voudrais activer mon produit ONDE{codePart}. Voici le lien de destination :",
+    "codePart": " (code {code})"
+  },
+  "visitor": {
+    "title": "Vous êtes client de ce commerce ?",
+    "body": "Merci d'avoir tapé ! Le commerce est en train de configurer ce lien. Revenez bientôt — votre avis compte vraiment."
+  },
+  "discover": {
+    "title": "Envie de la même chose pour votre commerce ?",
+    "cta": "Découvrir ONDE",
+    "film": "Voir le film"
+  },
+  "notFound": {
+    "meta": {
+      "title": "404 — Ce lien n'est pas au menu · ONDE",
+      "description": "La page demandée n'existe pas ou a changé d'adresse."
+    },
+    "eyebrow": "Erreur 404",
+    "title": "Ce lien n'est pas au menu.",
+    "lead": "La page que vous cherchez n'existe pas ou a changé d'adresse. Pas de panique : tout le reste est servi.",
+    "menuTitle": "Au menu ce soir",
+    "menu": [
+      {
+        "label": "Avis Google",
+        "state": "★★★★★"
+      },
+      {
+        "label": "Instagram",
+        "state": "✓"
+      },
+      {
+        "label": "Menu digital",
+        "state": "✓"
+      },
+      {
+        "label": "Carte de contact",
+        "state": "✓"
+      }
+    ],
+    "missing": "Cette page",
+    "missingState": "épuisée",
+    "tapHint": "Tapez le zéro",
+    "home": "Retour à l'accueil",
+    "shop": "La boutique",
+    "film": "Le film",
+    "contact": "Contact",
+    "whatsapp": "Besoin d'aide ? WhatsApp",
+    "waMessage": "Bonjour ONDE, je suis tombé sur une page introuvable :"
+  }
+}

@@ -1,0 +1,95 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600&display=block" rel="stylesheet">
+<style>
+:root{--bg:#0B0A10;--panel:#13121A;--panel2:#18171F;--line:#24222E;--tx:#ECEBF2;--mut:#8E8BA0;--vio:#461CF7;--vio2:#7B5CFF;--ok:#2BD48A;--off:#F0596A}
+*{box-sizing:border-box}
+html,body{margin:0;width:1600px;height:1000px;background:transparent;font-family:Inter,sans-serif;color:var(--tx)}
+.win{position:absolute;inset:0;border-radius:22px;overflow:hidden;background:var(--bg);border:1px solid #2A2833;box-shadow:0 0 0 1px rgba(255,255,255,.03) inset}
+.bar{height:46px;background:#100F15;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 18px;gap:9px}
+.dot{width:12px;height:12px;border-radius:50%}
+.url{margin-left:380px;width:520px;height:28px;border-radius:8px;background:#1A1922;display:flex;align-items:center;justify-content:center;gap:8px;color:#B9B6C8;font-size:13px}
+.url b{color:#ECEBF2;font-weight:500}
+.side{position:absolute;top:46px;bottom:0;left:0;width:236px;background:#0E0D13;border-right:1px solid var(--line);padding:26px 18px}
+.side img{width:118px;display:block;margin:0 0 30px 8px}
+.nav{display:flex;flex-direction:column;gap:4px}
+.nav div{height:40px;border-radius:10px;display:flex;align-items:center;padding:0 12px;gap:12px;color:#A7A4B8;font-size:14.5px;font-weight:500}
+.nav div.on{background:linear-gradient(90deg,rgba(70,28,247,.28),rgba(70,28,247,.08));color:#fff}
+.nav i{width:18px;height:18px;border-radius:5px;border:1.8px solid currentColor;opacity:.8}
+.side .badge{position:absolute;bottom:26px;left:18px;right:18px;padding:14px;border-radius:12px;background:var(--panel);border:1px solid var(--line);font-size:12.5px;color:var(--mut);line-height:1.5}
+.side .badge b{color:#fff;display:block;font-size:13.5px;margin-bottom:2px}
+.main{position:absolute;top:46px;left:236px;right:0;bottom:0;padding:26px 30px}
+.h{display:flex;align-items:center;justify-content:space-between}
+.h h2{margin:0;font-size:24px;font-weight:600;letter-spacing:-.01em}
+.h p{margin:4px 0 0;color:var(--mut);font-size:13.5px}
+.btns{display:flex;gap:10px}
+.btn{height:38px;padding:0 16px;border-radius:10px;display:flex;align-items:center;font-size:13.5px;font-weight:600;border:1px solid var(--line);background:var(--panel);color:#DCDAE6}
+.btn.p{background:var(--vio);border-color:var(--vio);color:#fff;box-shadow:0 6px 24px rgba(70,28,247,.45)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}
+.k{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.k span{color:var(--mut);font-size:12.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.k b{display:block;font-size:30px;font-weight:600;margin-top:8px;letter-spacing:-.02em}
+.k em{font-style:normal;font-size:12.5px;color:var(--ok);font-weight:600}
+.grid{display:grid;grid-template-columns:1fr 372px;gap:16px;margin-top:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.card h3{margin:0 0 4px;font-size:15px;font-weight:600}
+.card .sub{color:var(--mut);font-size:12.5px}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13.5px}
+th{color:var(--mut);font-weight:500;text-align:left;font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:9px 8px;border-bottom:1px solid var(--line)}
+td{padding:12px 8px;border-bottom:1px solid #1D1C25;color:#D9D7E3}
+td.code{font-family:"SF Mono",Menlo,monospace;color:#fff;font-size:13px}
+.pill{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 10px;border-radius:20px;font-size:12px;font-weight:600}
+.pill.on{background:rgba(43,212,138,.12);color:var(--ok)} .pill.off{background:rgba(240,89,106,.12);color:var(--off)}
+.pill i{width:6px;height:6px;border-radius:50%;background:currentColor}
+.dest{display:inline-flex;align-items:center;gap:8px}
+.dest i{width:20px;height:20px;border-radius:6px;display:inline-block}
+tr.hl td{background:rgba(70,28,247,.10)} tr.hl td:first-child{box-shadow:inset 3px 0 0 var(--vio)}
+.edit h3{display:flex;justify-content:space-between;align-items:center}
+.lbl{color:var(--mut);font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin:16px 0 8px}
+.sel{height:44px;border-radius:11px;border:1px solid var(--line);background:var(--panel2);display:flex;align-items:center;padding:0 14px;gap:10px;font-size:14px}
+.sel.new{border-color:var(--vio2);box-shadow:0 0 0 3px rgba(123,92,255,.18)}
+.arrow{text-align:center;color:var(--vio2);font-size:18px;margin:6px 0}
+.tog{display:flex;align-items:center;justify-content:space-between;margin-top:16px;font-size:14px}
+.sw{width:44px;height:26px;border-radius:13px;background:var(--vio);position:relative}.sw:after{content:"";position:absolute;right:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#fff}
+.save{margin-top:18px;height:44px;border-radius:11px;background:var(--vio);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:14px;box-shadow:0 8px 26px rgba(70,28,247,.45)}
+.live{margin-top:12px;text-align:center;color:var(--ok);font-size:12.5px;font-weight:600}
+.chart{margin-top:22px}
+.qr{display:flex;gap:14px;align-items:center;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.qr div.q{width:64px;height:64px;border-radius:10px;background:#fff;padding:6px}
+.qr p{margin:0;font-size:12.5px;color:var(--mut);line-height:1.5}.qr p b{color:#fff;font-weight:600;font-family:"SF Mono",Menlo,monospace}
+</style></head><body><div class="win">
+<div class="bar"><div class="dot" style="background:#FF5F57"></div><div class="dot" style="background:#FEBC2E"></div><div class="dot" style="background:#28C840"></div>
+<div class="url">🔒 <span><b>admin.onde.tn</b>/products</span></div></div>
+<div class="side"><img src="/brand/mark_white.png">
+<div class="nav"><div><i></i>Overview</div><div class="on"><i></i>Products</div><div><i></i>Customers</div><div><i></i>Analytics</div><div><i></i>QR codes</div><div><i></i>Settings</div></div>
+<div class="badge"><b>Super Admin</b>Full control of every ONDE product.</div></div>
+<div class="main">
+<div class="h"><div><h2>Products</h2><p>Every chip, every link, one place.</p></div><div class="btns"><div class="btn">Export</div><div class="btn">Manage products</div><div class="btn p">+ Add product</div></div></div>
+<div class="kpis">
+<div class="k"><span>Products sold</span><b>1,250</b><em>+38 this week</em></div>
+<div class="k"><span>Active products</span><b>1,198</b><em>95.8% live</em></div>
+<div class="k"><span>NFC taps · 30 days</span><b>48,920</b><em>+21% vs last month</em></div>
+<div class="k"><span>Customers</span><b>870</b><em>+12 this week</em></div></div>
+<div class="grid"><div class="card">
+<h3>All products</h3><div class="sub">Change any destination instantly — no chip rewriting.</div>
+<table><tr><th>Code</th><th>Customer</th><th>Product</th><th>Destination</th><th>Status</th><th style="text-align:right">Taps</th></tr>
+<tr class="hl"><td class="code">A7K92X</td><td>Café Lumière</td><td>Review stand</td><td><span class="dest"><i style="background:linear-gradient(135deg,#7B5CFF,#461CF7)"></i>Digital menu</span></td><td><span class="pill on"><i></i>Active</span></td><td style="text-align:right">2,184</td></tr>
+<tr><td class="code">K3P8WQ</td><td>Sara B.</td><td>NFC card</td><td><span class="dest"><i style="background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)"></i>Instagram</span></td><td><span class="pill on"><i></i>Active</span></td><td style="text-align:right">612</td></tr>
+<tr><td class="code">M9T4RZ</td><td>Ahmed K.</td><td>Keychain</td><td><span class="dest"><i style="background:#111;border:1px solid #333"></i>TikTok</span></td><td><span class="pill on"><i></i>Active</span></td><td style="text-align:right">344</td></tr>
+<tr><td class="code">Q2H7NV</td><td>Bella Vista</td><td>Review stand</td><td><span class="dest"><i style="background:#fff"></i>Google Reviews</span></td><td><span class="pill on"><i></i>Active</span></td><td style="text-align:right">1,507</td></tr>
+<tr><td class="code">X5C3LD</td><td>Ali M.</td><td>Sticker</td><td><span class="dest"><i style="background:#2B2A33"></i>Website</span></td><td><span class="pill off"><i></i>Disabled</span></td><td style="text-align:right">98</td></tr>
+</table>
+<div class="chart"><svg width="100%" height="190" viewBox="0 0 860 150" preserveAspectRatio="none">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7B5CFF" stop-opacity=".45"/><stop offset="1" stop-color="#461CF7" stop-opacity="0"/></linearGradient></defs>
+<g stroke="#1F1E28" stroke-width="1"><line x1="0" y1="30" x2="860" y2="30"/><line x1="0" y1="75" x2="860" y2="75"/><line x1="0" y1="120" x2="860" y2="120"/></g>
+<path d="M0,118 C60,112 90,104 130,106 C180,108 210,92 260,88 C310,84 340,96 390,80 C440,64 470,70 520,58 C570,46 600,60 650,44 C700,28 740,36 790,22 L860,14 L860,150 L0,150 Z" fill="url(#g)"/>
+<path d="M0,118 C60,112 90,104 130,106 C180,108 210,92 260,88 C310,84 340,96 390,80 C440,64 470,70 520,58 C570,46 600,60 650,44 C700,28 740,36 790,22 L860,14" fill="none" stroke="#8C74FF" stroke-width="3"/>
+<circle cx="860" cy="14" r="5" fill="#fff"/></svg></div>
+</div>
+<div class="card edit"><h3>Edit destination <span class="pill on"><i></i>Live</span></h3><div class="sub">A7K92X · Café Lumière · Review stand</div>
+<div class="lbl">Current</div><div class="sel"><i style="width:20px;height:20px;border-radius:6px;background:#fff"></i>Google Reviews</div>
+<div class="arrow">↓</div>
+<div class="lbl" style="margin-top:0">New destination</div><div class="sel new"><i style="width:20px;height:20px;border-radius:6px;background:linear-gradient(135deg,#7B5CFF,#461CF7)"></i>Digital menu<span style="margin-left:auto;color:var(--mut)">▾</span></div>
+<div class="tog"><span>Product active</span><div class="sw"></div></div>
+<div class="save">Save — update instantly</div><div class="live">✓ Redirect updated in 0.4 s · chip untouched</div>
+<div class="qr"><div class="q"><img src="/brand/qr-onde.svg" style="width:100%;height:100%"></div><p>Permanent link<br><b>onde.tn/t/A7K92X</b><br>NFC + QR · same URL</p></div>
+</div></div></div></div></body></html>

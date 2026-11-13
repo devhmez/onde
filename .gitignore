@@ -1,0 +1,29 @@
+node_modules
+.next
+data/*.db*
+data/
+.env
+.env.*
+!.env.example
+.admin-dev-password
+backups/
+*.tsbuildinfo
+.DS_Store
+
+# local tooling and editor files
+AGENTS.md
+CLAUDE.md
+.claude/
+.vscode/
+.idea/
+
+# logs, build leftovers, local dumps
+*.log
+out/
+coverage/
+*.db
+*.db-wal
+*.db-shm
+*.db.gz
+*.sqlite
+*.pem

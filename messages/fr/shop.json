@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "shopTitle": "Boutique : présentoirs avis Google & cartes NFC | ONDE",
+    "shopDescription": "Présentoirs avis Google, cartes NFC, porte-clés et stickers, prix en DT et sans abonnement. Livraison en 3 jours partout en Tunisie, gratuite dès {threshold}.",
+    "productTitle": "{name} | ONDE",
+    "productDescription": "{name} — {tagline} Livraison en 3 jours max partout en Tunisie, paiement à la livraison.",
+    "checkoutTitle": "Finaliser ma commande | ONDE",
+    "orderTitle": "Commande {number} | ONDE"
+  },
+  "kinds": {
+    "stand": "Présentoir avis",
+    "card": "Carte NFC",
+    "keychain": "Porte-clés NFC",
+    "sticker": "Sticker NFC",
+    "pack": "Pack"
+  },
+  "filters": {
+    "label": "Filtrer les produits",
+    "all": "Tout",
+    "stand": "Présentoirs",
+    "card": "Cartes",
+    "keychain": "Porte-clés",
+    "sticker": "Stickers",
+    "pack": "Packs",
+    "count": "{count} produits",
+    "countOne": "1 produit",
+    "empty": "Rien dans cette catégorie pour l'instant — jetez un œil aux autres."
+  },
+  "hero": {
+    "eyebrow": "La gamme ONDE",
+    "titleA": "Un lien.",
+    "titleB": "Tous les formats.",
+    "subtitle": "Présentoirs, cartes, porte-clés et stickers NFC. Un tap ouvre votre page d'avis Google — ou le lien de votre choix, modifiable à tout moment.",
+    "scroll": "Voir les produits",
+    "chipDelivery": "Livraison en 3 jours max, offerte dès {amount}",
+    "chipReturning": "−{pct} % sur votre prochaine commande",
+    "chipCod": "Paiement à la livraison"
+  },
+  "card": {
+    "add": "Ajouter",
+    "addAria": "Ajouter {name} au panier",
+    "save": "−{pct} %",
+    "was": "Au lieu de {price}",
+    "promo": "Offre de lancement · fin dans"
+  },
+  "add": {
+    "label": "Ajouter au panier",
+    "added": "Ajouté",
+    "addedAria": "{name} a été ajouté au panier"
+  },
+  "offers": {
+    "eyebrow": "Commander chez ONDE",
+    "title": "Simple. Sans risque. Sans surprise.",
+    "deliveryStat": "{amount}",
+    "deliveryTitle": "Livraison offerte",
+    "deliveryBody": "Dès {amount} d'achat, partout en Tunisie. En dessous, la livraison coûte {fee}.",
+    "returningStat": "−{pct} %",
+    "returningTitle": "Sur votre prochaine commande",
+    "returningBody": "Une fois votre commande livrée, la suivante est remisée automatiquement. On vous reconnaît à votre numéro, aucun code à retenir.",
+    "codStat": "0 DT",
+    "codTitle": "À payer en ligne",
+    "codBody": "Paiement à la livraison, en espèces. On vous appelle d'abord pour confirmer chaque détail."
+  },
+  "help": {
+    "eyebrow": "Besoin d'un conseil ?",
+    "title": "Pas sûr du bon format ?",
+    "body": "Écrivez-nous sur WhatsApp : on vous aide à choisir ce qui convient à votre commerce, et on peut prendre votre commande directement.",
+    "cta": "Écrire sur WhatsApp",
+    "orCall": "ou appelez le {phone}"
+  },
+  "product": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "breadcrumbShop": "Boutique",
+    "unitPrice": "Prix unitaire",
+    "totalFor": "Total pour {qty} :",
+    "qty": "Quantité",
+    "decrease": "Retirer une unité",
+    "increase": "Ajouter une unité",
+    "personalizeTitle": "Personnalisation",
+    "personalizeSubtitle": "Facultatif — on peut aussi tout régler ensemble au téléphone.",
+    "business": "Nom de votre établissement",
+    "businessPlaceholder": "Ex. Café Lumière",
+    "businessHelp": "Pour personnaliser et configurer votre produit.",
+    "link": "Lien à configurer",
+    "linkPlaceholder": "Lien d'avis Google, Instagram, menu…",
+    "linkHelp": "Là où arrivent vos clients après un tap. Modifiable à tout moment, sans changer de produit.",
+    "linkInvalid": "Ce lien ne semble pas valide. Copiez-le depuis votre navigateur (ex. https://g.page/r/…).",
+    "howTo": "Comment trouver mon lien d'avis Google ?",
+    "howToSteps": [
+      "Ouvrez Google Maps et cherchez votre établissement, ou ouvrez votre fiche dans Google Business Profile.",
+      "Appuyez sur « Demander des avis » (ou « Partager le formulaire d'avis »).",
+      "Copiez le lien proposé — il commence souvent par https://g.page/r/ — et collez-le ici."
+    ],
+    "howToNote": "Introuvable ? Laissez vide : on le retrouve avec vous lors de l'appel de confirmation.",
+    "howToGuide": "Lire le guide complet : trouver votre lien d'avis Google",
+    "orderWhatsapp": "Commander sur WhatsApp",
+    "perkFree": "Livraison offerte sur cette commande · 3 jours max",
+    "perkDelivery": "Livraison en 3 jours max · {fee}, offerte dès {threshold}",
+    "perkCod": "Paiement à la livraison, en espèces",
+    "perkCall": "On vous appelle pour confirmer avant l'envoi",
+    "perkLink": "Lien intelligent permanent, modifiable à distance",
+    "specsTitle": "Caractéristiques",
+    "specs": {
+      "stand": [
+        "Puce NFC + QR code imprimé pour les téléphones sans NFC",
+        "Acrylique transparent 3 mm plié en L : tient seul sur le comptoir",
+        "Format 12 × 12 cm, socle de 12 cm",
+        "Compatible iPhone et Android, aucune application",
+        "Configuré et testé avant la livraison"
+      ],
+      "card": [
+        "Format portefeuille, finition noir mat",
+        "Puce NFC intégrée : on partage en un tap",
+        "Idéale pour serveurs, commerciaux, freelances et équipes",
+        "Compatible iPhone et Android, aucune application",
+        "Jamais besoin de la réimprimer"
+      ],
+      "keychain": [
+        "Léger, résistant, anneau en métal",
+        "Puce NFC intégrée : votre lien voyage avec vos clés",
+        "Pensé pour livreurs, chauffeurs, techniciens et coachs",
+        "Compatible iPhone et Android, aucune application",
+        "Destination modifiable à distance"
+      ],
+      "sticker": [
+        "Rond, fin et très adhésif",
+        "Sur une table, un menu, une vitrine, une caisse ou un emballage",
+        "La façon la plus abordable d'être partout",
+        "Compatible iPhone et Android, aucune application",
+        "Destination modifiable à distance"
+      ],
+      "pack": [
+        "Plusieurs pièces, une seule livraison",
+        "Chaque pièce porte son propre lien intelligent permanent",
+        "Chaque lien se configure séparément",
+        "Compatible iPhone et Android, aucune application",
+        "Configuré et testé avant la livraison"
+      ]
+    },
+    "descriptionTitle": "Le produit",
+    "viewer3d": "3D",
+    "viewerPhoto": "Photo",
+    "viewerHint": "Glissez pour faire pivoter",
+    "viewerModes": "Mode d'affichage",
+    "storyEyebrow": "En action",
+    "storyTitle": "Un tap. Un avis.",
+    "storySubtitle": "Faites défiler : voici exactement ce que vivent vos clients.",
+    "storySteps": [
+      "Le client approche son téléphone",
+      "La notification NFC s'affiche",
+      "Votre page d'avis Google s'ouvre",
+      "Cinq étoiles, publiées"
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Vos questions, nos réponses",
+    "faq": [
+      {
+        "q": "Faut-il une application pour que ça marche ?",
+        "a": "Non. Vos clients approchent simplement leur téléphone : la page s'ouvre directement dans le navigateur. Compatible iPhone (XR, XS et plus récents) et Android équipés du NFC. Les présentoirs portent aussi un QR code pour tous les autres téléphones."
+      },
+      {
+        "q": "Puis-je changer le lien plus tard ?",
+        "a": "Oui, à tout moment. Chaque produit porte un lien intelligent permanent (onde.tn/t/…). La puce ne change jamais : c'est la destination que l'on modifie à distance, en quelques secondes. Avis Google aujourd'hui, menu ou Instagram demain — sans rien réimprimer."
+      },
+      {
+        "q": "Comment trouver mon lien d'avis Google ?",
+        "a": "Dans Google Maps ou Google Business Profile, ouvrez votre fiche puis « Demander des avis » : Google vous donne un lien court à copier. Vous ne le trouvez pas ? On le récupère avec vous lors de l'appel de confirmation."
+      },
+      {
+        "q": "Combien coûte la livraison, et combien de temps prend-elle ?",
+        "a": "{fee} partout en Tunisie, et offerte dès {threshold} d'achat. On vous appelle pour confirmer la commande, puis on vous livre en 3 jours maximum."
+      },
+      {
+        "q": "Comment se passe le paiement ?",
+        "a": "Vous payez à la livraison, en espèces. Rien n'est à régler en ligne."
+      },
+      {
+        "q": "Comment fonctionne la remise de −{pct} % ?",
+        "a": "Après votre première commande livrée, votre commande suivante bénéficie automatiquement de −{pct} % (une seule fois). On vous reconnaît grâce à votre numéro de téléphone — aucun code à retenir."
+      },
+      {
+        "q": "Puis-je commander par WhatsApp ?",
+        "a": "Bien sûr. Le bouton « Commander sur WhatsApp » prépare un message avec votre sélection : il ne vous reste qu'à l'envoyer."
+      }
+    ],
+    "relatedEyebrow": "Complétez votre comptoir",
+    "relatedTitle": "Vous aimerez aussi",
+    "stickyAdd": "Ajouter"
+  },
+  "freeDelivery": {
+    "remaining": "Plus que {amount} pour la livraison gratuite",
+    "unlocked": "Livraison gratuite débloquée ✓",
+    "label": "Progression vers la livraison gratuite"
+  },
+  "summary": {
+    "subtotal": "Sous-total",
+    "discount": "Remise fidélité (−{pct} %)",
+    "delivery": "Livraison",
+    "free": "Offerte",
+    "total": "Total",
+    "cod": "À payer à la livraison",
+    "items": "{count} articles",
+    "itemsOne": "1 article",
+    "each": "{price} / unité"
+  },
+  "drawer": {
+    "title": "Votre panier",
+    "close": "Fermer le panier",
+    "remove": "Retirer {name} du panier",
+    "removeLabel": "Retirer",
+    "swipeHint": "Glissez un article vers la gauche pour le retirer",
+    "business": "Établissement : {value}",
+    "link": "Lien : {value}",
+    "checkout": "Passer la commande",
+    "returningHint": "Déjà client ? −{pct} % appliqués automatiquement à l'étape suivante.",
+    "reassurance": "Livraison en 3 jours max · Paiement à la livraison",
+    "emptyTitle": "Votre panier est vide",
+    "emptyBody": "Un tap suffit pour récolter des avis. Commencez par un présentoir — vos clients feront le reste.",
+    "emptyCta": "Découvrir la boutique"
+  },
+  "cartButton": {
+    "label": "Panier",
+    "labelCount": "Panier, {count} article(s)",
+    "added": "Ajouté au panier",
+    "view": "Voir le panier",
+    "checkout": "Commander",
+    "dismiss": "Fermer"
+  },
+  "checkout": {
+    "eyebrow": "Paiement à la livraison",
+    "title": "Plus qu'une étape.",
+    "subtitle": "Laissez vos coordonnées : on vous appelle pour confirmer, puis on configure votre commande et on vous la livre en 3 jours max.",
+    "contactTitle": "Vos coordonnées",
+    "deliveryTitle": "Livraison",
+    "optional": "facultatif",
+    "name": "Nom et prénom",
+    "namePlaceholder": "Ex. Sarra Ben Ali",
+    "phone": "Téléphone",
+    "phonePlaceholder": "XX XXX XXX",
+    "phoneHelp": "On vous appelle sur ce numéro pour confirmer.",
+    "email": "E-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "business": "Nom de l'établissement",
+    "businessPlaceholder": "Ex. Café Lumière",
+    "governorate": "Gouvernorat",
+    "governoratePlaceholder": "Choisissez…",
+    "city": "Ville",
+    "cityPlaceholder": "Ex. La Marsa",
+    "address": "Adresse",
+    "addressPlaceholder": "Rue, numéro, immeuble, point de repère…",
+    "notes": "Note pour la commande",
+    "notesPlaceholder": "Créneau de livraison, couleur des présentoirs, précisions…",
+    "honeypot": "Ne pas remplir ce champ",
+    "errors": {
+      "name": "Indiquez votre nom (2 caractères minimum).",
+      "phone": "Numéro tunisien à 8 chiffres attendu (ex. 25 875 529).",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "governorate": "Choisissez votre gouvernorat.",
+      "city": "Indiquez votre ville.",
+      "address": "Indiquez une adresse de livraison complète.",
+      "tooLong": "Ce texte est trop long.",
+      "generic": "Vérifiez ce champ.",
+      "summary": "Quelques champs sont à corriger.",
+      "empty": "Votre panier est vide.",
+      "closed": "Les commandes en ligne sont momentanément suspendues. Commandez sur WhatsApp, on vous répond vite.",
+      "rate": "Trop de tentatives. Patientez une minute, puis réessayez.",
+      "network": "Connexion impossible. Vérifiez votre réseau ou commandez sur WhatsApp.",
+      "server": "Une erreur est survenue. Réessayez, ou commandez sur WhatsApp.",
+      "items": "Un article de votre panier pose problème. Vérifiez-le puis réessayez.",
+      "unavailable": "Plus disponible — retirez-le pour continuer."
+    },
+    "returningTitle": "Bon retour !",
+    "returningBody": "−{pct} % appliqués sur votre commande.",
+    "checking": "Vérification de votre remise…",
+    "submit": "Confirmer la commande",
+    "submitting": "Envoi en cours…",
+    "placed": "Commande envoyée",
+    "noPayNow": "Vous ne payez rien maintenant.",
+    "or": "ou",
+    "whatsappHint": "Vous préférez WhatsApp ? Envoyez la même commande en un message.",
+    "whatsappRecorded": "Vos coordonnées sont complètes : la commande est enregistrée puis envoyée sur WhatsApp.",
+    "whatsappSaving": "Enregistrement…",
+    "summaryTitle": "Récapitulatif",
+    "showSummary": "Afficher le récapitulatif",
+    "hideSummary": "Masquer le récapitulatif",
+    "edit": "Modifier le panier",
+    "closedBanner": "Les commandes en ligne sont momentanément suspendues — vous pouvez toujours commander sur WhatsApp.",
+    "emptyTitle": "Votre panier est vide",
+    "emptyBody": "Ajoutez un présentoir, une carte ou un sticker pour passer commande.",
+    "emptyCta": "Découvrir la boutique",
+    "privacy": "Vos informations servent uniquement à livrer et configurer votre commande.",
+    "legalConsent": "En confirmant ma commande, ici ou sur WhatsApp, j'accepte les {terms} et la {privacy} d'ONDE, y compris la transmission de mes coordonnées au livreur et leur hébergement au Royaume-Uni.",
+    "legalTerms": "conditions générales de vente",
+    "legalPrivacy": "politique de confidentialité"
+  },
+  "order": {
+    "eyebrow": "Commande reçue",
+    "title": "Merci, c'est noté !",
+    "number": "Numéro de commande",
+    "copy": "Copier le numéro",
+    "copied": "Copié",
+    "callTitle": "On vous appelle pour confirmer votre commande.",
+    "callBody": "Gardez votre téléphone à portée de main : l'équipe ONDE vous contacte pour valider les détails et la configuration de vos liens. Une fois confirmée, votre commande est livrée en 3 jours maximum.",
+    "statusTitle": "Suivi de commande",
+    "status": {
+      "new": "Reçue",
+      "confirmed": "Confirmée",
+      "preparing": "En préparation",
+      "shipped": "Expédiée",
+      "delivered": "Livrée",
+      "cancelled": "Annulée"
+    },
+    "cancelledNote": "Cette commande a été annulée. Une question ? Écrivez-nous sur WhatsApp.",
+    "summaryTitle": "Votre commande",
+    "deliveryTo": "Livraison à {city}",
+    "payment": "Paiement à la livraison",
+    "whatsapp": "Suivre sur WhatsApp",
+    "continue": "Continuer mes achats",
+    "nextDiscount": "Bonus : une fois cette commande livrée, la prochaine sera à −{pct} %."
+  },
+  "whatsapp": {
+    "greeting": "Bonjour ONDE 👋",
+    "orderRef": "Commande {number}",
+    "intro": "Je souhaite commander :",
+    "line": "• {qty} × {name} — {total}",
+    "lineBusiness": "   Établissement : {value}",
+    "lineLink": "   Lien à configurer : {value}",
+    "subtotal": "Sous-total : {value}",
+    "discount": "Remise fidélité (−{pct} %) : −{value}",
+    "delivery": "Livraison : {value}",
+    "free": "offerte",
+    "total": "*Total : {value}*",
+    "payment": "Paiement à la livraison.",
+    "customerTitle": "Mes coordonnées :",
+    "name": "Nom : {value}",
+    "phone": "Téléphone : {value}",
+    "email": "E-mail : {value}",
+    "businessName": "Établissement : {value}",
+    "address": "Adresse : {value}",
+    "notes": "Note : {value}",
+    "inquiry": "Bonjour ONDE 👋 J'ai une question sur vos produits NFC.",
+    "followUp": "Bonjour ONDE 👋 Je viens de passer la commande {number} ({total}) sur le site.",
+    "newTab": "(s'ouvre dans WhatsApp)"
+  }
+}

@@ -1,0 +1,220 @@
+/* The owner's sticky bar above a client's dashboard (OwnerBanner.tsx). Lives in the client page's document
+   (portal.css tokens), not in the admin's: everything it needs is here. Gold accent = "admin view", not the client's. */
+.ob {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(16, 14, 23, 0.94);
+  border-bottom: 1px solid rgba(245, 165, 36, 0.38);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 3px 0 #f5a524;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  padding-top: env(safe-area-inset-top);
+  font-size: 14px;
+  line-height: 1.35;
+}
+.ob-in {
+  width: 100%;
+  max-width: 1080px;
+  margin-inline: auto;
+  padding: 10px max(16px, env(safe-area-inset-left)) 10px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas: "back txt" "acts acts";
+  align-items: center;
+  gap: 8px 10px;
+}
+.ob-back {
+  grid-area: back;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  border-radius: 12px;
+  border: 1px solid var(--line2, #34303f);
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.ob-back span {
+  display: none;
+}
+.ob-txt {
+  grid-area: txt;
+  min-width: 0;
+}
+.ob-txt p {
+  margin: 0;
+  color: var(--tx2, #cfccdb);
+  overflow-wrap: anywhere;
+}
+.ob-txt b {
+  color: #fff;
+}
+.ob-badge {
+  display: inline-block;
+  vertical-align: 1px;
+  margin-right: 4px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: #f5a524;
+  color: #1a1205;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ob-sub {
+  display: none;
+  margin-top: 3px !important;
+  color: var(--mut, #9b97ad) !important;
+  font-size: 12.5px;
+}
+.ob-acts {
+  grid-area: acts;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.ob-lang {
+  display: inline-flex;
+  flex: none;
+  padding: 2px;
+  gap: 2px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line, #262330);
+}
+.ob-lang a {
+  min-width: 44px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--mut, #9b97ad);
+  text-decoration: none;
+}
+.ob-lang a[aria-current="true"] {
+  background: rgba(123, 92, 255, 0.28);
+  color: #fff;
+}
+.ob-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line2, #34303f);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ob-btn > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* "Copy client link" / "Send on WhatsApp" → "Copy link" / "WhatsApp" on a phone */
+.ob-long {
+  display: none;
+}
+.ob-btn svg {
+  flex: none;
+}
+.ob-btn:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+.ob-btn.wa {
+  /* = --wa of the client page: white text 4.9:1 (#128c45 was 4.3:1) */
+  background: #11823f;
+  border-color: #11823f;
+}
+.ob-btn.p {
+  background: var(--vio, #461cf7);
+  border-color: var(--vio, #461cf7);
+}
+.ob-btn:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+.ob-ok {
+  color: var(--ok, #2bd48a);
+}
+.ob-pill {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 15px;
+  background: rgba(240, 89, 106, 0.14);
+  color: #ff9aa6;
+  font-size: 12.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.ob-err {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 16px 10px;
+  color: #ff8f9c;
+  font-size: 13px;
+  font-weight: 700;
+}
+.ob-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+/* A11y: the sticky bar must not hide what keyboard focus scrolls to. */
+html:has(.ob) {
+  scroll-padding-top: 130px;
+}
+
+@media (min-width: 760px) {
+  .ob-in {
+    padding-inline: 24px;
+    gap: 10px 14px;
+  }
+  .ob-back span,
+  .ob-long {
+    display: inline;
+  }
+  .ob-sub {
+    display: block;
+  }
+  .ob-btn {
+    flex: none;
+  }
+}
+@media (min-width: 1100px) {
+  .ob-in {
+    max-width: 1320px;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "back txt acts";
+    gap: 16px;
+  }
+  html:has(.ob) {
+    scroll-padding-top: 96px;
+  }
+}

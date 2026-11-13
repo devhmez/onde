@@ -1,0 +1,42 @@
+/* Admin → customer page → "Client page" section, and the Overview request notice. Builds on admin.css tokens. */
+/* Customer page: the client page sits in the main column under the stand cards — "Client page" | "Requests & link
+   changes" side by side when that column is wide enough (1440: ~756 px), stacked otherwise (and on phones). */
+.cust-main { container-type: inline-size; }
+.pa { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: stretch; }
+@container (min-width: 700px) { .pa { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* #client-page (iPhone notification → customer page): land below the sticky iPhone top bar (58 px). */
+.pa { scroll-margin-top: 24px; }
+@media (max-width: 900px) { .pa { scroll-margin-top: 74px; } }
+.pa-empty { margin-top: 14px; display: flex; flex-direction: column; align-items: flex-start; gap: 12px; color: var(--tx2); font-size: 13.5px; line-height: 1.5; }
+.pa-link { display: flex; gap: 8px; align-items: center; }
+.pa-link .input { flex: 1; min-width: 0; font-size: 12.5px; }
+.pa-link .btn svg { width: 14px; height: 14px; }
+.pa-dim { opacity: 0.5; text-decoration: line-through; }
+.pa-btns { margin-top: 10px; flex-wrap: wrap; }
+.pa-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.pa-list li { padding: 10px 0; border-bottom: 1px solid var(--row); display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+.pa-list li:last-child { border-bottom: 0; }
+.pa-req { padding: 12px !important; margin-bottom: 8px; border-radius: 12px; border: 1px solid rgba(245, 165, 36, 0.3) !important; background: rgba(245, 165, 36, 0.05); }
+.pa-req-h { display: flex; align-items: center; gap: 8px; font-size: 12.5px; min-width: 0; }
+.pa-req-h .pill { height: 20px; padding: 0 8px; font-size: 11px; }
+.pa-when { margin-left: auto; white-space: nowrap; font-size: 12px; }
+.pa-change { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; min-width: 0; }
+.pa-from { opacity: 0.6; padding-left: 20px; min-width: 0; display: flex; }
+.pa-from .pa-dest b { font-weight: 500; }
+.pa-to { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.pa-to .pa-arrow { width: 14px; flex: none; text-align: center; }
+.pa-to > .muted:first-child { flex: none; white-space: nowrap; }
+.pa-dest { display: inline-flex; align-items: center; gap: 6px; min-width: 0; max-width: 100%; overflow: hidden; }
+.pa-dest .sw20 { width: 14px; height: 14px; border-radius: 4px; flex: none; }
+.pa-dest b { font-weight: 600; white-space: nowrap; }
+.pa-url { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.pa-arrow { color: var(--vio2); }
+.pa-revert { margin-left: auto; }
+.pa-more { margin-top: 10px; }
+.pa-overview { align-items: center; margin-top: 16px; }
+.pa-overview ul { list-style: none; margin: 4px 0 0; padding: 0; font-size: 12.5px; display: flex; flex-direction: column; gap: 2px; }
+.pa-overview a:hover { color: #fff; text-decoration: underline; }
+.pa-badge { flex: none; min-width: 30px; height: 30px; padding: 0 8px; border-radius: 15px; display: inline-flex; align-items: center; justify-content: center; background: var(--gold); color: #1a1205; font-weight: 700; font-size: 14px; }
+@media (max-width: 640px) {
+  .pa-overview { flex-wrap: wrap; }
+}

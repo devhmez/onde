@@ -1,0 +1,63 @@
+{
+  "aria": "Animated demo: an NFC tap on an ONDE product opens the Google review page",
+  "intro": {
+    "kicker": "How it works",
+    "title": "One tap. One Google review.",
+    "scroll": "Scroll"
+  },
+  "steps": {
+    "tap": {
+      "num": "01",
+      "title": "Tap",
+      "body": "Your customer holds their phone near the ONDE product. No app, no scanning."
+    },
+    "notification": {
+      "num": "02",
+      "title": "Notification",
+      "body": "A notification drops in at the top of the screen. One touch: onde.tn sends them to your Google page."
+    },
+    "review": {
+      "num": "03",
+      "title": "Google review",
+      "body": "Your business's Google review page opens — here, ONDE's own. Five stars, two lines, posted."
+    }
+  },
+  "notification": {
+    "app": "NFC Tag",
+    "time": "now",
+    "body": "Open “onde.tn” in Safari",
+    "action": "Open"
+  },
+  "toast": {
+    "label": "+1 review",
+    "stars": "★★★★★",
+    "aria": "A new five-star review"
+  },
+  "demoNote": "Demo — ONDE's own Google review page as the example",
+  "switcher": {
+    "label": "See it with another product",
+    "stand-white": "White stand",
+    "stand-black": "Black stand",
+    "card": "NFC card",
+    "keychain": "Keychain",
+    "sticker": "Sticker"
+  },
+  "viewer": {
+    "hint": "Drag to rotate",
+    "loading": "Loading 3D model…",
+    "keyboard": "Use the left and right arrow keys to rotate the product",
+    "alt": {
+      "stand-white": "White ONDE Google review stand, clear acrylic bent into an L, 3D view",
+      "stand-black": "Black ONDE Google review stand, clear acrylic bent into an L, 3D view",
+      "card": "ONDE NFC card, 3D view",
+      "keychain": "ONDE NFC keychain, 3D view",
+      "sticker": "ONDE NFC sticker, 3D view"
+    }
+  },
+  "hero": {
+    "alt": "White ONDE Google review stand in clear acrylic bent into an L, floating in a violet glow"
+  },
+  "fallback": {
+    "video": "Video demo: an NFC tap opens the Google review page"
+  }
+}

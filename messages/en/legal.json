@@ -1,0 +1,453 @@
+{
+  "common": {
+    "eyebrow": "Legal",
+    "updated": "Last updated: {date}",
+    "updatedDate": "October 13, 2026",
+    "toc": "Contents",
+    "readingTime": "{min} min read",
+    "print": "Print",
+    "nav": {
+      "label": "Legal documents",
+      "terms": "Terms of sale",
+      "privacy": "Privacy",
+      "notice": "Legal notice"
+    },
+    "emailClause": " or by email at {email}",
+    "identity": {
+      "legalName": "Legal / trade name: {legalName}",
+      "taxId": "Tax ID (matricule fiscal) / RNE: {taxId}",
+      "address": "Address: {address}"
+    },
+    "contactTitle": "A question about this document?",
+    "contactBody": "We'll answer plainly, no jargon.",
+    "whatsapp": "Message us on WhatsApp",
+    "waMessage": "Hello ONDE, I have a question about your legal documents (terms, privacy, legal notice):"
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of sale | ONDE",
+      "description": "ONDE terms of sale: NFC products, prices in dinars, cash on delivery, 3-day delivery across Tunisia, returning-customer offer, returns and smart links."
+    },
+    "title": "Terms of sale",
+    "intro": "These terms apply to every order of ONDE products, placed on onde.tn, on WhatsApp or by phone. We wrote them to be clear: if anything seems unclear, message us.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Purpose and scope",
+        "blocks": [
+          "These general terms of sale (\"Terms\") govern sales between ONDE (onde.tn) and any person, private or professional, who places an order (\"the Customer\"), whatever the channel: the website order form, WhatsApp or phone.",
+          "Placing an order implies full acceptance of the Terms in force on the order date. They are governed by Tunisian law, including Law No. 2000-83 of 9 August 2000 on electronic exchanges and commerce and Law No. 92-117 of 7 December 1992 on consumer protection."
+        ]
+      },
+      {
+        "id": "products",
+        "title": "Products",
+        "blocks": [
+          "ONDE sells products fitted with an NFC chip and connected to a smart link (see \"Smart-link service\"):",
+          {
+            "list": [
+              "acrylic review stands (white or black);",
+              "NFC cards;",
+              "NFC keychains;",
+              "NFC stickers;",
+              "packs combining several of these products."
+            ]
+          },
+          "Photos and visuals are as accurate as possible; slight variations in shade or finish may occur without affecting use.",
+          "NFC taps work on iPhone XR, XS and newer and on Android smartphones with NFC (enabled). When a QR code is printed on the product, it leads to the same smart link and works with any smartphone camera."
+        ]
+      },
+      {
+        "id": "prices",
+        "title": "Prices",
+        "blocks": [
+          "Prices are shown in Tunisian dinars (DT). They are final prices: apart from any delivery fee, nothing is added.",
+          "The applicable price is the one displayed when the order is confirmed. ONDE may change its prices at any time, with no effect on orders already confirmed.",
+          "Promotional prices: when a product is on promotion (for example the launch price of the review stands), the regular price is shown struck through next to the promotional price, with a countdown to the end of the offer. When the offer ends, the regular price applies automatically.",
+          "The summary shown before confirmation details the item subtotal, any discount, the delivery fee and the total to pay."
+        ]
+      },
+      {
+        "id": "orders",
+        "title": "Orders",
+        "blocks": [
+          "To order, the Customer provides the products wanted and their details: name, Tunisian phone number, address, city and governorate (email optional). They may add their business name and the link each product should point to.",
+          "Each order gets a number (for example OND-1001). ONDE contacts the Customer by phone or WhatsApp to confirm it before shipping: the sale is concluded on this confirmation, which stands as the acceptance provided for by article 28 of Law No. 2000-83. On request, ONDE gives the Customer a written summary of their order.",
+          "ONDE may refuse or cancel an order if the information is incomplete or incorrect, if the Customer cannot be reached, or if the order looks abnormal. The Customer is informed, and nothing is owed since payment only happens on delivery."
+        ]
+      },
+      {
+        "id": "payment",
+        "title": "Payment",
+        "blocks": [
+          "Payment is made in cash, on delivery, to the courier, for the total amount shown when ordering. No advance payment is requested.",
+          "If other payment methods are offered in the future, these Terms will be updated accordingly."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Delivery",
+        "blocks": [
+          "ONDE delivers to all 24 governorates of Tunisia, to the address given by the Customer.",
+          {
+            "list": [
+              "Delivery time: 3 days maximum after the order is confirmed, anywhere in Tunisia.",
+              "Delivery fee: {deliveryFee} per order.",
+              "Free delivery when the item subtotal (before discount) reaches {threshold}."
+            ]
+          },
+          "If this deadline is missed for a reason attributable to ONDE, the Customer may refuse the parcel and pay nothing or, if they accepted it, return it as is within 10 working days of delivery: ONDE then refunds the amount paid and related costs within 10 working days of the return (article 31 of Law No. 2000-83).",
+          "If an event beyond our control (severe weather, strike, force majeure) exceptionally delays a delivery, ONDE lets the Customer know, and the Customer may then cancel the order at no cost.",
+          "On receipt, the Customer checks the parcel and reports any visible damage to the courier and to ONDE as soon as possible, ideally within 48 h, with photos.",
+          "If the Customer is repeatedly absent or refuses the parcel without good reason, ONDE may cancel the order."
+        ]
+      },
+      {
+        "id": "loyalty",
+        "title": "Returning-customer offer (−{pct}%)",
+        "blocks": [
+          "Once an order has been delivered, the Customer gets a one-time {pct}% discount on their next order, under these conditions:",
+          {
+            "list": [
+              "the Customer is recognized by their phone number and must order with the same number;",
+              "the discount applies to the item subtotal, excluding delivery;",
+              "it is applied automatically and shown before the order is confirmed;",
+              "it is a one-time benefit, usable only once per Customer; it also applies to displayed promotional prices, and cannot be transferred or exchanged for cash;",
+              "if the discounted order is cancelled, the benefit is restored for the next order."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "returns",
+        "title": "Returns, withdrawal and refunds",
+        "blocks": [
+          "Defective or non-conforming product: if a product arrives damaged, its chip doesn't work or it doesn't match the order (for example a printing error on our side), the Customer reports it within 10 working days of delivery (photo or video on WhatsApp). ONDE offers a replacement; if the Customer prefers, they return the product and ONDE refunds the amount paid and related costs (delivery and return) within 10 working days of the return. A hidden defect discovered later remains covered by the legal warranties.",
+          "Right of withdrawal: under article 30 of Law No. 2000-83 of 9 August 2000, a consumer Customer may withdraw, without giving a reason, within 10 working days of receiving the product, by telling us on WhatsApp or by phone at {phone}{emailClause}. The product is returned complete and in good condition; return costs are borne by the Customer. ONDE refunds the amount paid within 10 working days of the product's return, by the method agreed with the Customer (cash, bank transfer or money order).",
+          "Under article 32 of the same law, withdrawal does not apply to products made to the Customer's specifications (for example printed with their business name or logo), except for apparent or hidden defects.",
+          "Not covered: damage caused by drops, misuse, modification of the product or normal wear."
+        ]
+      },
+      {
+        "id": "smart-link",
+        "title": "Smart-link service",
+        "blocks": [
+          "Every ONDE product contains a permanent link of the form onde.tn/t/CODE, written to the chip only once and then locked. ONDE redirects this link to the destination chosen by the Customer: Google review page, social network, digital menu, website, contact card, and so on.",
+          {
+            "list": [
+              "The service is included in the product price, with no subscription.",
+              "The Customer can ask to change the destination at any time (WhatsApp or phone): the change is applied remotely, with no reprint and no new chip.",
+              "ONDE keeps the link active, with no time limit, for as long as the ONDE service operates; should it stop, Customers would be notified at least 3 months in advance."
+            ]
+          },
+          "The Customer is solely responsible for the content of the chosen destination and for following the rules of the platforms involved. For example, Google's rules forbid offering anything in exchange for a review.",
+          "ONDE may disable or suspend an abusive destination: unlawful, misleading, fraudulent (phishing) or malicious content, content infringing third-party rights, or content breaking platform rules. In urgent cases it may be disabled without notice; the Customer is then informed.",
+          "ONDE takes reasonable steps to keep the service available but cannot guarantee it will never be interrupted (maintenance, third-party outage, phone compatibility)."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Warranties and liability",
+        "blocks": [
+          "Products benefit from the warranties provided by Tunisian law. ONDE provides a tool that makes leaving reviews easier: ONDE does not guarantee a number of reviews, a rating or any business result.",
+          "ONDE cannot be held liable for indirect damage, or for unavailability caused by a third party (mobile operator, destination platform, courier) or by force majeure."
+        ]
+      },
+      {
+        "id": "ip",
+        "title": "Intellectual property",
+        "blocks": [
+          "The ONDE logo, the film, the 3D models and renders, photos, product artwork, texts and the website's own code are protected by copyright (Law No. 94-36 of 24 February 1994 on literary and artistic property, as amended and supplemented by Law No. 2009-33 of 23 June 2009) and belong to ONDE; the ONDE name is protected as a distinctive sign. Any reproduction, representation or adaptation, in whole or in part, without ONDE's prior written permission is prohibited.",
+          "Buying a product does not transfer any rights in these creations to the Customer. The Customer keeps the rights to their logo, business name and any content they send us for personalization; they confirm they are entitled to use it and allow ONDE to reproduce it only to make their order.",
+          "Google, Apple, Meta, TikTok and the other brands mentioned on the website belong to their respective owners; ONDE is not affiliated with or endorsed by these companies. Details are in our legal notice."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Personal data",
+        "blocks": [
+          "Data collected with an order is used only to process and deliver it, configure the smart links and apply the returning-customer offer. Details, including its hosting in the United Kingdom, are in our privacy policy."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Governing law and disputes",
+        "blocks": [
+          "These Terms are governed by Tunisian law. In case of a dispute, the Customer and ONDE first seek an amicable solution. Failing that, the competent Tunisian courts will have jurisdiction.",
+          "ONDE may update these Terms at any time; the applicable version is the one in force on the order date."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "blocks": [
+          "For any question: WhatsApp or phone at {phone}{emailClause}. {addressLine}"
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy policy | ONDE",
+      "description": "What ONDE collects (order data, pseudonymized tap statistics), why, for how long, and how to exercise your rights. No ad trackers."
+    },
+    "title": "Privacy policy",
+    "intro": "Short version: we collect only what we need to deliver your orders and run your links. No ad trackers, no selling data. Full version below.",
+    "highlights": [
+      "No ad trackers",
+      "No IP addresses stored in clear",
+      "We never sell data",
+      "Access and deletion on request"
+    ],
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Who we are",
+        "blocks": [
+          "ONDE (onde.tn) is responsible for the data processing described here. You can reach us on WhatsApp or by phone at {phone}{emailClause}.",
+          {
+            "list": [
+              "{legalNameLine}",
+              "{taxIdLine}",
+              "{addressLine}"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "orders",
+        "title": "Order data",
+        "blocks": [
+          "When you order, we store:",
+          {
+            "list": [
+              "your name, your phone number and, if you provide it, your email;",
+              "your business name, if you enter it;",
+              "your delivery address, city and governorate, and any notes;",
+              "the products ordered, the amounts and the destination links you want;",
+              "your order history, used to apply the returning-customer offer."
+            ]
+          },
+          "Your name, phone, address, city and governorate are required to deliver: without them, the order cannot be processed. Email, business name, links and notes are optional.",
+          "This data is used to confirm, prepare and deliver your order, configure your smart links, contact you about your order and apply the returning-customer discount."
+        ]
+      },
+      {
+        "id": "taps",
+        "title": "Tap statistics (pseudonymized)",
+        "blocks": [
+          "When someone taps or scans an ONDE product, we record enough to count visits, without trying to identify the person:",
+          {
+            "list": [
+              "the date and time;",
+              "the source: NFC tap or QR scan;",
+              "the device type: iOS, Android, desktop or other;",
+              "the referring site, if the browser sends it;",
+              "a one-way fingerprint of the IP address, computed with the current date and a secret key, so it changes every day."
+            ]
+          },
+          "The IP address is never stored in clear text. The fingerprint is only used to count unique visitors in a day; we do not use it to follow anyone. We collect no name, number or account of the person tapping.",
+          "Website visits are measured the same way (page viewed, language, device type, referring site, daily fingerprint of the IP address and browser), with no analytics cookie."
+        ]
+      },
+      {
+        "id": "never",
+        "title": "What we never do",
+        "blocks": [
+          {
+            "list": [
+              "no ad trackers or social-network pixels;",
+              "no third-party analytics tools;",
+              "no selling, renting or transferring your data;",
+              "no advertising profiling."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies and local storage",
+        "blocks": [
+          "The website only uses:",
+          {
+            "list": [
+              "an \"onde-locale\" cookie that remembers your language for 1 year;",
+              "your browser's local storage for your cart (products and, if you enter them, business name and destination links), which stays on your device until you order;",
+              "your browser's session storage, cleared when you close the tab, to keep the order form you are filling in if you reload the page and to remember which animations have already played (intro, order confirmation);",
+              "a session cookie reserved for the ONDE team to access the admin area."
+            ]
+          },
+          "None of these is used for advertising or cross-site tracking."
+        ]
+      },
+      {
+        "id": "sharing",
+        "title": "Who your data is shared with",
+        "blocks": [
+          {
+            "list": [
+              "the courier, who receives the name, phone, address and amount to collect in order to deliver your parcel;",
+              "our hosting provider OVHcloud, as a technical provider: the website and its database run on a virtual private server (VPS) rented from OVHcloud and located in the United Kingdom. Your data is therefore stored outside Tunisia, on this server, protected by OVHcloud's contractual security measures (access-controlled data centre) and by our own (see \"Security\");",
+              "when new-order notifications are enabled, the push notification service of the ONDE team's own devices (for example Apple for an iPhone), which relays a short new-order alert (name, business, city, products, amount) to those devices; the alert is end-to-end encrypted, so the push service cannot read it, and it passes through servers located outside Tunisia;",
+              "WhatsApp (Meta), if you choose to message us there: its own terms then apply;",
+              "authorities, only when the law requires it."
+            ]
+          },
+          "Transfers outside Tunisia: your data is stored in the United Kingdom (OVHcloud) and, when notifications are enabled, short end-to-end encrypted alerts pass through the push service of the team's devices (for example Apple). If you message us on WhatsApp, your messages go through Meta's servers. We do not transfer your data to any other country."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Retention",
+        "blocks": [
+          "Order and customer data: kept for the business relationship, then deleted or anonymized 3 years after your last order; the accounting details of orders (number, date, products, amounts) are kept for 10 years. Tap statistics: kept as long as the smart link exists, and deleted with it. Website visit statistics: kept for 25 months at most.",
+          "You can ask us to delete your data at any time; we only keep what the law requires us to keep."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "blocks": [
+          "Traffic with the website is encrypted (HTTPS). The admin area is reserved for the ONDE team and password-protected; data is backed up regularly."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Your rights",
+        "blocks": [
+          "Under Organic Law No. 2004-63 of 27 July 2004 on the protection of personal data, you have the right to access and correct your data, to object to its processing for legitimate reasons and to withdraw your agreement at any time; you can also ask for your data to be deleted.",
+          "To exercise these rights, contact us on WhatsApp or by phone at {phone}{emailClause}. You can also contact the Instance nationale de protection des données à caractère personnel (INPDP), Tunisia's data protection authority."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Changes",
+        "blocks": [
+          "We may update this policy, for example when online payment arrives. The last-updated date is shown at the top of this page."
+        ]
+      }
+    ]
+  },
+  "notice": {
+    "meta": {
+      "title": "Legal notice & copyright | ONDE",
+      "description": "Publisher and host of onde.tn, copyright in ONDE content (film, 3D, photos, texts, code), third-party trademarks and credits."
+    },
+    "title": "Legal notice & copyright",
+    "intro": "Who publishes onde.tn, who hosts it, and what you may do with our content. Short version: apart from the third-party trademarks, fonts and software listed below, the content on this site was created for ONDE and belongs to it, but you're free to talk about us and share our links.",
+    "highlights": [
+      "Published in Tunisia",
+      "Content protected by copyright",
+      "Sharing links welcome"
+    ],
+    "directorFallback": "the operator of ONDE identified above",
+    "sections": [
+      {
+        "id": "publisher",
+        "title": "Publisher",
+        "blocks": [
+          "The onde.tn website is published by ONDE, an NFC products brand based in Tunisia.",
+          {
+            "list": [
+              "{legalNameLine}",
+              "{taxIdLine}",
+              "{addressLine}",
+              "Contact: WhatsApp or phone at {phone}{emailClause}"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "director",
+        "title": "Content responsibility",
+        "blocks": [
+          "The content of onde.tn is published under the responsibility of {director}."
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "Hosting",
+        "blocks": [
+          "The website is hosted by OVHcloud (OVH SAS, 2 rue Kellermann, 59100 Roubaix, France), on a virtual private server (VPS) in a data centre in the United Kingdom.",
+          "Host's website: www.ovhcloud.com"
+        ]
+      },
+      {
+        "id": "copyright",
+        "title": "Intellectual property and copyright",
+        "blocks": [
+          "© {year} ONDE. All rights reserved.",
+          "Unless stated otherwise, the content on this website was created for ONDE, belongs to it and is protected by copyright, including:",
+          {
+            "list": [
+              "the ONDE logo and the website's visual identity;",
+              "the presentation film;",
+              "the 3D models and their renders;",
+              "photos, illustrations and product artwork;",
+              "texts, page layouts and the website's own source code (excluding open-source software, see \"Credits\")."
+            ]
+          },
+          "This content is protected by Tunisian Law No. 94-36 of 24 February 1994 on literary and artistic property, as amended and supplemented by Law No. 2009-33 of 23 June 2009. Any reproduction, representation, adaptation or extraction, in whole or in part, by any means, without ONDE's prior written permission is prohibited and may constitute infringement.",
+          "The ONDE name and logo are also the distinctive signs of our brand: any use likely to cause confusion with ONDE or to suggest a partnership is prohibited.",
+          "What you may do: quote a short extract with the source (\"ONDE — onde.tn\") and link to onde.tn, which is welcome. For any other use (press, partnership, resale…), ask us: we answer quickly."
+        ]
+      },
+      {
+        "id": "trademarks",
+        "title": "Third-party trademarks",
+        "blocks": [
+          "Trademarks and logos mentioned or shown on this website belong to their owners:",
+          {
+            "list": [
+              "Google, the Google logo, Google Maps and Android are trademarks of Google LLC;",
+              "iPhone and Safari are trademarks of Apple Inc., registered in the U.S. and other countries; IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license;",
+              "WhatsApp, Instagram, Facebook and their logos are trademarks of Meta Platforms, Inc. or its affiliates;",
+              "TikTok and its logo are trademarks of ByteDance Ltd. or its affiliates;",
+              "QR Code is a registered trademark of DENSO WAVE INCORPORATED."
+            ]
+          },
+          "These trademarks and logos appear only to illustrate our products' compatibility and the possible destinations of a link. ONDE is not affiliated with, sponsored or endorsed by these companies.",
+          "The phone screens shown on the website are demonstrations: the reviews, ratings, first names (for example \"Sarah M.\") and businesses shown in them are fictitious or examples, including when the review page shown is ONDE's own. They are not real customer reviews."
+        ]
+      },
+      {
+        "id": "credits",
+        "title": "Credits",
+        "blocks": [
+          "Typefaces, software and creations used on the website:",
+          {
+            "list": [
+              "Clash Display and Satoshi: Indian Type Foundry, via Fontshare (ITF Free Font License);",
+              "Instrument Serif: Instrument (SIL Open Font License 1.1, openfontlicense.org);",
+              "open-source software: the website is built notably on Next.js, React, three.js and GSAP, used under their respective licences (MIT, GSAP standard licence…), which remain the property of their authors;",
+              "3D scenes, film and videos: produced by ONDE (sound effects: Apple Final Cut Pro library, used under licence)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Personal data",
+        "blocks": [
+          "The data collected on the website (orders, pseudonymized statistics) and your rights are described in our privacy policy, in line with Organic Law No. 2004-63 of 27 July 2004."
+        ]
+      },
+      {
+        "id": "links",
+        "title": "Links",
+        "blocks": [
+          "Links to onde.tn are welcome without prior permission, as long as they don't present ONDE in a misleading way or display our pages inside another website.",
+          "The website links to third-party services (WhatsApp, social networks, Google…). ONDE is not responsible for their content or practices; their own terms apply.",
+          "Smart links of the form onde.tn/t/CODE redirect to destinations chosen by our customers, who are responsible for them. To report an abusive destination, contact us: we can disable it (see our terms of sale)."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "blocks": [
+          "For a question about this notice, a permission request, or to report content that may infringe your rights: WhatsApp or phone at {phone}{emailClause}."
+        ]
+      }
+    ]
+  }
+}

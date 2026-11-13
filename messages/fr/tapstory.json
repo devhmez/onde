@@ -1,0 +1,63 @@
+{
+  "aria": "Démonstration animée : un tap NFC sur un produit ONDE ouvre la page d'avis Google",
+  "intro": {
+    "kicker": "Comment ça marche",
+    "title": "Un tap. Un avis Google.",
+    "scroll": "Faites défiler"
+  },
+  "steps": {
+    "tap": {
+      "num": "01",
+      "title": "Tap",
+      "body": "Votre client approche son téléphone du produit ONDE. Aucune application, aucun scan."
+    },
+    "notification": {
+      "num": "02",
+      "title": "Notification",
+      "body": "Une notification apparaît en haut de l'écran. Un toucher : onde.tn le redirige vers votre page Google."
+    },
+    "review": {
+      "num": "03",
+      "title": "Avis Google",
+      "body": "La page d'avis Google de votre établissement s'ouvre — ici, celle d'ONDE. Cinq étoiles, deux lignes, publié."
+    }
+  },
+  "notification": {
+    "app": "Tag NFC",
+    "time": "maintenant",
+    "body": "Ouvrir « onde.tn » dans Safari",
+    "action": "Ouvrir"
+  },
+  "toast": {
+    "label": "+1 avis",
+    "stars": "★★★★★",
+    "aria": "Un nouvel avis cinq étoiles"
+  },
+  "demoNote": "Démonstration — la page d'avis Google d'ONDE en exemple",
+  "switcher": {
+    "label": "Voir avec un autre produit",
+    "stand-white": "Présentoir blanc",
+    "stand-black": "Présentoir noir",
+    "card": "Carte NFC",
+    "keychain": "Porte-clés",
+    "sticker": "Sticker"
+  },
+  "viewer": {
+    "hint": "Glissez pour faire pivoter",
+    "loading": "Chargement du modèle 3D…",
+    "keyboard": "Utilisez les flèches gauche et droite pour faire pivoter le produit",
+    "alt": {
+      "stand-white": "Présentoir avis Google ONDE blanc, acrylique transparent plié en L, vue 3D",
+      "stand-black": "Présentoir avis Google ONDE noir, acrylique transparent plié en L, vue 3D",
+      "card": "Carte NFC ONDE, vue 3D",
+      "keychain": "Porte-clés NFC ONDE, vue 3D",
+      "sticker": "Sticker NFC ONDE, vue 3D"
+    }
+  },
+  "hero": {
+    "alt": "Présentoir avis Google ONDE blanc en acrylique transparent plié en L, flottant dans un halo violet"
+  },
+  "fallback": {
+    "video": "Démonstration vidéo : un tap NFC ouvre la page d'avis Google"
+  }
+}

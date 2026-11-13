@@ -1,0 +1,896 @@
+/* Styles for src/components/three/** — self-contained, reads the site tokens with fallbacks. */
+
+/* Layered under Tailwind's utilities so consumer classNames (e.g. "absolute inset-0") always win. */
+@layer components {
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* Shared                                                                                                         */
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+  .fill {
+    position: absolute;
+    inset: 0;
+  }
+
+  .srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .poster {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    user-select: none;
+    transition:
+      opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      filter 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .poster[data-hidden="true"] {
+    opacity: 0;
+    filter: blur(6px);
+  }
+
+  .canvasWrap {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .canvasWrap[data-ready="true"] {
+    opacity: 1;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* HeroStand                                                                                                      */
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+  }
+
+  .heroStill {
+    position: absolute;
+    inset: 8% 14%;
+    width: 72%;
+    height: 84%;
+    object-fit: contain;
+    filter: drop-shadow(0 30px 60px rgba(70, 28, 247, 0.45));
+    animation: heroFloat 7s ease-in-out infinite;
+  }
+
+  .heroGlow {
+    position: absolute;
+    left: 50%;
+    bottom: 6%;
+    width: 70%;
+    height: 22%;
+    transform: translateX(-50%);
+    background: radial-gradient(closest-side, rgba(70, 28, 247, 0.55), rgba(70, 28, 247, 0) 100%);
+    filter: blur(10px);
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .heroStill {
+      animation: none;
+    }
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* ProductViewer                                                                                                  */
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+  .viewer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    touch-action: pan-y;
+    cursor: grab;
+    outline: none;
+    border-radius: 24px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .viewer[data-dragging="true"] {
+    cursor: grabbing;
+  }
+
+  .viewer:focus-visible {
+    box-shadow:
+      0 0 0 2px var(--color-ink, #050407),
+      0 0 0 4px var(--color-violet-2, #7b5cff);
+  }
+
+  .viewerHint {
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font: 500 12px/1 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    color: var(--color-text, #ecebf2);
+    background: rgba(19, 18, 26, 0.66);
+    border: 1px solid var(--color-line, #24222e);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+  }
+
+  .viewerHint[data-hidden="true"] {
+    opacity: 0;
+  }
+
+  .viewerHint svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .loadingRing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 34px;
+    height: 34px;
+    margin: -17px 0 0 -17px;
+    border-radius: 50%;
+    border: 2px solid rgba(140, 123, 255, 0.18);
+    border-top-color: var(--color-violet-2, #7b5cff);
+    animation: spin 0.9s linear infinite;
+    transition: opacity 0.4s ease;
+  }
+
+  .loadingRing[data-hidden="true"] {
+    opacity: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .loadingRing {
+      animation-duration: 2.4s;
+    }
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* TapStory — pinned stage                                                                                        */
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+  .section {
+    position: relative;
+    width: 100%;
+    background: var(--color-ink, #050407);
+    color: var(--color-text, #ecebf2);
+  }
+
+  .stage {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
+    isolation: isolate;
+    --p: 0;
+    --intro: 1;
+  }
+
+  .section[data-pin="sticky"] {
+    height: calc(100vh + var(--distance, 3) * 100vh);
+    height: calc(100svh + var(--distance, 3) * 100vh);
+  }
+
+  .section[data-pin="gsap"] .stage {
+    position: relative;
+  }
+
+  .stagePoster {
+    position: absolute;
+    left: 65%;
+    top: 52%;
+    width: min(54svh, 70vw);
+    height: auto;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    filter: drop-shadow(0 30px 80px rgba(70, 28, 247, 0.5));
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .stagePoster[data-hidden="true"] {
+    opacity: 0;
+  }
+
+  .stage::after {
+    /* cinematic vignette + soft fade into neighbouring sections */
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      radial-gradient(120% 90% at 60% 50%, transparent 55%, rgba(5, 4, 7, 0.75) 100%),
+      linear-gradient(to bottom, rgba(5, 4, 7, 0.7), transparent 14%, transparent 86%, rgba(5, 4, 7, 0.85));
+  }
+
+  .stageCanvas {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .stageCanvas canvas {
+    display: block;
+  }
+
+  /* Captions ---------------------------------------------------------------------------------------------------- */
+
+  .captions {
+    position: absolute;
+    z-index: 3;
+    left: clamp(20px, 5.5vw, 96px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: min(31vw, 430px);
+    pointer-events: none;
+  }
+
+  .kicker {
+    margin: 0;
+    font: 600 12px/1.2 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--color-violet-3, #8c7bff);
+  }
+
+  .title {
+    margin: 14px 0 34px;
+    font-family: var(--font-display, var(--font-sans, ui-sans-serif, system-ui, sans-serif));
+    font-weight: 800;
+    font-size: clamp(2rem, 3.7vw, 3.75rem);
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+    color: #fff;
+    text-wrap: balance;
+  }
+
+  .steps {
+    position: relative;
+    display: grid;
+    gap: 26px;
+    margin: 0;
+    padding: 0 0 0 24px;
+    list-style: none;
+  }
+
+  .steps::before,
+  .steps::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 2px;
+    border-radius: 2px;
+  }
+
+  .steps::before {
+    bottom: 4px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .steps::after {
+    height: calc((100% - 8px) * var(--p, 0));
+    background: linear-gradient(to bottom, var(--color-violet-2, #7b5cff), var(--color-violet, #461cf7));
+    box-shadow: 0 0 14px rgba(123, 92, 255, 0.7);
+  }
+
+  .step {
+    --on: 0;
+    opacity: calc(0.3 + var(--on) * 0.7);
+    transform: translate3d(calc((1 - var(--on)) * -4px), 0, 0);
+  }
+
+  .stepNum {
+    display: block;
+    margin-bottom: 8px;
+    font: 600 12px/1 var(--font-mono, ui-monospace, "SF Mono", Menlo, monospace);
+    letter-spacing: 0.14em;
+    color: var(--color-violet-3, #8c7bff);
+  }
+
+  .stepTitle {
+    margin: 0 0 6px;
+    font-family: var(--font-display, var(--font-sans, ui-sans-serif, system-ui, sans-serif));
+    font-weight: 700;
+    font-size: clamp(1.15rem, 1.55vw, 1.5rem);
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+  .stepBody {
+    margin: 0;
+    font: 400 15px/1.55 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    color: var(--color-muted, #8e8ba0);
+    max-width: 34ch;
+  }
+
+  .step[data-active="true"] .stepBody {
+    color: rgba(236, 235, 242, 0.82);
+  }
+
+  .note {
+    position: absolute;
+    z-index: 3;
+    right: clamp(16px, 3vw, 40px);
+    bottom: 18px;
+    margin: 0;
+    font: 500 11px/1.3 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    letter-spacing: 0.08em;
+    color: rgba(236, 235, 242, 0.55);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .scrollHint {
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    bottom: 26px;
+    transform: translateX(-50%);
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    font: 500 11px/1 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(236, 235, 242, 0.6);
+    opacity: max(0, calc(1 - var(--p, 0) * 28));
+    pointer-events: none;
+  }
+
+  .scrollHint::after {
+    content: "";
+    width: 1px;
+    height: 34px;
+    background: linear-gradient(to bottom, rgba(140, 123, 255, 0), rgba(140, 123, 255, 1));
+    transform-origin: top;
+    animation: hintLine 1.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  }
+
+  /* Switcher ---------------------------------------------------------------------------------------------------- */
+
+  .switcher {
+    position: absolute;
+    z-index: 5;
+    right: clamp(16px, 3vw, 40px);
+    bottom: clamp(48px, 7vh, 72px);
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border-radius: 999px;
+    background: rgba(19, 18, 26, 0.72);
+    border: 1px solid var(--color-line, #24222e);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+  }
+
+  .switch {
+    appearance: none;
+    border: 0;
+    margin: 0;
+    padding: 9px 14px;
+    border-radius: 999px;
+    font: 600 13px/1 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    color: var(--color-muted, #8e8ba0);
+    background: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    transition:
+      color 0.25s ease,
+      background-color 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .switch:hover {
+    color: #fff;
+  }
+
+  .switch:focus-visible {
+    outline: 2px solid var(--color-violet-2, #7b5cff);
+    outline-offset: 2px;
+  }
+
+  .switch[aria-pressed="true"] {
+    color: #fff;
+    background: var(--color-violet, #461cf7);
+    box-shadow: 0 6px 22px rgba(70, 28, 247, 0.5);
+  }
+
+  /* Phone screen layer + iOS-style NFC banner -------------------------------------------------------------------- */
+
+  .screenLayer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 390px;
+    height: 846px;
+    transform-origin: 0 0;
+    border-radius: 54px;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    container-type: inline-size;
+    will-change: transform;
+  }
+
+  .banner {
+    --press: 0;
+    position: absolute;
+    left: 2.6cqw;
+    right: 2.6cqw;
+    top: 3.2cqw;
+    display: flex;
+    align-items: center;
+    gap: 3.1cqw;
+    padding: 3.3cqw 3.6cqw;
+    border-radius: 6.4cqw;
+    background: rgba(246, 245, 250, 0.8);
+    -webkit-backdrop-filter: blur(22px) saturate(1.8);
+    backdrop-filter: blur(22px) saturate(1.8);
+    box-shadow: 0 2.6cqw 10cqw rgba(0, 0, 0, 0.38);
+    color: #0b0a10;
+    font-family: -apple-system, "SF Pro Text", var(--font-sans, ui-sans-serif), system-ui, sans-serif;
+    transform-origin: 50% 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+
+  .banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: rgba(0, 0, 0, calc(var(--press, 0) * 0.14));
+    pointer-events: none;
+  }
+
+  .bannerIcon {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 10.3cqw;
+    height: 10.3cqw;
+    border-radius: 2.6cqw;
+    background: linear-gradient(145deg, #8c7bff 0%, #461cf7 70%);
+    box-shadow: inset 0 0 0 0.25cqw rgba(255, 255, 255, 0.18);
+  }
+
+  .bannerIcon svg {
+    width: 62%;
+    height: 62%;
+  }
+
+  .bannerText {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .bannerHead {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2cqw;
+    font-size: 3.85cqw;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .bannerTime {
+    flex: none;
+    font-size: 3.3cqw;
+    font-weight: 400;
+    color: rgba(60, 60, 67, 0.62);
+  }
+
+  .bannerBody {
+    margin-top: 0.4cqw;
+    font-size: 3.85cqw;
+    line-height: 1.3;
+    color: #1c1b22;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .touch {
+    position: absolute;
+    left: 64%;
+    top: 56%;
+    width: 14cqw;
+    height: 14cqw;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.6cqw solid rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 0 2cqw rgba(123, 92, 255, 0.28);
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+
+  /* Toast ------------------------------------------------------------------------------------------------------- */
+
+  .toast {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 20px 13px 16px;
+    border-radius: 999px;
+    background: rgba(13, 12, 20, 0.86);
+    border: 1px solid rgba(140, 123, 255, 0.5);
+    box-shadow:
+      0 18px 60px rgba(70, 28, 247, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font: 700 22px/1 var(--font-display, var(--font-sans, ui-sans-serif, system-ui, sans-serif));
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .toastStars {
+    color: var(--color-gold, #f5a524);
+    letter-spacing: 2px;
+    font-size: 19px;
+    text-shadow: 0 0 14px rgba(245, 165, 36, 0.6);
+  }
+
+  /* Video fallback ---------------------------------------------------------------------------------------------- */
+
+  .videoFrame {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 64%;
+    height: min(84svh, 860px);
+    aspect-ratio: 9 / 16;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    overflow: hidden;
+    background: #0b0a10;
+    box-shadow: 0 40px 140px rgba(70, 28, 247, 0.35);
+  }
+
+  .video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.45s ease;
+  }
+
+  .videoBannerWrap {
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 3%;
+    height: 40%;
+    container-type: inline-size;
+    pointer-events: none;
+  }
+
+  .videoBannerWrap .banner {
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  /* Portrait / small screens ------------------------------------------------------------------------------------ */
+
+  @media (max-aspect-ratio: 1/1), (max-width: 767px) {
+    .captions {
+      inset: 0;
+      transform: none;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: max(84px, 11svh) 16px max(30px, calc(env(safe-area-inset-bottom) + 18px));
+    }
+
+    .section[data-switcher="true"] .captions {
+      padding-top: calc(max(72px, 9svh) + 64px);
+    }
+
+    .head {
+      opacity: var(--intro, 1);
+    }
+
+    .title {
+      font-size: clamp(1.9rem, 8.4vw, 2.6rem);
+      margin: 10px 0 0;
+    }
+
+    .steps {
+      display: grid;
+      padding: 0;
+      gap: 0;
+    }
+
+    .steps::before,
+    .steps::after {
+      top: auto;
+      bottom: -10px;
+      left: 0;
+      height: 2px;
+    }
+
+    .steps::before {
+      right: 0;
+      width: auto;
+    }
+
+    .steps::after {
+      width: calc(100% * var(--p, 0));
+      height: 2px;
+    }
+
+    .step {
+      grid-area: 1 / 1;
+      padding: 14px 16px;
+      border-radius: 18px;
+      background: rgba(11, 10, 16, 0.62);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      -webkit-backdrop-filter: blur(14px);
+      backdrop-filter: blur(14px);
+      opacity: var(--on);
+      transform: translate3d(0, calc((1 - var(--on)) * 10px), 0);
+    }
+
+    .stepBody {
+      font-size: 14px;
+      max-width: none;
+    }
+
+    .note {
+      right: 16px;
+      left: 16px;
+      bottom: auto;
+      top: max(76px, 10svh);
+      text-align: center;
+    }
+
+    .scrollHint {
+      display: none;
+    }
+
+    .stagePoster {
+      left: 50%;
+      top: 42%;
+    }
+
+    .switcher {
+      left: 12px;
+      right: 12px;
+      bottom: auto;
+      top: max(72px, 9svh);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .videoFrame {
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: auto;
+      transform: none;
+      border-radius: 0;
+    }
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* TapStory — reduced motion: three static beats                                                                 */
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+  .static {
+    position: relative;
+    padding: clamp(72px, 10vw, 140px) 16px;
+    background: var(--color-ink, #050407);
+    color: var(--color-text, #ecebf2);
+  }
+
+  .staticHead {
+    max-width: 1200px;
+    margin: 0 auto clamp(32px, 5vw, 56px);
+  }
+
+  .figures {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(16px, 2vw, 28px);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  @media (max-width: 860px) {
+    .figures {
+      grid-template-columns: 1fr;
+      max-width: 480px;
+    }
+  }
+
+  .figure {
+    margin: 0;
+    padding: 16px 16px 22px;
+    border-radius: 28px;
+    background: var(--color-panel, #13121a);
+    border: 1px solid var(--color-line, #24222e);
+    opacity: 0;
+    transition: opacity 0.9s ease;
+  }
+
+  .figure[data-in="true"] {
+    opacity: 1;
+  }
+
+  .figureArt {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 4 / 5;
+    margin-bottom: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+    background:
+      radial-gradient(70% 45% at 50% 78%, rgba(70, 28, 247, 0.5), transparent 70%), var(--color-ink-2, #0b0a10);
+  }
+
+  .figureArt img {
+    max-width: 82%;
+    max-height: 82%;
+    object-fit: contain;
+  }
+
+  .rings {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-radial-gradient(circle at 50% 62%, rgba(140, 123, 255, 0.28) 0 1px, transparent 1px 34px);
+    mask-image: radial-gradient(circle at 50% 62%, #000 0, transparent 62%);
+    -webkit-mask-image: radial-gradient(circle at 50% 62%, #000 0, transparent 62%);
+  }
+
+  .phoneFrame {
+    position: relative;
+    height: 88%;
+    aspect-ratio: 0.481;
+    padding: 2.4%;
+    border-radius: 15% / 7.2%;
+    background: linear-gradient(145deg, #3a3940, #18181c 45%, #2a292f);
+    box-shadow:
+      0 30px 80px rgba(0, 0, 0, 0.6),
+      0 0 0 1px rgba(255, 255, 255, 0.06);
+  }
+
+  .phoneScreen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 13% / 6.1%;
+    container-type: inline-size;
+    background:
+      radial-gradient(90% 60% at 50% 66%, rgba(123, 92, 255, 0.75), rgba(70, 28, 247, 0.25) 45%, transparent 75%),
+      linear-gradient(to bottom, #07051a, #140b3d 55%, #2a14a0);
+  }
+
+  .phoneScreen img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+  }
+
+  .phoneClock {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19%;
+    text-align: center;
+    font:
+      600 21cqw/1 -apple-system,
+      "SF Pro Display",
+      var(--font-sans, ui-sans-serif),
+      system-ui,
+      sans-serif;
+    color: rgba(255, 255, 255, 0.94);
+  }
+
+  .phoneScreen .banner {
+    visibility: visible;
+    top: 8cqw;
+  }
+
+  .staticToast {
+    position: absolute;
+    left: 50%;
+    bottom: 27%;
+    transform: translateX(-50%) scale(0.72);
+    transform-origin: 50% 100%;
+    visibility: visible;
+    top: auto;
+  }
+
+  .figCaption {
+    padding: 0 6px;
+  }
+
+  .staticNote {
+    max-width: 1200px;
+    margin: 22px auto 0;
+    font: 500 12px/1.4 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    letter-spacing: 0.06em;
+    color: rgba(236, 235, 242, 0.5);
+    text-align: center;
+  }
+}
+
+@keyframes heroFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-2.5%) rotate(1deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hintLine {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 0;
+  }
+}

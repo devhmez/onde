@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "About ONDE, a Tunisian startup · The film | ONDE",
+    "description": "ONDE (onde.tn) is a Tunisian startup helping businesses get more Google reviews with NFC. Watch the 41-second film and see how it works.",
+    "ogAlt": "ONDE — NFC review stand on a counter in violet light"
+  },
+  "hero": {
+    "eyebrow": "About ONDE",
+    "title": "The film.",
+    "lead": "41 seconds to see why a single tap can change a business's reputation.",
+    "scroll": "Scroll for the story"
+  },
+  "player": {
+    "title": "ONDE — The film",
+    "watch": "Watch the film",
+    "resume": "Resume",
+    "replay": "Watch again",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "volume": "Volume",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "seek": "Position in the film",
+    "of": "of",
+    "chapters": "Chapters",
+    "chapter": "Chapter",
+    "loading": "Loading…",
+    "error": "The video couldn't be loaded.",
+    "retry": "Try again",
+    "shortcuts": "Space: play/pause · ← →: 5 s · M: sound · F: full screen",
+    "backToPlayer": "Back to the film",
+    "closeMini": "Close the mini player",
+    "soundOn": "Best with sound on"
+  },
+  "chapters": [
+    {
+      "t": 0,
+      "label": "The problem"
+    },
+    {
+      "t": 8,
+      "label": "The reveal"
+    },
+    {
+      "t": 14,
+      "label": "Tap. Review. Grow."
+    },
+    {
+      "t": 20,
+      "label": "The smart link"
+    },
+    {
+      "t": 26,
+      "label": "The range"
+    },
+    {
+      "t": 32,
+      "label": "Why ONDE"
+    }
+  ],
+  "why": {
+    "eyebrow": "Why ONDE exists",
+    "line1": "Your happiest customers leave…",
+    "line2": "…without leaving a review.",
+    "body": "It isn't bad will. Search for the business, find the listing, scroll, sign in, write: there are too many steps between \"that was great\" and five published stars. Meanwhile, the one unhappy customer always finds the time to write.",
+    "steps": [
+      "Search the name",
+      "Find the listing",
+      "Scroll",
+      "Sign in",
+      "Write something"
+    ],
+    "stepsLabel": "What it takes today to leave a review",
+    "oneTap": "1 tap.",
+    "oneTapSub": "= 1 Google review"
+  },
+  "stats": {
+    "eyebrow": "The numbers",
+    "title": "Reviews are the new word of mouth.",
+    "sourceLabel": "Source",
+    "items": [
+      {
+        "kicker": "The new word of mouth",
+        "from": 0,
+        "to": 97,
+        "suffix": "%",
+        "label": "of people read reviews before choosing a local business.",
+        "note": "",
+        "source": "BrightLocal · Local Consumer Review Survey 2026 (1,002 US adults)"
+      },
+      {
+        "kicker": "The bar is high",
+        "from": 0,
+        "to": 68,
+        "suffix": "%",
+        "label": "only choose businesses rated 4 stars or higher.",
+        "note": "31% won't go below 4.5 ★",
+        "source": "BrightLocal · Local Consumer Review Survey 2026 (1,002 US adults)"
+      },
+      {
+        "kicker": "Every star is revenue",
+        "from": 5,
+        "to": 9,
+        "suffix": "%",
+        "label": "more revenue from just one extra star.",
+        "note": "",
+        "source": "Harvard Business School · M. Luca, \"Reviews, Reputation, and Revenue: The Case of Yelp.com\" (independent restaurants)"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "The fix",
+    "titleA": "What if it took",
+    "titleB": "one tap?",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Tap.",
+        "body": "Your customer holds their phone to the ONDE product. No app, no search, no account to create."
+      },
+      {
+        "n": "02",
+        "title": "Review.",
+        "body": "Your Google review page opens instantly. Five stars, two lines, posted."
+      },
+      {
+        "n": "03",
+        "title": "Grow.",
+        "body": "More reviews, a better rating, a higher spot on Google Maps. And more customers walking in."
+      }
+    ],
+    "phonesTitle": "Every phone. Every time.",
+    "phonesBody": "NFC works on iPhone XR, XS and newer and on NFC-enabled Android phones. For everyone else, a QR code leads to the same smart link.",
+    "nfc": "NFC tap",
+    "qr": "or QR scan",
+    "noApp": "No app to install. Ever.",
+    "banner": "onde.tn",
+    "bannerSub": "NFC Tag · Open",
+    "post": "Post",
+    "illoTap": "A phone taps the ONDE stand and NFC waves ripple out",
+    "illoReview": "The Google review page opens and five stars fill in",
+    "illoGrow": "The business climbs to the top of the list"
+  },
+  "link": {
+    "eyebrow": "The smart link",
+    "titleA": "The chip never changes.",
+    "titleB": "The destination can.",
+    "body": "Every ONDE product carries one permanent link, written to the chip only once. Google reviews today, your menu tonight, Instagram tomorrow: the destination is switched remotely in seconds. No reprint. No new chip.",
+    "chip": "NFC chip",
+    "chipSub": "written once",
+    "permanent": "Permanent link",
+    "cloud": "ONDE Cloud",
+    "updated": "Updated live",
+    "exampleNote": "Example code",
+    "destinations": [
+      "Google Reviews",
+      "Instagram",
+      "TikTok",
+      "Digital menu",
+      "Website",
+      "Contact card"
+    ],
+    "futureTitle": "Reviews today. Everything tomorrow.",
+    "futureBody": "Same chip, same link — new destinations whenever you're ready."
+  },
+  "tunisia": {
+    "eyebrow": "Made in Tunisia",
+    "titleA": "Designed, made",
+    "titleB": "and supported in Tunisia.",
+    "body": "ONDE (onde.tn) is a Tunisian startup serving businesses across the country. We program every product, deliver it, and stay reachable afterwards — because a link that keeps working for years deserves real care.",
+    "pillars": [
+      {
+        "title": "Local support",
+        "body": "A real team, reachable 7 days a week on WhatsApp."
+      },
+      {
+        "title": "Cash on delivery",
+        "body": "You pay in cash when your order arrives."
+      },
+      {
+        "title": "Delivered in 3 days max",
+        "body": "After confirmation, anywhere in Tunisia. Free from {threshold}."
+      },
+      {
+        "title": "Programmed & locked",
+        "body": "Every chip is programmed, then locked by us before it ships."
+      }
+    ],
+    "marquee": "Delivery to all 24 governorates"
+  },
+  "counters": {
+    "eyebrow": "Made for every counter",
+    "items": [
+      "Cafés",
+      "Restaurants",
+      "Bakeries",
+      "Salons",
+      "Spas",
+      "Barbers",
+      "Hotels",
+      "Clinics",
+      "Gyms",
+      "Boutiques"
+    ],
+    "tagline": "If your customers love you, ONDE makes sure the world knows."
+  },
+  "cta": {
+    "eyebrow": "onde.tn",
+    "titleA": "Small tap.",
+    "titleB": "Big impact.",
+    "body": "Put ONDE on your counter this week. Delivered in 3 days max, free from {threshold}, cash on delivery.",
+    "shop": "Visit the shop",
+    "whatsapp": "Order on WhatsApp",
+    "waMessage": "Hello ONDE 👋 I watched the film and I'd like to order."
+  }
+}

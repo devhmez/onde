@@ -1,0 +1,53 @@
+/* admin → Settings → Phone notifications card (src/components/admin/settings/PhoneNotifications.tsx).
+   Same tokens and rhythm as admin.css; kept in its own file so admin.css stays untouched. */
+
+.pn-state {
+  display: flex; align-items: center; gap: 12px; margin-top: 16px; padding: 12px 14px; border-radius: 12px;
+  background: var(--panel2); border: 1px solid var(--line);
+}
+.pn-state .pn-ico {
+  width: 36px; height: 36px; border-radius: 11px; flex: none; display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(123, 92, 255, 0.16); color: var(--vio3);
+}
+.pn-state .pn-ico svg { width: 18px; height: 18px; }
+.pn-state.on { border-color: rgba(43, 212, 138, 0.28); background: rgba(43, 212, 138, 0.06); }
+.pn-state.on .pn-ico { background: rgba(43, 212, 138, 0.14); color: var(--ok); box-shadow: 0 0 22px rgba(43, 212, 138, 0.18); }
+.pn-state b { display: block; color: #fff; font-size: 13.5px; font-weight: 600; }
+.pn-state .grow > span { display: block; color: var(--mut); font-size: 12.5px; margin-top: 2px; line-height: 1.45; }
+
+.pn-enable { width: 100%; height: 44px; margin-top: 12px; border-radius: 11px; font-size: 14px; }
+.pn-enable svg { width: 16px; height: 16px; }
+.pn-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+
+.pn-steps { list-style: none; counter-reset: pn; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+.pn-steps li { counter-increment: pn; display: flex; gap: 11px; align-items: flex-start; font-size: 13px; color: var(--tx2); line-height: 1.5; }
+.pn-steps li::before {
+  content: counter(pn); width: 22px; height: 22px; border-radius: 50%; flex: none; display: inline-flex; align-items: center; justify-content: center;
+  font-size: 11.5px; font-weight: 700; color: #fff; background: var(--vio); box-shadow: 0 4px 14px rgba(70, 28, 247, 0.45);
+}
+.pn-steps b { color: #fff; font-weight: 600; }
+.pn-inline { display: inline-block; width: 15px; height: 15px; vertical-align: -3px; color: var(--sky); }
+
+.pn-list { list-style: none; margin: 6px 0 0; padding: 0; }
+.pn-dev { display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--row); }
+.pn-dev:last-child { border-bottom: 0; padding-bottom: 2px; }
+.pn-dico {
+  width: 32px; height: 32px; border-radius: 9px; flex: none; display: inline-flex; align-items: center; justify-content: center;
+  background: var(--panel2); border: 1px solid var(--line); color: var(--nav);
+}
+.pn-dico svg { width: 16px; height: 16px; }
+.pn-meta { flex: 1; min-width: 0; }
+.pn-meta > b { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: #fff; font-size: 13.5px; font-weight: 600; }
+.pn-meta > b .pill { height: 20px; padding: 0 8px; font-size: 11px; }
+.pn-meta > small { display: block; color: var(--mut); font-size: 12px; margin-top: 3px; line-height: 1.45; }
+.pn-meta > .err { display: block; margin-top: 4px; overflow-wrap: anywhere; }
+.pn .linkbtn:disabled { opacity: 0.5; }
+.pn-problem { margin-top: 12px; }
+
+/* One column (phones, small tablets): Settings is mostly opened on the iPhone to turn alerts on, so this card comes
+   first instead of after Store, Delivery, Contact, Social and Legal. The two column wrappers dissolve into the grid
+   (same 16px gap) so only this card moves; Admin password stays last. */
+@media (max-width: 1100px) {
+  .grid:has(> .stack > .pn) > .stack { display: contents; }
+  .grid > .stack > .pn { order: -1; }
+}

@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "Le film",
+    "contact": "Contact",
+    "cart": "Panier",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "primary": "Navigation principale",
+    "language": "Langue",
+    "switchLocale": "Read this page in English",
+    "skipToContent": "Aller au contenu",
+    "homeLabel": "ONDE — retour à l'accueil"
+  },
+  "cta": {
+    "order": "Commander",
+    "orderWhatsapp": "Commander sur WhatsApp",
+    "watchFilm": "Voir le film",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp"
+  },
+  "intro": {
+    "skip": "Passer l'intro",
+    "tagline": "Tap · Review · Grow"
+  },
+  "whatsapp": {
+    "message": "Bonjour ONDE ! Je souhaite commander un produit NFC pour mon commerce."
+  },
+  "footer": {
+    "pitch": "ONDE (onde.tn) est une startup tunisienne qui transforme vos clients satisfaits en avis Google, grâce à des présentoirs, cartes, porte-clés et stickers NFC configurés avant l'envoi.",
+    "tagline": "Small tap. Big impact.",
+    "explore": "Explorer",
+    "contact": "Contact",
+    "follow": "Suivre ONDE",
+    "legal": "Informations",
+    "terms": "Conditions générales",
+    "privacy": "Confidentialité",
+    "notice": "Mentions légales",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "delivery": "Livraison en 3 jours max partout en Tunisie · Paiement à la livraison",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut",
+    "guides": "Guides",
+    "guideReviewLink": "Trouver son lien d'avis Google",
+    "guideMoreReviews": "Obtenir plus d'avis Google",
+    "restaurants": "Restaurants & cafés"
+  },
+  "meta": {
+    "title": "ONDE — Un tap, un avis Google",
+    "description": "Présentoirs, cartes, porte-clés et stickers NFC qui transforment chaque client satisfait en avis Google. Un tap, sans appli. Livraison en 3 jours max partout en Tunisie, paiement à la livraison.",
+    "ogAlt": "ONDE — présentoirs et cartes NFC pour collecter des avis Google"
+  },
+  "cursor": {
+    "drag": "Glisser",
+    "play": "Lecture",
+    "view": "Voir"
+  },
+  "status": {
+    "loading": "Chargement…"
+  }
+}

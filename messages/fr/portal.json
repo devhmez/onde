@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Votre espace ONDE",
+    "invalidTitle": "Lien non valide · ONDE"
+  },
+  "header": {
+    "eyebrow": "Espace client",
+    "lead": "Vos produits ONDE et leurs taps, mis à jour chaque minute.",
+    "lang": "Langue",
+    "skip": "Aller au contenu"
+  },
+  "totals": {
+    "title": "Vos taps",
+    "today": "Aujourd'hui",
+    "d7": "7 jours",
+    "d30": "30 jours",
+    "all": "Depuis le début",
+    "hint": "Un tap = un client qui a approché son téléphone d'un produit ou scanné son QR code.",
+    "welcome": "Bienvenue ! Vos taps s'afficheront ici dès qu'un client touchera ou scannera un de vos produits."
+  },
+  "stats": {
+    "title": "Vos taps en détail"
+  },
+  "chart": {
+    "title": "Taps par jour",
+    "sub": "30 derniers jours",
+    "aria": "Taps par jour sur les 30 derniers jours",
+    "empty": "Pas encore de tap ces 30 derniers jours. La courbe démarre au premier tap.",
+    "tapOne": "1 tap",
+    "tapMany": "{n} taps",
+    "today": "Aujourd'hui",
+    "best": "Meilleur jour",
+    "table": "Voir les chiffres jour par jour",
+    "colDate": "Jour",
+    "colTaps": "Taps"
+  },
+  "split": {
+    "title": "NFC ou QR code",
+    "sub": "Comment vos clients arrivent, sur 30 jours",
+    "nfc": "NFC",
+    "nfcHint": "téléphone approché",
+    "qr": "QR code",
+    "qrHint": "code scanné",
+    "empty": "Rien à comparer pour l'instant : aucun tap sur 30 jours.",
+    "aria": "Répartition NFC et QR code sur 30 jours",
+    "hero": "de vos taps viennent du NFC",
+    "heroQr": "de vos taps viennent du QR code"
+  },
+  "stands": {
+    "title": "Vos produits",
+    "empty": "Aucun produit n'est encore relié à votre espace. Contactez ONDE pour l'activer.",
+    "goesTo": "Mène à",
+    "notSet": "Pas encore configuré",
+    "taps30": "Taps · 30 j",
+    "lastTap": "Dernier tap",
+    "never": "jamais",
+    "test": "Tester",
+    "testAria": "Tester {code} comme vos clients (nouvel onglet)",
+    "change": "Changer le lien",
+    "changeAria": "Changer le lien de {code}",
+    "disabled": "Contacter ONDE pour le réactiver",
+    "active": "Actif",
+    "paused": "Désactivé",
+    "code": "Code {code}",
+    "disabledText": "Contactez ONDE pour le réactiver.",
+    "inactive": "Ce produit est désactivé : un tap affiche pour l'instant une page d'information ONDE."
+  },
+  "location": {
+    "add": "Emplacement",
+    "addAria": "Ajouter un emplacement",
+    "label": "Emplacement",
+    "placeholder": "Comptoir, terrasse, caisse…",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier l'emplacement",
+    "error": "L'emplacement n'a pas pu être enregistré. Réessayez."
+  },
+  "pending": {
+    "title": "En attente de validation",
+    "body": "Nouveau lien demandé : {type}",
+    "cancel": "Annuler la demande",
+    "cancelled": "Demande annulée"
+  },
+  "outcome": {
+    "approved": "Votre demande a été validée : le lien est actif.",
+    "rejected": "Votre dernière demande ({type}) n'a pas été validée. Contactez ONDE si besoin."
+  },
+  "products": {
+    "stand": "Présentoir avis",
+    "stand_white": "Présentoir avis — Blanc",
+    "stand_black": "Présentoir avis — Noir",
+    "card": "Carte NFC",
+    "keychain": "Porte-clés NFC",
+    "sticker": "Sticker NFC"
+  },
+  "types": {
+    "google_review": "Avis Google",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "menu": "Menu / site web",
+    "website": "Menu / site web",
+    "whatsapp": "WhatsApp",
+    "contact": "Contact",
+    "custom": "Autre lien"
+  },
+  "choices": {
+    "google": {
+      "label": "Avis Google",
+      "placeholder": "https://g.page/r/…/review",
+      "hint": "Google Business Profile → « Demander des avis » → copiez le lien."
+    },
+    "instagram": {
+      "label": "Instagram",
+      "placeholder": "@votrecompte ou https://instagram.com/…",
+      "hint": "Le @nom suffit."
+    },
+    "facebook": {
+      "label": "Facebook",
+      "placeholder": "https://facebook.com/votrepage",
+      "hint": "Le lien de votre page, ou son nom d'utilisateur."
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "placeholder": "@votrecompte ou https://www.tiktok.com/@…",
+      "hint": "Le @nom suffit."
+    },
+    "site": {
+      "label": "Menu / site web",
+      "placeholder": "https://menu.votresite.tn",
+      "hint": "Votre menu en ligne, votre site, une page de réservation…"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "placeholder": "25 875 529 ou https://wa.me/216…",
+      "hint": "Un numéro tunisien à 8 chiffres suffit."
+    },
+    "other": {
+      "label": "Autre lien",
+      "placeholder": "https://…",
+      "hint": "N'importe quelle page web sécurisée (https)."
+    }
+  },
+  "change": {
+    "title": "Changer le lien",
+    "step1": "Où vos clients doivent-ils arriver ?",
+    "typeLegend": "Type de lien",
+    "linkLabel": "Votre lien",
+    "current": "Actuellement",
+    "continue": "Continuer",
+    "checking": "Vérification…",
+    "previewTitle": "Les clients arriveront ici :",
+    "openCheck": "Ouvrir pour vérifier",
+    "confirm": "Confirmer",
+    "sendRequest": "Envoyer la demande",
+    "saving": "Enregistrement…",
+    "back": "Modifier",
+    "directNote": "Le changement est immédiat : le prochain tap mènera ici. Rien à toucher sur le produit.",
+    "approvalNote": "ONDE valide chaque changement avant qu'il soit actif. En attendant, le lien actuel reste actif.",
+    "doneTitle": "C'est fait !",
+    "doneBody": "Dès le prochain tap, {code} mène ici :",
+    "pendingTitle": "Demande envoyée",
+    "pendingBody": "ONDE va la valider rapidement. En attendant, le lien actuel reste actif.",
+    "close": "Fermer",
+    "left": "Encore {n} changements possibles aujourd'hui.",
+    "leftOne": "Encore 1 changement possible aujourd'hui.",
+    "checkTitle": "Vérifiez le nouveau lien",
+    "limitTitle": "Limite du jour atteinte",
+    "limitBody": "Vous avez fait {n} changements de lien en 24 h, le maximum. Vous pourrez de nouveau changer vos liens demain.",
+    "limitHelp": "Un changement urgent ? Écrivez à ONDE."
+  },
+  "errors": {
+    "empty": "Collez ou tapez le lien où vos clients doivent arriver.",
+    "invalid": "Ce lien ne semble pas valide. Vérifiez-le (copiez-le depuis la barre d'adresse).",
+    "not_https": "Seuls les liens web sécurisés (https://) sont acceptés.",
+    "blocked_host": "Ce lien ne peut pas être utilisé. Choisissez une page web publique.",
+    "wrong_platform": "Ce lien ne mène pas à {type}. Vérifiez-le ou choisissez « Autre lien ».",
+    "too_long": "Ce lien est trop long.",
+    "same": "C'est déjà le lien actuel de ce produit.",
+    "daily_limit": "Vous avez atteint la limite de changements pour aujourd'hui. Réessayez demain ou contactez ONDE.",
+    "rate_limited": "Trop d'essais en peu de temps. Patientez quelques minutes, puis réessayez.",
+    "disabled": "Ce produit est désactivé. Contactez ONDE.",
+    "unknown": "Ce produit n'est plus relié à votre espace. Rechargez la page.",
+    "expired": "Ce lien d'espace client n'est plus valide. Demandez le nouveau lien à ONDE.",
+    "failed": "Le changement n'a pas pu être enregistré. Réessayez dans un instant.",
+    "network": "Connexion impossible. Vérifiez votre connexion et réessayez."
+  },
+  "owner": {
+    "note": "Vue admin : appliqué tout de suite, sans notification ni limite pour le client.",
+    "left": "Vue admin : vos changements ne comptent pas dans la limite du client.",
+    "approve": "Valider",
+    "reject": "Refuser"
+  },
+  "invalid": {
+    "eyebrow": "Espace client ONDE",
+    "title": "Ce lien n'est pas valide.",
+    "lead": "Il a peut-être été remplacé par un nouveau lien ou désactivé. Demandez votre lien à jour à ONDE : c'est rapide.",
+    "cta": "Contacter ONDE sur WhatsApp",
+    "message": "Bonjour ONDE, le lien de mon espace client ne fonctionne pas. Pouvez-vous m'envoyer le bon lien ?",
+    "home": "Découvrir ONDE"
+  },
+  "footer": {
+    "help": "Une question ?",
+    "whatsapp": "Écrire à ONDE sur WhatsApp",
+    "waMessage": "Bonjour ONDE, j'ai une question sur mon espace client ({business}).",
+    "private": "Ce lien est personnel : il donne accès à vos produits. Ne le partagez qu'avec votre équipe.",
+    "updated": "Chiffres à jour au {time}."
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "title": "ONDE · Plaque & présentoir avis Google NFC en Tunisie",
+    "description": "Présentoirs, cartes et stickers NFC : un tap, un avis Google. Dès {from}, sans abonnement, livrés en 3 jours partout en Tunisie, paiement à la livraison."
+  },
+  "hero": {
+    "eyebrow": "Plaques & présentoirs avis Google NFC · Tunisie",
+    "title": [
+      {
+        "text": "Un tap."
+      },
+      {
+        "text": "Un avis Google.",
+        "accent": "Google."
+      }
+    ],
+    "sub": "Vos clients adorent votre adresse. Avec ONDE, ils le disent sur Google en quelques secondes : ils approchent leur téléphone, la page d'avis s'ouvre. Sans appli. Sans chercher.",
+    "ctaOrder": "Commander",
+    "ctaFilm": "Voir le film",
+    "trust": [
+      "Livraison en 3 jours max, partout en Tunisie",
+      "Paiement à la livraison",
+      "Livraison gratuite dès {threshold}"
+    ],
+    "scroll": "Défiler",
+    "badge": "iPhone & Android",
+    "standAlt": "Présentoir ONDE 12 × 12 cm en acrylique transparent plié en L, impression blanche « We'd love your Google review », puce NFC et QR code"
+  },
+  "stats": {
+    "eyebrow": "Pourquoi les avis comptent",
+    "title": "Vos clients les plus heureux repartent… sans laisser d'avis.",
+    "sub": "Pourtant, vos avis Google sont la première chose que regardent vos futurs clients.",
+    "items": [
+      {
+        "value": 97,
+        "prefix": "",
+        "suffix": "%",
+        "label": "des consommateurs lisent les avis en ligne avant de choisir un commerce local.",
+        "source": "BrightLocal · Local Consumer Review Survey 2026"
+      },
+      {
+        "value": 68,
+        "prefix": "",
+        "suffix": "%",
+        "label": "ne choisissent que des commerces notés 4 étoiles ou plus.",
+        "source": "BrightLocal · Local Consumer Review Survey 2026"
+      },
+      {
+        "value": 5,
+        "valueTo": 9,
+        "prefix": "+",
+        "suffix": "%",
+        "label": "de chiffre d'affaires pour chaque étoile supplémentaire (restaurants indépendants).",
+        "source": "Harvard Business School · M. Luca, « Reviews, Reputation, and Revenue »"
+      }
+    ],
+    "outro": "ONDE rend l'avis aussi simple qu'un paiement sans contact."
+  },
+  "tapstory": {
+    "eyebrow": "Voyez-le en action",
+    "title": "Approchez. Tapez. C'est noté.",
+    "sub": "Faites défiler : le téléphone touche le produit, la notification NFC apparaît, la page d'avis Google s'ouvre. La même magie sur chaque produit ONDE.",
+    "pick": "Choisir un produit",
+    "loading": "Chargement de la scène 3D…",
+    "products": {
+      "stand-white": "Présentoir blanc",
+      "stand-black": "Présentoir noir",
+      "card": "Carte NFC",
+      "keychain": "Porte-clés",
+      "sticker": "Sticker"
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Du comptoir au sommet de Google Maps.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Tap.",
+        "body": "Votre client approche son téléphone du présentoir. Pas d'appli, pas de scan : la puce NFC ouvre votre lien instantanément. Les téléphones sans NFC scannent le QR code.",
+        "alt": "Présentoir ONDE avec la zone « Tap here » et son QR code"
+      },
+      {
+        "n": "02",
+        "title": "Avis.",
+        "body": "Votre page d'avis Google s'ouvre directement. Cinq étoiles, deux lignes, publié. En moins de dix secondes, sans quitter la table.",
+        "alt": "Un téléphone prêt à taper le présentoir ONDE"
+      },
+      {
+        "n": "03",
+        "title": "Croissance.",
+        "body": "Plus d'avis, une meilleure note, une meilleure place sur Google Maps. Et plus de clients qui poussent votre porte.",
+        "alt": "Classement Google Maps où un café grimpe à la première place"
+      }
+    ],
+    "review": {
+      "posted": "Avis publié",
+      "rating": "Note"
+    },
+    "rank": {
+      "query": "cafés près de moi",
+      "illustrative": "Exemple illustratif",
+      "reviews": "avis",
+      "entries": [
+        {
+          "name": "Le Comptoir",
+          "rating": 4.6,
+          "reviews": 412,
+          "distance": "0,6 km"
+        },
+        {
+          "name": "Dar Café",
+          "rating": 4.5,
+          "reviews": 301,
+          "distance": "0,9 km"
+        },
+        {
+          "name": "Brew Lab",
+          "rating": 4.4,
+          "reviews": 188,
+          "distance": "1,2 km"
+        }
+      ],
+      "you": {
+        "name": "Café Lumière",
+        "distance": "0,3 km",
+        "fromRating": 4.2,
+        "fromReviews": 38,
+        "toRating": 4.8,
+        "toReviews": 214
+      }
+    }
+  },
+  "smart": {
+    "eyebrow": "Le lien intelligent",
+    "title": [
+      "La puce ne change jamais.",
+      "La destination, si."
+    ],
+    "body": "Chaque produit ONDE porte un lien permanent, écrit une seule fois dans la puce. Avis Google aujourd'hui, menu ce soir, Instagram demain : la destination se change à distance, en quelques secondes. Sans réimpression. Sans nouvelle puce.",
+    "points": [
+      "Statistiques de taps en direct",
+      "Destination modifiable à distance",
+      "NFC + QR code sur un seul lien",
+      "Activable et désactivable à tout moment"
+    ],
+    "chip": "Puce NFC",
+    "chipSub": "écrite une fois",
+    "permanent": "Lien permanent",
+    "cloud": "ONDE Cloud",
+    "updated": "Mis à jour en direct",
+    "now": "Destination actuelle",
+    "destinations": [
+      "Avis Google",
+      "Instagram",
+      "TikTok",
+      "Menu digital",
+      "Site web",
+      "Carte de contact"
+    ],
+    "illustrative": "Exemple illustratif"
+  },
+  "products": {
+    "eyebrow": "La gamme",
+    "title": "Un lien. Tous les formats.",
+    "sub": "Présentoirs, cartes, porte-clés et stickers : chaque produit est relié à votre lien ONDE et configuré avant l'envoi.",
+    "add": "Ajouter au panier",
+    "details": "Voir le produit",
+    "seeAll": "Toute la boutique",
+    "drag": "Glisser",
+    "prev": "Produits précédents",
+    "next": "Produits suivants",
+    "save": "−{amount}",
+    "kinds": {
+      "stand": "Présentoir",
+      "card": "Carte",
+      "keychain": "Porte-clés",
+      "sticker": "Sticker",
+      "pack": "Pack"
+    },
+    "empty": "La boutique se refait une beauté. Commandez dès maintenant sur WhatsApp, on s'occupe de tout.",
+    "emptyCta": "Commander sur WhatsApp",
+    "promo": "Offre de lancement · fin dans"
+  },
+  "offers": {
+    "eyebrow": "Les avantages ONDE",
+    "title": "Commander n'a jamais été aussi simple.",
+    "delivery": {
+      "title": "Livraison offerte",
+      "body": "Dès {threshold} d'achat, la livraison est pour nous. En dessous, {fee} partout en Tunisie.",
+      "badge": "Dès {threshold}",
+      "done": "Livraison gratuite"
+    },
+    "returning": {
+      "title": "−{pct} % au retour",
+      "body": "Après votre première commande livrée, la suivante est automatiquement à −{pct} %. Il suffit d'utiliser le même numéro de téléphone.",
+      "badge": "Clients fidèles",
+      "example": "Exemple"
+    },
+    "cod": {
+      "title": "Paiement à la livraison",
+      "body": "Aucune carte bancaire nécessaire : vous payez en espèces à la réception. On vous appelle d'abord pour confirmer.",
+      "badge": "Sans carte bancaire",
+      "paid": "Payé à la livraison"
+    }
+  },
+  "film": {
+    "eyebrow": "Le film",
+    "title": "41 secondes pour tout comprendre.",
+    "caption": "Un tap. Un avis. Une adresse qui grimpe.",
+    "cta": "Regarder le film",
+    "duration": "0:41"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout ce que vous voulez savoir.",
+    "items": [
+      {
+        "q": "Qu'est-ce qu'une plaque avis Google NFC ?",
+        "a": "C'est un support équipé d'une puce NFC et d'un QR code : le client approche son téléphone et votre page d'avis Google s'ouvre, sans application ni recherche dans Maps. Chez ONDE, c'est un présentoir de 12 × 12 cm en acrylique transparent, avec impression blanche ou noire, sans abonnement. La même technologie existe en carte, porte-clés et sticker."
+      },
+      {
+        "q": "Est-ce que ça marche avec tous les téléphones ?",
+        "a": "Oui. Le tap NFC fonctionne sur iPhone XR, XS et modèles plus récents, et sur la grande majorité des téléphones Android équipés du NFC. Pour les autres, le QR code de nos présentoirs ouvre exactement le même lien. Aucune application à installer."
+      },
+      {
+        "q": "Comment trouver le lien de ma page d'avis Google ?",
+        "a": "Depuis votre fiche d'établissement Google : « Voir les avis », puis « Recevoir plus d'avis », puis « Copier ». Pas encore de fiche, ou lien introuvable ? On le retrouve avec vous lors de l'appel de confirmation.",
+        "link": {
+          "href": "/guides/google-review-link",
+          "label": "Le guide pas à pas"
+        }
+      },
+      {
+        "q": "Puis-je changer le lien plus tard ?",
+        "a": "Oui, à tout moment. La puce contient un lien ONDE permanent : nous changeons sa destination à distance (avis Google, Instagram, menu, site web…). Pas besoin de racheter ni de réimprimer quoi que ce soit, écrivez-nous simplement sur WhatsApp."
+      },
+      {
+        "q": "Comment obtenir plus d'avis Google ?",
+        "a": "Proposez-le à tous vos clients, à la fin de l'expérience, et rendez-le immédiat : un tap au comptoir plutôt qu'une recherche dans Maps. Répondez aussi aux avis, et n'offrez jamais de contrepartie en échange d'un avis : Google l'interdit.",
+        "link": {
+          "href": "/guides/get-more-google-reviews",
+          "label": "Toutes les bonnes pratiques"
+        }
+      },
+      {
+        "q": "Quels sont les délais de livraison ?",
+        "a": "Livraison en 3 jours maximum après confirmation, partout en Tunisie : nous vous appelons pour valider votre commande, configurons votre produit, puis vous le livrons. La livraison coûte {fee} et devient gratuite dès {threshold} d'achat."
+      },
+      {
+        "q": "Comment se passe le paiement ?",
+        "a": "Vous payez en espèces, à la livraison. Aucune carte bancaire n'est nécessaire. Et après votre première commande livrée, la suivante bénéficie de −{pct} %."
+      },
+      {
+        "q": "Pouvez-vous personnaliser le produit ?",
+        "a": "Oui : à la commande, indiquez le nom de votre commerce et le lien souhaité, par exemple votre page d'avis Google. Nous configurons la puce et le lien avant l'envoi. Pour une demande particulière, écrivez-nous sur WhatsApp."
+      },
+      {
+        "q": "Combien de temps ça dure ?",
+        "a": "Très longtemps. La puce NFC est passive : pas de batterie, rien à recharger, rien à mettre à jour. Les présentoirs sont en acrylique rigide de 3 mm, pensés pour la vie d'un comptoir."
+      }
+    ],
+    "more": "Une autre question ?",
+    "moreCta": "Écrivez-nous sur WhatsApp"
+  },
+  "final": {
+    "eyebrow": "On s'y met ?",
+    "title": "Prêt à collectionner les étoiles ?",
+    "body": "Commandez en ligne en une minute ou écrivez-nous sur WhatsApp. On vous appelle pour confirmer, et on livre en 3 jours max partout en Tunisie.",
+    "order": "Commander maintenant",
+    "whatsapp": "Écrire sur WhatsApp",
+    "call": "Ou appelez-nous au"
+  },
+  "drum": {
+    "label": "Conçu pour chaque comptoir",
+    "lead": "Conçu pour votre",
+    "tap": "Tap",
+    "opens": "Ouvre",
+    "foot": "Même tag, n'importe quelle destination. Vous la changez quand vous voulez, sans reprogrammer la puce.",
+    "items": [
+      {
+        "word": "café",
+        "dest": "Avis Google",
+        "kind": "review",
+        "code": "C4F7KM",
+        "lines": [
+          "« Meilleur cappuccino du quartier ! »",
+          "Publié sur Google · à l'instant"
+        ]
+      },
+      {
+        "word": "restaurant",
+        "dest": "Menu digital",
+        "kind": "menu",
+        "code": "R9TQ3X",
+        "lines": [
+          "Couscous au poisson|28 DT",
+          "Ojja merguez|14 DT",
+          "Citronnade|5 DT"
+        ]
+      },
+      {
+        "word": "salon",
+        "dest": "Réservation WhatsApp",
+        "kind": "whatsapp",
+        "code": "A7HV4N",
+        "lines": [
+          "Bonjour ! Un brushing samedi à 10 h ?",
+          "Parfait, c'est réservé"
+        ]
+      },
+      {
+        "word": "hôtel",
+        "dest": "Site & réservations",
+        "kind": "website",
+        "code": "H3KP9W",
+        "lines": [
+          "votre-hotel.tn/reserver",
+          "Réserver"
+        ]
+      },
+      {
+        "word": "boutique",
+        "dest": "TikTok",
+        "kind": "tiktok",
+        "code": "D6YM4C",
+        "lines": [
+          "Nouvelle collection — automne",
+          "12,4 k"
+        ]
+      },
+      {
+        "word": "clinique",
+        "dest": "Fiche contact",
+        "kind": "contact",
+        "code": "K3XA7F",
+        "lines": [
+          "Clinique Les Jasmins",
+          "+216 71 ••• •••",
+          "Enregistrer"
+        ]
+      },
+      {
+        "word": "salle de sport",
+        "dest": "Instagram",
+        "kind": "instagram",
+        "code": "G4WN6R",
+        "lines": [
+          "@votre.salle · 2 340 abonnés"
+        ]
+      },
+      {
+        "word": "boulangerie",
+        "dest": "Avis Google",
+        "kind": "review",
+        "code": "P7DC3H",
+        "lines": [
+          "« Le pain est encore chaud à 7 h. »",
+          "Publié sur Google · à l'instant"
+        ]
+      }
+    ]
+  }
+}

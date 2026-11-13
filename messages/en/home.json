@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "title": "ONDE · Google Review NFC Stands & Cards in Tunisia",
+    "description": "NFC stands, cards and stickers: one tap, one Google review. From {from}, no subscription, delivered in 3 days anywhere in Tunisia, cash on delivery."
+  },
+  "hero": {
+    "eyebrow": "NFC Google review stands & cards · Tunisia",
+    "title": [
+      {
+        "text": "One tap."
+      },
+      {
+        "text": "One Google review.",
+        "accent": "Google"
+      }
+    ],
+    "sub": "Your customers love your place. With ONDE, they say it on Google in seconds: they hold their phone close and the review page opens. No app. No searching.",
+    "ctaOrder": "Order now",
+    "ctaFilm": "Watch the film",
+    "trust": [
+      "Delivered in 3 days max, all over Tunisia",
+      "Cash on delivery",
+      "Free delivery from {threshold}"
+    ],
+    "scroll": "Scroll",
+    "badge": "iPhone & Android",
+    "standAlt": "12 × 12 cm ONDE stand in clear acrylic bent into an L, white print reading “We'd love your Google review”, with an NFC chip and QR code"
+  },
+  "stats": {
+    "eyebrow": "Why reviews matter",
+    "title": "Your happiest customers leave… without leaving a review.",
+    "sub": "Yet your Google reviews are the first thing your future customers look at.",
+    "items": [
+      {
+        "value": 97,
+        "prefix": "",
+        "suffix": "%",
+        "label": "of consumers read online reviews before choosing a local business.",
+        "source": "BrightLocal · Local Consumer Review Survey 2026"
+      },
+      {
+        "value": 68,
+        "prefix": "",
+        "suffix": "%",
+        "label": "only choose businesses rated 4 stars or higher.",
+        "source": "BrightLocal · Local Consumer Review Survey 2026"
+      },
+      {
+        "value": 5,
+        "valueTo": 9,
+        "prefix": "+",
+        "suffix": "%",
+        "label": "more revenue for every extra star (independent restaurants).",
+        "source": "Harvard Business School · M. Luca, “Reviews, Reputation, and Revenue”"
+      }
+    ],
+    "outro": "ONDE makes leaving a review as easy as a contactless payment."
+  },
+  "tapstory": {
+    "eyebrow": "See it in action",
+    "title": "Hold. Tap. Reviewed.",
+    "sub": "Keep scrolling: the phone taps the product, the NFC notification pops up, the Google review page opens. The same magic on every ONDE product.",
+    "pick": "Pick a product",
+    "loading": "Loading the 3D scene…",
+    "products": {
+      "stand-white": "White stand",
+      "stand-black": "Black stand",
+      "card": "NFC card",
+      "keychain": "Keychain",
+      "sticker": "Sticker"
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From your counter to the top of Google Maps.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Tap.",
+        "body": "Your customer holds their phone to the stand. No app, no scanning: the NFC chip opens your link instantly. Phones without NFC simply scan the QR code.",
+        "alt": "ONDE stand with its “Tap here” zone and QR code"
+      },
+      {
+        "n": "02",
+        "title": "Review.",
+        "body": "Your Google review page opens right away. Five stars, two lines, posted. Under ten seconds, without leaving the table.",
+        "alt": "A phone about to tap the ONDE stand"
+      },
+      {
+        "n": "03",
+        "title": "Grow.",
+        "body": "More reviews, a better rating, a higher spot on Google Maps. And more customers walking through your door.",
+        "alt": "Google Maps ranking where a café climbs to first place"
+      }
+    ],
+    "review": {
+      "posted": "Review posted",
+      "rating": "Rating"
+    },
+    "rank": {
+      "query": "cafés near me",
+      "illustrative": "Illustrative example",
+      "reviews": "reviews",
+      "entries": [
+        {
+          "name": "Le Comptoir",
+          "rating": 4.6,
+          "reviews": 412,
+          "distance": "0.6 km"
+        },
+        {
+          "name": "Dar Café",
+          "rating": 4.5,
+          "reviews": 301,
+          "distance": "0.9 km"
+        },
+        {
+          "name": "Brew Lab",
+          "rating": 4.4,
+          "reviews": 188,
+          "distance": "1.2 km"
+        }
+      ],
+      "you": {
+        "name": "Café Lumière",
+        "distance": "0.3 km",
+        "fromRating": 4.2,
+        "fromReviews": 38,
+        "toRating": 4.8,
+        "toReviews": 214
+      }
+    }
+  },
+  "smart": {
+    "eyebrow": "The smart link",
+    "title": [
+      "The chip never changes.",
+      "The destination can."
+    ],
+    "body": "Every ONDE product carries one permanent link, written to the chip once. Google reviews today, your menu tonight, Instagram tomorrow: the destination is switched remotely in seconds. No reprint. No new chip.",
+    "points": [
+      "Live tap analytics",
+      "Destination changed remotely",
+      "NFC + QR code on one link",
+      "Switch a product on or off anytime"
+    ],
+    "chip": "NFC chip",
+    "chipSub": "written once",
+    "permanent": "Permanent link",
+    "cloud": "ONDE Cloud",
+    "updated": "Updated live",
+    "now": "Current destination",
+    "destinations": [
+      "Google Reviews",
+      "Instagram",
+      "TikTok",
+      "Digital menu",
+      "Website",
+      "Contact card"
+    ],
+    "illustrative": "Illustrative example"
+  },
+  "products": {
+    "eyebrow": "The range",
+    "title": "One link. Every format.",
+    "sub": "Stands, cards, keychains and stickers: every product is wired to your ONDE link and configured before it ships.",
+    "add": "Add to cart",
+    "details": "View product",
+    "seeAll": "Full shop",
+    "drag": "Drag",
+    "prev": "Previous products",
+    "next": "Next products",
+    "save": "Save {amount}",
+    "kinds": {
+      "stand": "Stand",
+      "card": "Card",
+      "keychain": "Keychain",
+      "sticker": "Sticker",
+      "pack": "Pack"
+    },
+    "empty": "The shop is getting a makeover. Order right now on WhatsApp and we'll take care of everything.",
+    "emptyCta": "Order on WhatsApp",
+    "promo": "Launch offer · ends in"
+  },
+  "offers": {
+    "eyebrow": "The ONDE perks",
+    "title": "Ordering has never been this easy.",
+    "delivery": {
+      "title": "Free delivery",
+      "body": "From {threshold}, delivery is on us. Below that, it's {fee} anywhere in Tunisia.",
+      "badge": "From {threshold}",
+      "done": "Free delivery"
+    },
+    "returning": {
+      "title": "−{pct}% when you come back",
+      "body": "After your first delivered order, the next one is automatically {pct}% off. Just use the same phone number.",
+      "badge": "Loyal customers",
+      "example": "Example"
+    },
+    "cod": {
+      "title": "Cash on delivery",
+      "body": "No bank card needed: pay in cash when your order arrives. We call you first to confirm.",
+      "badge": "No card needed",
+      "paid": "Paid on delivery"
+    }
+  },
+  "film": {
+    "eyebrow": "The film",
+    "title": "41 seconds. The whole story.",
+    "caption": "One tap. One review. A business on the rise.",
+    "cta": "Watch the film",
+    "duration": "0:41"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Everything you want to know.",
+    "items": [
+      {
+        "q": "What is an NFC Google review stand?",
+        "a": "It's an item with an NFC chip and a QR code: customers hold their phone close and your Google review page opens, with no app and no searching in Maps. At ONDE it's a 12 × 12 cm clear acrylic stand with a white or black print, with no subscription. The same technology comes as a card, a keychain and a sticker."
+      },
+      {
+        "q": "Does it work with every phone?",
+        "a": "Yes. NFC tapping works on iPhone XR, XS and newer, and on the vast majority of NFC-enabled Android phones. For the rest, the QR code on our stands opens exactly the same link. No app to install."
+      },
+      {
+        "q": "How do I find my Google review page link?",
+        "a": "From your Google Business Profile: “Read reviews”, then “Get more reviews”, then “Copy”. No profile yet, or can't find the link? We find it with you during the confirmation call.",
+        "link": {
+          "href": "/guides/google-review-link",
+          "label": "Step-by-step guide"
+        }
+      },
+      {
+        "q": "Can I change the link later?",
+        "a": "Yes, anytime. The chip holds a permanent ONDE link: we switch its destination remotely (Google reviews, Instagram, menu, website…). No need to buy or reprint anything, just message us on WhatsApp."
+      },
+      {
+        "q": "How do I get more Google reviews?",
+        "a": "Offer it to every customer at the end of their visit, and make it instant: one tap at the counter instead of a search in Maps. Reply to reviews too, and never offer anything in exchange for a review: Google forbids it.",
+        "link": {
+          "href": "/guides/get-more-google-reviews",
+          "label": "All the best practices"
+        }
+      },
+      {
+        "q": "How long does delivery take?",
+        "a": "Delivery within 3 days of confirmation, anywhere in Tunisia: we call you to confirm your order, configure your product, then deliver it. Delivery costs {fee} and is free from {threshold}."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "In cash, on delivery. No bank card needed. And after your first delivered order, the next one is {pct}% off."
+      },
+      {
+        "q": "Can you personalise the product?",
+        "a": "Yes: when you order, tell us your business name and the link you want, for example your Google review page. We configure the chip and the link before shipping. For anything special, message us on WhatsApp."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "A very long time. The NFC chip is passive: no battery, nothing to charge, nothing to update. Our stands are made of rigid 3 mm acrylic, built for life on a counter."
+      }
+    ],
+    "more": "Another question?",
+    "moreCta": "Message us on WhatsApp"
+  },
+  "final": {
+    "eyebrow": "Shall we?",
+    "title": "Ready to collect stars?",
+    "body": "Order online in a minute or message us on WhatsApp. We'll call you to confirm, then deliver in 3 days max anywhere in Tunisia.",
+    "order": "Order now",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Or call us on"
+  },
+  "drum": {
+    "label": "Made for every counter",
+    "lead": "Made for your",
+    "tap": "Tap",
+    "opens": "Opens",
+    "foot": "Same tag, any destination. Change it whenever you like — no reprogramming the chip.",
+    "items": [
+      {
+        "word": "café",
+        "dest": "Google review",
+        "kind": "review",
+        "code": "C4F7KM",
+        "lines": [
+          "“Best cappuccino in the neighbourhood!”",
+          "Posted on Google · just now"
+        ]
+      },
+      {
+        "word": "restaurant",
+        "dest": "Digital menu",
+        "kind": "menu",
+        "code": "R9TQ3X",
+        "lines": [
+          "Fish couscous|28 DT",
+          "Merguez ojja|14 DT",
+          "Lemonade|5 DT"
+        ]
+      },
+      {
+        "word": "salon",
+        "dest": "WhatsApp booking",
+        "kind": "whatsapp",
+        "code": "A7HV4N",
+        "lines": [
+          "Hi! A blow-dry on Saturday at 10?",
+          "Perfect, you're booked"
+        ]
+      },
+      {
+        "word": "hotel",
+        "dest": "Website & booking",
+        "kind": "website",
+        "code": "H3KP9W",
+        "lines": [
+          "your-hotel.tn/book",
+          "Book"
+        ]
+      },
+      {
+        "word": "boutique",
+        "dest": "TikTok",
+        "kind": "tiktok",
+        "code": "D6YM4C",
+        "lines": [
+          "New collection — autumn",
+          "12.4k"
+        ]
+      },
+      {
+        "word": "clinic",
+        "dest": "Contact card",
+        "kind": "contact",
+        "code": "K3XA7F",
+        "lines": [
+          "Les Jasmins Clinic",
+          "+216 71 ••• •••",
+          "Save"
+        ]
+      },
+      {
+        "word": "gym",
+        "dest": "Instagram",
+        "kind": "instagram",
+        "code": "G4WN6R",
+        "lines": [
+          "@your.gym · 2,340 followers"
+        ]
+      },
+      {
+        "word": "bakery",
+        "dest": "Google review",
+        "kind": "review",
+        "code": "P7DC3H",
+        "lines": [
+          "“Bread still warm at 7 a.m.”",
+          "Posted on Google · just now"
+        ]
+      }
+    ]
+  }
+}
