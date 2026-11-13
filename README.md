@@ -3,7 +3,7 @@
 The storefront, smart-link platform and back office behind [onde.tn](https://onde.tn): NFC review stands, cards,
 keychains and stickers that send a customer to a business's Google review page with one tap.
 
-![An ONDE review stand](public/og.jpg)
+![The onde.tn home page](docs/screenshot.jpg)
 
 ## What it does
 
